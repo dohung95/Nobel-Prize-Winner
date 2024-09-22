@@ -1,0 +1,40 @@
+.inline{
+    display: flex;
+}
+.canle{
+    margin: 180px;
+}
+.cantrai{
+    margin-left: 30px;
+}
+.canphai{
+    margin-right: 30px;
+}
+button{
+    width: 125px;
+}
+.listView table{
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse;
+}
+.listView th{
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #5F9EA0;
+}
+.listView td{
+    border: 1px solid #000;
+    width: 25%;
+    padding: 2px;
+}
+.myForm td{
+    padding: 5px;
+}
+.myForm table{
+    width: 50%;
+}
+.myForm input{
+    width: 300px;
+}
