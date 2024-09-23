@@ -1,6 +1,6 @@
 import NavBar from "./Navbar";
-import SelectedWorks from "./SelectedWorks";
 import Footer from "./Footer";
+import demo from '../Demo.jpg'
 const Home = () => {
     return (
         <>
@@ -8,8 +8,10 @@ const Home = () => {
                 <NavBar />
             </div>
 
-            <div style={{fontSize:"250pt",textAlign:'center'}}>
-                CONTENT
+            <div>
+                
+                <img src={demo} style={{width:'100%', height:'100%'}}/>
+
             </div>
 
             <div>
