@@ -195,15 +195,13 @@ const SelectedWorks = () => {
                                         <img src={application1_nobel2} className='SizeImg_Hung' />
                                     </a>
                                     <div>
-                                    The use of concentrated chemical light rays in medicine
-                                    </div>
-                                </div>
+                                    The use of concentrated chemical light rays in medicine                                   
+                                    </div>                                    
+                                </div>                                
                             </div>
                         </div>
-
                     </div>
                 </div>
-
 
                 <div >
                     <Footer />
