@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.116e21f1.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.acac1e9a.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.d3319f65.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.26d041fd.js",
     "static/media/Demo.jpg": "/Nobel-Prize-Winner/static/media/Demo.8adf7ba8c724c8c147f6.jpg",
     "static/media/1903.jpg": "/Nobel-Prize-Winner/static/media/1903.c14f4bfa224c41f4c1c6.jpg",
+    "static/media/Application1_Nobel1.jpg": "/Nobel-Prize-Winner/static/media/Application1_Nobel1.7813409b9018ddae7093.jpg",
     "static/media/1911.jpg": "/Nobel-Prize-Winner/static/media/1911.b8b1eb3b79e3e842ca58.jpg",
+    "static/media/Nobel_Prize.png": "/Nobel-Prize-Winner/static/media/Nobel_Prize.67a956416300e1510022.png",
     "static/media/notebook.png": "/Nobel-Prize-Winner/static/media/notebook.386d0fddcb2ed9bddbd3.png",
     "static/media/img1.png": "/Nobel-Prize-Winner/static/media/img1.dbeb25a650b0f0ab9868.png",
+    "static/media/Nobel1.jpg": "/Nobel-Prize-Winner/static/media/Nobel1.ae1eab7f8b058260369d.jpg",
+    "static/media/Nobel2.JPG": "/Nobel-Prize-Winner/static/media/Nobel2.75fce7b43c21895cbd0f.JPG",
+    "static/media/Application1_Nobel2.jpg": "/Nobel-Prize-Winner/static/media/Application1_Nobel2.c953cf806634d427a45b.jpg",
     "static/media/SICEP.png": "/Nobel-Prize-Winner/static/media/SICEP.d6eabbbd00ea98cfa8be.png",
     "static/media/medal.png": "/Nobel-Prize-Winner/static/media/medal.f9969ca96dac90c93eec.png",
     "static/media/radium.png": "/Nobel-Prize-Winner/static/media/radium.e7a050fd5b9549d9acd6.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.116e21f1.css.map": "/Nobel-Prize-Winner/static/css/main.116e21f1.css.map",
-    "main.acac1e9a.js.map": "/Nobel-Prize-Winner/static/js/main.acac1e9a.js.map"
+    "main.d3319f65.css.map": "/Nobel-Prize-Winner/static/css/main.d3319f65.css.map",
+    "main.26d041fd.js.map": "/Nobel-Prize-Winner/static/js/main.26d041fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.116e21f1.css",
-    "static/js/main.acac1e9a.js"
+    "static/css/main.d3319f65.css",
+    "static/js/main.26d041fd.js"
   ]
 }

@@ -1,5 +1,6 @@
 import medal from "../Img/Huy/medal.png"
 import SICEP from "../Img/Huy/SICEP.png"
+import "../Css/Huy/Awards.css"
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
 import NavBar from '../Components/Navbar'
 import Footer from '../Components/Footer'
@@ -81,7 +82,8 @@ const Awards = () => {
                         <Figure>
                             <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
                                 src={SICEP}
-                                className="img-fluid hover-zoom"
+                                className="img-fluid hover-zoom1"
+                                target="new" rel="noopener noreferrer"
                             /></a>
                             <Figure.Caption>
                                 The fifth Solvay International Conference on Electrons and Photons, held in October 1927.

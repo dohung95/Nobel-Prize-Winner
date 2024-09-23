@@ -5,20 +5,6 @@
     padding: 3%;
 }
 
-.SizeImg_Hung:hover {
-    transform: scale(2);
-    /* Phóng to hình ảnh */
-    z-index: 10;
-    /* Đặt ảnh trên các phần tử khác */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.5);
-    position: fixed;
-    border: none;
-    height: auto;
-}
-
 .Top_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
@@ -38,7 +24,7 @@
 }
 
 .Khoidiv {
-    border: 5px double #f0c16c;
+    border: 3px double #d3ac64b0;
     border-radius: 10px;
 }
 
