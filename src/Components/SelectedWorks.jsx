@@ -8,6 +8,8 @@ import nobel1 from '../Img/Hung/Nobel1.jpg'
 import nobel2 from '../Img/Hung/Nobel2.JPG'
 import application1_nobel1 from '../Img/Hung/Application1_Nobel1.jpg'
 import application1_nobel2 from '../Img/Hung/Application1_Nobel2.jpg'
+import application2_nobel1 from '../Img/Hung/Application2_Nobel1.jpg'
+import application2_nobel2 from '../Img/Hung/Application2_Nobel2.jpg'
 const SelectedWorks = () => {
     return (
         <>
@@ -100,13 +102,21 @@ const SelectedWorks = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-6' style={{ height: '300px' }} >
-                                <div align='center' style={{ paddingTop: '2%' }}>
+                            <div className='col-md-6 row' style={{ height: '320px' }} >
+                                <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                     <a href="https://www.mskcc.org/timeline/msk-radiation-therapy-timeline-progress">
                                         <img src={application1_nobel1} className='SizeImg_Hung' />
                                     </a>
                                     <div>
                                         Radiation therapy at MSK circa 1949
+                                    </div>
+                                </div>
+                                <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
+                                    <a href="https://kids.earth.org/climate-change/a-kids-guide-to-the-pros-and-cons-of-nuclear-energy/">
+                                        <img src={application2_nobel1} className='SizeImg_Hung' />
+                                    </a>
+                                    <div>
+                                        Nuclear power plant
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +147,7 @@ const SelectedWorks = () => {
                                 <div align='center' style={{ paddingTop: '2%' }}>
                                     <img src={nobel2} className='SizeImg_Hung' />
                                     <div>
-                                    Research on polonium and radium
+                                        Research on polonium and radium
                                     </div>
                                 </div>
                             </div>
@@ -189,15 +199,23 @@ const SelectedWorks = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-6' style={{ height: '300px' }} >
-                                <div align='center' style={{ paddingTop: '2%' }}>
-                                    <a href="https://www.mskcc.org/timeline/msk-radiation-therapy-timeline-progress">
+                            <div className='col-md-6 row' style={{ height: '320px' }} >
+                                <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
+                                    <a href="https://en.wikipedia.org/wiki/History_of_radiation_therapy#Niels_Finsen_and_phototherapy">
                                         <img src={application1_nobel2} className='SizeImg_Hung' />
                                     </a>
                                     <div>
-                                    The use of concentrated chemical light rays in medicine                                   
-                                    </div>                                    
-                                </div>                                
+                                    The use of concentrated chemical light rays in medicine
+                                    </div>
+                                </div>
+                                <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
+                                    <a href="https://www.oecd-nea.org/jcms/c_12071/nuclear-technology">
+                                        <img src={application2_nobel2} className='SizeImg_Hung' />
+                                    </a>
+                                    <div>
+                                        Nuclear research
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
