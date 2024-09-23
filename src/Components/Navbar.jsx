@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import BackHomeAndTop from "./BackHomeAndTop";
 const NavBar = () => {
     return (
         <>
+            <BackHomeAndTop />
             <div align='center'>
                 <h1>LOGO</h1>
             </div>
@@ -13,10 +15,10 @@ const NavBar = () => {
                     <Link>BIOGRAPHY</Link>
                 </div>
                 <div className="col-md-2">
-                    <Link>RESEARCH</Link>
+                    <Link to='/Research'>RESEARCH</Link>
                 </div>
                 <div className="col-md-2">
-                    <Link>AWARDS AND HONORS</Link>
+                    <Link to='/Awards'>AWARDS AND HONORS</Link>
                 </div>
                 <div className="col-md-2">
                     <Link to='/SelectedWorks'>SELECTED WORKS</Link>

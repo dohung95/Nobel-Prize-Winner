@@ -11,7 +11,7 @@ const BackHomeAndTop = () => {
             setCheck(false)
         }
     }
-    
+
     const Top = () => {
         window.scroll({
             top: 0,
@@ -23,7 +23,7 @@ const BackHomeAndTop = () => {
         navigate('/');
         Top();
     }
-    
+
     useEffect(() => {
         window.addEventListener('scroll', Follow)
         return () => {
