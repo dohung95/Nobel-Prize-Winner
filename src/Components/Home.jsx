@@ -1,9 +1,22 @@
+import NavBar from "./Navbar";
+import SelectedWorks from "./SelectedWorks";
+import Footer from "./Footer";
 const Home = () => {
-    return ( 
+    return (
         <>
-            <h1 align='center'>Nobel Prize Winner</h1>
+            <div>
+                <NavBar />
+            </div>
+
+            <div style={{fontSize:"250pt",textAlign:'center'}}>
+                CONTENT
+            </div>
+
+            <div>
+                <Footer/>
+            </div>
         </>
-     );
+    );
 }
- 
+
 export default Home;
