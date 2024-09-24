@@ -20,7 +20,10 @@ const SelectedWorks = () => {
                 </div>
 
                 <div align='center'>
-                    <h1>Two great studies</h1>
+                    <div className='banner_Hung'>
+                        <h1>Two great studies</h1>
+                    </div>
+
                 </div>
                 {
                     Data.map((output) => (
