@@ -3,7 +3,14 @@ import '../Css/Hung/Css_Hung.css'
 import Footer from './Footer'
 import NavBar from './Navbar'
 import medal from '../Img/Hung/Nobel_Prize.png'
-
+import h1 from '../Img/Hung/Nobel1.jpg'
+import h2 from '../Img/Hung/1903.jpg'
+import h3 from '../Img/Hung/Application1_Nobel1.jpg'
+import h4 from '../Img/Hung/Application1_Nobel2.jpg'
+import h5 from '../Img/Hung/Nobel2.JPG'
+import h6 from '../Img/Hung/1911.jpg'
+import h7 from '../Img/Hung/Application2_Nobel1.jpg'
+import h8 from '../Img/Hung/Application2_Nobel2.jpg'
 const SelectedWorks = () => {
     return (
         <>
