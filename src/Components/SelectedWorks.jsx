@@ -79,7 +79,7 @@ const SelectedWorks = () => {
                                         </div>
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${output.urlWebImgA2}`}>
-                                                <img src={output.imgA1} className='SizeImg_Hung' />
+                                                <img src={output.imgA2} className='SizeImg_Hung' />
                                             </a>
                                             <div>{output.textImgA2}</div>
                                         </div>
