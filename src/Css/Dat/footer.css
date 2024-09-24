@@ -1,0 +1,34 @@
+.footer-dat{
+    background-color: rgba(58, 55, 55, 1);
+    padding: 25px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-dat img{
+    width: 100px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.footer-dat-info{
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    display: inline-block;
+    float: center;
+    width: 300px;
+    height: auto;
+}
+
+.footer-dat-contact a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.footer-dat-contact a:hover{
+    text-decoration: underline;
+
+}
