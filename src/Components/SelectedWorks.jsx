@@ -20,11 +20,9 @@ const SelectedWorks = () => {
                 </div>
 
                 <div align='center'>
-                    <div className='banner_Hung'>
-                        <h1>Two great studies</h1>
-                    </div>
-
+                    <h1>Two great studies</h1>
                 </div>
+
                 {
                     Data.map((output) => (
                         <div key={output.id}>
@@ -80,19 +78,22 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6 row' style={{ height: '320px' }} >
+                                    <div className='col-md-6 row' style={{ height: '300px' }} >
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${output.urlWebImgA1}`}>
-                                                <img src={output.imgA1} className='SizeImg_Hung' />
+                                                <img src={output.imgA1} className='SizeImg_Hung1' />
                                             </a>
                                             <div>{output.textImgA1}</div>
                                         </div>
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${output.urlWebImgA2}`}>
-                                                <img src={output.imgA2} className='SizeImg_Hung' />
+                                                <img src={output.imgA2} className='SizeImg_Hung1' />
                                             </a>
                                             <div>{output.textImgA2}</div>
                                         </div>
+                                    </div>
+                                    <div>
+                                        <br /><br />
                                     </div>
                                 </div>
                             </div>

@@ -25,8 +25,8 @@ const Viewer = () => {
     return ( 
         <>
             <div className="header-viewer-dat">
-                <img src={viewer} style={{width:'50px', paddingTop: '5px'}}/>
-                <div style={{color:'white', fontSize: '40px', float: 'right'}}>{views}</div>
+                <img src={viewer} style={{width:'40px', paddingTop: '5px'}}/>
+                <div style={{color:'white', fontSize: '30px', float: 'right'}}>{views}</div>
             </div>
         </>
      );
