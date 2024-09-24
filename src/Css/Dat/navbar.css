@@ -21,15 +21,16 @@
     font-size: 14pt;
     font-weight: bold;
 }
-
+.header-navbar-dat-item{
+    height: 30px;
+}
 .header-navbar-dat .header-navbar-dat-item:hover{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16pt;
     font-weight: lighter;
     border-radius: 10px;
-    background-color: rgba(180, 180, 180);
-    
+    background-color: rgba(180, 180, 180); 
     transition: all 0.3s;
 }
 

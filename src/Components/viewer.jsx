@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import viewer from '../Img/Dat/icon-viewer.png';
-import { useLocation } from 'react-router-dom';
 
 
 
 const Viewer = () => {
     const [views, setViews] = useState(0);
-    const location = useLocation();
 
   useEffect(() => {
-    const currentPath = location.pathname;
-    const currentViews = localStorage.getItem(currentPath) || 0;
-    setViews(parseInt(currentViews, 10)+1);
-    localStorage.setItem(currentPath, views);
-    }, [location]);
+    // Lấy số lượt truy cập từ localStorage
+    const currentViews = localStorage.getItem("page_views");
+    
+    // Nếu có lượt truy cập trước đó, tăng số lượt truy cập
+    if (currentViews) {
+      const newViews = parseInt(currentViews) + 1;
+      setViews(newViews);
+      localStorage.setItem("page_views", newViews);
+    } else {
+      // Nếu đây là lần truy cập đầu tiên
+      setViews(1);
+      localStorage.setItem("page_views", 1);
+    }
+  }, []);
 
     return ( 
         <>

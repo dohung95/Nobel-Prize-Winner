@@ -12,7 +12,7 @@ const NavBar = () => {
                     <img className="header-logo-dat-img" src={Logo} />
                 </Link>
             </div>
-            <div className="header-navbar-dat row" style={{backgroundColor: '#ffffff00', width: '100%'}}>
+            <div className="row header-navbar-dat" style={{backgroundColor: '#ffffff00', width: '100%', marginLeft:0}}>
                 <div className="col-md-1 header-navbar-dat-item" >
                     <Link to='/'>HOME</Link>
                 </div>
