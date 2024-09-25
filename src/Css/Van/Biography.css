@@ -45,7 +45,7 @@
 text-decoration: none;
 }
 /*chữ hoa*/
-.container h3::first-letter {
+.Van h3::first-letter {
     font-size: 4rem; /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold; /* Làm đậm chữ cái đầu */
     color: #ff6347; /* Đặt màu sắc cho chữ cái đầu */

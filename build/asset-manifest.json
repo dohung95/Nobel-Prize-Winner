@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.e17ba992.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.0459f9e7.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.e57396b5.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.b87019d1.js",
     "static/media/video.mp4": "/Nobel-Prize-Winner/static/media/video.b5ba74e4f88c2bb8e51a.mp4",
     "static/media/1903.jpg": "/Nobel-Prize-Winner/static/media/1903.c14f4bfa224c41f4c1c6.jpg",
     "static/media/irene-marie.jpg": "/Nobel-Prize-Winner/static/media/irene-marie.0c8a36de9e634922782b.jpg",
@@ -37,11 +37,11 @@
     "static/media/radium.png": "/Nobel-Prize-Winner/static/media/radium.e7a050fd5b9549d9acd6.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
     "static/media/icon.svg": "/Nobel-Prize-Winner/static/media/icon.317bc50c92894bf177b7fef280dcd505.svg",
-    "main.e17ba992.css.map": "/Nobel-Prize-Winner/static/css/main.e17ba992.css.map",
-    "main.0459f9e7.js.map": "/Nobel-Prize-Winner/static/js/main.0459f9e7.js.map"
+    "main.e57396b5.css.map": "/Nobel-Prize-Winner/static/css/main.e57396b5.css.map",
+    "main.b87019d1.js.map": "/Nobel-Prize-Winner/static/js/main.b87019d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e17ba992.css",
-    "static/js/main.0459f9e7.js"
+    "static/css/main.e57396b5.css",
+    "static/js/main.b87019d1.js"
   ]
 }

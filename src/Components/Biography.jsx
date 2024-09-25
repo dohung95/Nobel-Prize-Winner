@@ -12,6 +12,7 @@ const Biography = () => {
             </div>
             <h1>Biography</h1>
 
+            <div className='Van'>
             <div className="container">
                 <h5>
                     <blockquote className="custom-quote">
@@ -198,6 +199,7 @@ const Biography = () => {
                 </ListGroup>
                 </div>
                
+            </div>
             </div>
 
             <div >
