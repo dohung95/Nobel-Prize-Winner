@@ -8,7 +8,7 @@ import { useEffect } from "react";
 const Awards = () => {
     useEffect(() => {
         AOS.init({
-          duration: 1200, // thời gian hiệu ứng chạy, tính bằng ms
+          duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
         });
       }, []);
     return (

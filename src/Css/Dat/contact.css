@@ -1,0 +1,21 @@
+.contact-content-dat{
+    margin: 5%;
+    height: 100vh;
+}
+
+.contact-content-dat-network{
+    text-align: center;
+    display: inline-block;
+    width: 26%;
+}
+
+.contact-content-dat-contact{
+    text-align: center;
+    display: inline-block;
+    width: 26%;
+}
+
+.contact-content-dat-map{
+    display: inline-block;
+    width: 26%;
+}

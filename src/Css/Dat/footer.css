@@ -18,9 +18,13 @@
     font-size: 12pt;
     text-align: center;
     display: inline-block;
-    float: center;
+    /* float: center; */
     width: 300px;
     height: auto;
+}
+
+.footer-dat-contact{
+    border-left: 1px solid white;
 }
 
 .footer-dat-contact a{
@@ -30,5 +34,18 @@
 
 .footer-dat-contact a:hover{
     text-decoration: underline;
+}
 
+.footer-dat-timer-date{
+    font-size: 1.5rem;
+}
+
+.footer-dat-timer{
+    border-left: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    .footer-dat-timer, .footer-dat-contact{
+        border-left: none;
+    }
 }
