@@ -20,7 +20,7 @@ const NavBar = () => {
                     <img className="header-logo-dat-img" src={Logo} />
                 </Link>
             </div>
-            <div className="header-navbar-dat-desktop row" style={{backgroundColor: '#ffffff00', width: '100%', marginRight: '10px'}}>
+            <div className="header-navbar-dat-desktop row" style={{backgroundColor: '#ffffff00', width: '100%', marginLeft: '0px'}}>
                 <div className="col-md-1 header-navbar-dat-item" >
                     <Link to='/'>HOME</Link>
                 </div>
