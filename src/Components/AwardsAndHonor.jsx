@@ -98,6 +98,35 @@ const Awards = () => {
                     </Col>
                 </Row>
             </Container>
+            <div className="container mt-4">
+                <h3 className="text-center mb-4" data-aos="fade-up">Some Videos About Marie Curie</h3>
+                <div className="row">
+                    <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/m1HxOaEawBQ?si=55oT_q3OvJEGINUK"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                    <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/w7RoFj3q4_U?si=FB9ZWzC-ZcU-tU0l"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
             <div >
                 <Footer />
             </div>
