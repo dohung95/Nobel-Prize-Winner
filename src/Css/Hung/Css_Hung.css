@@ -37,3 +37,39 @@
     border-radius: 10px;
     background-color: rgba(255, 238, 175, 0.2);
 }
+/**/
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(232, 186, 130, 0.245);
+  }
+  
+  .overlay-content {
+    padding: 20px;
+    text-align: center;
+    height:900px;
+    width: 800px;
+  }
+  
+  /* Style cho nội dung chính */
+  .overlay-text {
+    position: absolute; /* Định vị văn bản */
+    top: 70%; /* Đưa văn bản lên giữa */
+    left: 50%; /* Đưa văn bản sang giữa */
+    transform: translate(-50%, -50%); /* Căn giữa chính xác */
+    color: rgb(255, 255, 255); /* Màu chữ */
+    font-size: 24px; /* Kích thước chữ */
+    text-align: center; /* Căn giữa văn bản */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Đổ bóng cho văn bản để dễ nhìn hơn */
+    font-weight: bold;
+}
+.shadow_text{
+    text-shadow: 3px 3px 5px rgba(98, 100, 95, 0.7);
+}
