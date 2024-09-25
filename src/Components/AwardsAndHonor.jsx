@@ -1,5 +1,3 @@
-import medal from "../Img/Huy/medal.png"
-import SICEP from "../Img/Huy/SICEP.png"
 import "../Css/Huy/Awards.css"
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
 import NavBar from '../Components/Navbar'
@@ -18,7 +16,7 @@ const Awards = () => {
          <div >
                 <NavBar />
             </div>
-            <h1>Awards and Honors</h1>
+            <h1 data-aos="flip-up">Awards and Honors</h1>
 
             <div className="container">
                 <div className="row align-items-center">
@@ -39,7 +37,7 @@ const Awards = () => {
                     </div>
                     <div className="col-md-6 text-center" data-aos="zoom-in">
                         <figure>
-                            <img src={medal} className="img-fluid" />
+                            <img src={require("../Img/Huy/medal.png")} className="img-fluid" />
                             <figcaption>Nobel Prize Medal</figcaption>
                         </figure>
                     </div>
@@ -89,7 +87,7 @@ const Awards = () => {
                     <Col md={6} className="text-center">
                         <Figure>
                             <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
-                                src={SICEP}
+                                src={require("../Img/Huy/SICEP.png")}
                                 className="img-fluid hover-zoom1"
                                 target="new" rel="noopener noreferrer"
                             /></a>

@@ -1,7 +1,3 @@
-import hinh1 from "../Img/Huy/img1.png"
-import hinh2 from "../Img/Huy/hinh2.png"
-import radium from "../Img/Huy/radium.png"
-import notebook from "../Img/Huy/notebook.png"
 import "../Css/Huy/Research.css"
 import Footer from './Footer'
 import NavBar from './Navbar'
@@ -11,7 +7,7 @@ import { useEffect } from "react"
 const Research = () => {
     useEffect(() => {
         AOS.init({
-          duration: 1200, // thời gian hiệu ứng chạy, tính bằng ms
+          duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
         });
       }, []);
     return (
@@ -21,7 +17,7 @@ const Research = () => {
             </div>
 
 
-            <h1>Scientific Research</h1>
+            <h1 data-aos="flip-up">Scientific Research</h1>
 
             <div className="container">
                 <div className="row align-items-center">
@@ -30,7 +26,7 @@ const Research = () => {
                     </div>
                     <div className="col-md-4" data-aos="fade-left">
                         <figure style={{ textAlign: "center" }}>
-                            <img src={hinh1} className="img-fluid" style={{ width: "auto", height: "250px" }} />
+                            <img src={require("../Img/Huy/img1.png")} className="img-fluid" style={{ width: "auto", height: "250px" }} />
                             <figcaption style={{ textAlign: "center", marginTop: "10px" }}>Marie Curie (1867-1934)</figcaption>
                         </figure>
                     </div>
@@ -73,8 +69,8 @@ const Research = () => {
                     </div>
                     <div className="col-lg-6" data-aos="slide-left">
                         <figure className="d-flex justify-content-around">
-                            <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={hinh2} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
-                            <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={radium} className="img-fluid hover-zoom" alt="Radium Image" /></a>
+                            <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={require("../Img/Huy/hinh2.png")} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
+                            <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={require("../Img/Huy/radium.png")} className="img-fluid hover-zoom" alt="Radium Image" /></a>
                         </figure>
                         <figcaption className="text-center mt-2">
                             <small>Images related to Marie Curie's experiments and discovery of Radium</small>
@@ -90,7 +86,7 @@ const Research = () => {
                     <div className="col-md-6" data-aos="zoom-in">
                         <figure className="text-center">
                             <a href="https://www.openculture.com/2023/11/marie-curies-research-papers-are-still-radioactive-a-century-later.html" target="new" rel="noopener noreferrer">
-                                <img src={notebook} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" }} />
+                                <img src={require("../Img/Huy/notebook.png")} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" }} />
                             </a>
                             <figcaption>Marie Curie Research Papers Are Still Radioactive a Century Later</figcaption>
                         </figure>
