@@ -25,7 +25,7 @@ const NavBar = () => {
                     <Link to='/'>HOME</Link>
                 </div>
                 <div className="col-md-2 header-navbar-dat-item">
-                    <Link>BIOGRAPHY</Link>
+                    <Link to='/Biography'>BIOGRAPHY</Link>
                 </div>
                 <div className="col-md-2 header-navbar-dat-item">
                     <Link to='/Research'>RESEARCH</Link>
@@ -37,7 +37,7 @@ const NavBar = () => {
                     <Link to='/SelectedWorks'>SELECTED WORKS</Link>
                 </div>
                 <div className="col-md-2 header-navbar-dat-item">
-                    <Link>REFERENCES ETC</Link>
+                    <Link to='/References'>REFERENCES ETC</Link>
                 </div>
                 <div className="col-md-1 header-navbar-dat-item">
                     <Link to='/Contact' style={{width: '30px'}}>CONTACT</Link>
