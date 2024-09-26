@@ -1,93 +1,53 @@
-import { Form, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import BackHomeAndTop from "./BackHomeAndTop";
 import Logo from "../Img/Dat/logo.png";
 import '../Css/Dat/navbar.css';
-import icon from '../Img/Dat/icon.svg';
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const NavBar = () => {
-    const [showList, setShowList] = useState(false);
-
-
-
-
     return (
-        <div className="header-dat">
+        <div>
             <BackHomeAndTop />
             <div align='center' className="header-logo-dat">
                 <Link to='/'>
-                    <img className="header-logo-dat-img" src={Logo} />
+                    <img className="header-logo-dat-img" src={Logo} alt="Logo" />
                 </Link>
             </div>
-            <div className="header-navbar-dat-desktop row" style={{backgroundColor: '#ffffff00', width: '100%', marginLeft: '0px'}}>
-                <div className="col-md-1 header-navbar-dat-item" >
-                    <Link to='/'>HOME</Link>
+            <nav className="bg-color navbar navbar-expand-lg navbar-light">
+                <div className="container-fluid">
+                    
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+                        <ul className="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-evenly">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to='/'>HOME</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/Biography'>BIOGRAPHY</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/Research'>RESEARCH</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/Awards'>AWARDS AND HONORS</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/SelectedWorks'>SELECTED WORKS</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/References'>REFERENCES</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='/Contact'>CONTACT</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="col-md-2 header-navbar-dat-item">
-                    <Link to='/Biography'>BIOGRAPHY</Link>
-                </div>
-                <div className="col-md-2 header-navbar-dat-item">
-                    <Link to='/Research'>RESEARCH</Link>
-                </div>
-                <div className="col-md-2 header-navbar-dat-item">
-                    <Link to='/Awards'>AWARDS AND HONORS</Link>
-                </div>
-                <div className="col-md-2 header-navbar-dat-item">
-                    <Link to='/SelectedWorks'>SELECTED WORKS</Link>
-                </div>
-                <div className="col-md-2 header-navbar-dat-item">
-                    <Link to='/References'>REFERENCES ETC</Link>
-                </div>
-                <div className="col-md-1 header-navbar-dat-item">
-                    <Link to='/Contact' style={{width: '30px'}}>CONTACT</Link>
-                </div>
-            </div>
-            <div className="header-navbar-dat-mobile">
-                <div style={{textAlign: 'center'}} >
-                    <img src={icon} 
-                        onClick={() => setShowList(!showList)}
-                    />
-                    {showList && (
-                        <div className="list-navbar-dat-mobile row" style={{position: 'absolute', width: '100%', marginTop: '5px', marginLeft: '0px'}}>
-                            <div className="col-md-6">
-                                <h3 >About of Marie Curie</h3>
-                                <ul className="list-group list-group-flush">
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/Biography'>BIOGRAPHY</Link>
-                                    </li>
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/Research'>RESEARCH</Link>
-                                    </li>
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/Awards'>AWARDS AND HONORS</Link>
-                                    </li>
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/SelectedWorks'>SELECTED WORKS</Link> 
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-md-6">
-                                <h3>More</h3>
-                                <ul className="list-group list-group-flush">
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/'>HOME</Link>
-                                    </li>
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/References'>REFERENCES ETC</Link>
-                                    </li>
-                                    <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link to='/Contact' style={{width: '30px'}}>CONTACT</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    )}
-                </div>
-            </div>
+            </nav>
         </div>
     );
 }
-
 
 export default NavBar;

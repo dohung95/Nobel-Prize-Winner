@@ -5,6 +5,7 @@
     color: white;
     text-align: center;
     width: 100%;
+    padding-bottom: 0;
 }
 
 .footer-dat img{
@@ -36,12 +37,27 @@
     text-decoration: underline;
 }
 
-.footer-dat-timer-date{
-    font-size: 1.5rem;
-}
 
 .footer-dat-timer{
     border-left: 1px solid white;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-group-item a:hover{
+    text-decoration: underline;
+}
+
+.footer-dat-navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-dat-navbar a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

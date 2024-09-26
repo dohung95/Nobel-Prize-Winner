@@ -18,6 +18,8 @@
     font-size: 14pt;
     border: 7px double #b89e14;
     padding: 10px;
+    column-count: 3;
+    
 }
 
 .home-content-dat-about{
@@ -69,11 +71,23 @@
         height: 300px;
         border-radius: 10px;
     }
+    .home-content-dat-nobel{
+        column-count: 2;
+    }
+    .home-content-dat-about p {
+        font-size: 20pt;
+    }
 }
 
 @media (max-width: 767px) {
     .home-content-dat-about p{
         margin-left: 50px;
         margin-top: 35px;
+    }
+    .home-content-dat-nobel{
+        column-count: 1;
+    }
+    .home-content-dat-about p {
+        font-size: 14pt;
     }
 }

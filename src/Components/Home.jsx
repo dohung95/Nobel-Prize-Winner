@@ -11,10 +11,9 @@ const Home = () => {
             <div>
                 <NavBar />
             </div>
-            <div style={{display: 'block'}}> 
-                
 
-                <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0'}}>
+            <div style={{display: 'block'}}> 
+                <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0', margin:"3%"}}>
                     <div className="col-md-4" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>
                         <img src={avarta} />
                     </div>
