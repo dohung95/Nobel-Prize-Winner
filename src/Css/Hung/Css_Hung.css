@@ -47,15 +47,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 999;
     background-color: rgba(232, 186, 130, 0.245);
-  }
-  
-  .overlay-content {
-    padding: 20px;
-    text-align: center;
-    height:900px;
-    width: 800px;
   }
   
   /* Style cho nội dung chính */
