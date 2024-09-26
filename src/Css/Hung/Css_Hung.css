@@ -24,7 +24,7 @@
     background-color: #00b4d8;
 }
 .Top_Hung:hover {
-    animation: pulse512 1.5s infinite;
+    animation: pulse512 1.2s infinite;
 }
 @keyframes pulse512 {
     0% {
@@ -42,7 +42,7 @@
 .BackHome_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
-    bottom: 33%;
+    bottom: 32.5%;
     right: 40px;
     z-index: 1000;
 }

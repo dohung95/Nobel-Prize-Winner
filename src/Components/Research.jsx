@@ -70,8 +70,8 @@ const Research = () => {
                     </div>
                     <div className="col-lg-6" data-aos="slide-left">
                         <figure className="d-flex justify-content-around">
-                            <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={DataResearch[0].hinh2} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
-                            <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={DataResearch[0].radium} className="img-fluid hover-zoom" alt="Radium Image" /></a>
+                            <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].hinh2}`} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
+                            <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].radium}`} className="img-fluid hover-zoom" alt="Radium Image" /></a>
                         </figure>
                         <figcaption className="text-center mt-2">
                             <small>{DataResearch[0].caption1}</small>
@@ -87,7 +87,7 @@ const Research = () => {
                     <div className="col-md-6" data-aos="zoom-in">
                         <figure className="text-center">
                             <a href="https://www.openculture.com/2023/11/marie-curies-research-papers-are-still-radioactive-a-century-later.html" target="new" rel="noopener noreferrer">
-                                <img src={DataResearch[0].notebook} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" }} />
+                                <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" }} />
                             </a>
                             <figcaption>{DataResearch[0].caption2}</figcaption>
                         </figure>
