@@ -16,22 +16,39 @@
 .Top_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
-    bottom: 50px;
-    right: 40px;
+    bottom: 26%;
+    right: 37px;
     z-index: 1000;
     box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
     border-radius: 50%;
-    background-color: azure;
+    background-color: #00b4d8;
 }
-
+.Top_Hung:hover {
+    animation: pulse512 1.5s infinite;
+}
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
 .BackHome_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
-    bottom: 55px;
-    right: 95px;
+    bottom: 32%;
+    right: 40px;
     z-index: 1000;
 }
-
+.BackHome_Hung:hover {
+    animation: pulse512 1.5s infinite;
+}
 .Khoidiv {
     border: 3px double #d3ac64b0;
     border-radius: 10px;
