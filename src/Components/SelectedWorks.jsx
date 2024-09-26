@@ -11,25 +11,23 @@ const SelectedWorks = () => {
         AOS.init({
             duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
         });
-        
+
     }, []);
     const path = process.env.PUBLIC_URL;
     return (
         <>
+            <div >
+                <NavBar />
+            </div>
 
-            <div id="main-content" >
-                <div >
-                    <NavBar />
+            <div style={{ backgroundColor: "#f7f7f7" }}>
+                <div align='center' >
+                    <br /><h1 data-aos="slide-right" className='shadow_text' style={{ color: "#222e50" }}> Two great studies</h1>
                 </div>
-
-                <div align='center'>
-                    <h1 data-aos="slide-right" className='shadow_text'> Two great studies</h1>
-                </div>
-
                 {
                     Data.map((output) => (
                         <div key={output.id} data-aos="fade-right">
-                            <div style={{ padding: "3% 6% 3% 6%" }} >
+                            <div style={{ padding: "2% 6% 3% 6%" }} >
                                 <h3 className='shadow_text'><img src={medal} width={35} /> {output.nobel}</h3>
                                 <div className='Khoidiv row' >
                                     <div className='col-md-6' data-aos="fade-right" >
