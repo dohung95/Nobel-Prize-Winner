@@ -16,7 +16,7 @@
 .Top_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
-    bottom: 26%;
+    bottom: 27%;
     right: 37px;
     z-index: 1000;
     box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
@@ -42,7 +42,7 @@
 .BackHome_Hung {
     position: fixed;
     /* Đảm bảo nút cố định trong viewport */
-    bottom: 32%;
+    bottom: 33%;
     right: 40px;
     z-index: 1000;
 }
