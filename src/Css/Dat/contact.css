@@ -1,21 +1,88 @@
-.contact-content-dat{
-    margin: 5%;
-    height: 100vh;
-}
-
 .contact-content-dat-network{
-    text-align: center;
+    text-align: left;
     display: inline-block;
-    width: 26%;
 }
 
 .contact-content-dat-contact{
-    text-align: center;
+    text-align: left;
     display: inline-block;
-    width: 26%;
+    font-weight: bold;
+}
+
+.contact-content-dat-contact a{
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    font-weight: normal;
+    transition: all 0.5s; 
 }
 
 .contact-content-dat-map{
     display: inline-block;
-    width: 26%;
+}
+
+.contact-content-dat-about p{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-content-dat-about{
+    height: auto;
+}
+
+.network img{
+    width: 50px;
+    display: block;
+}
+.network{
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .hidden-text {
+    font-size: 16px;
+    color: #000000;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+} */
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: -100%; 
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0); 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: left 0.5s ease-in-out; 
+    z-index: -1;
+}
+
+/* hover */
+.network:hover .overlay-text {
+    left: 60px; 
+}
+
+.contact-content-dat-contact a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* .hung:hover .hidden-text {
+    opacity: 1;
+} */
+
+@media (max-width: 767px) {
+    .contact-map{
+        display: none;
+    }
+}
+
+@media (max-width: 543px) {
+    .contact-content-dat-contact{
+        display: block;
+    }
 }

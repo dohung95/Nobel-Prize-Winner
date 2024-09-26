@@ -12,15 +12,7 @@ const Home = () => {
                 <NavBar />
             </div>
             <div style={{display: 'block'}}> 
-                <div className="home-content-dat-group">
-                    <h3>Group 1 consists of 4 people:</h3>
-                    <p style={{marginLeft: '30px'}}>mr. Do Thanh Hung</p>
-                    <p style={{marginLeft: '30px'}}>ms. Dang Le Phuong Van</p>
-                    <p style={{marginLeft: '30px'}}>mr. Le Quoc Dat</p>
-                    <p style={{marginLeft: '30px'}}>mr. Phu Vinh Huy</p>
-                </div>
-
-                <hr width="50%" style={{marginLeft: '10%'}} />
+                
 
                 <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0'}}>
                     <div className="col-md-4" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>

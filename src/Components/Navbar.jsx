@@ -54,7 +54,7 @@ const NavBar = () => {
                                 <h3 >About of Marie Curie</h3>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link>BIOGRAPHY</Link>
+                                        <Link to='/Biography'>BIOGRAPHY</Link>
                                     </li>
                                     <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
                                         <Link to='/Research'>RESEARCH</Link>
@@ -74,7 +74,7 @@ const NavBar = () => {
                                         <Link to='/'>HOME</Link>
                                     </li>
                                     <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
-                                        <Link>REFERENCES ETC</Link>
+                                        <Link to='/References'>REFERENCES ETC</Link>
                                     </li>
                                     <li className="list-group-item" style={{backgroundColor: 'rgb(199, 199, 199)'}}>
                                         <Link to='/Contact' style={{width: '30px'}}>CONTACT</Link>
