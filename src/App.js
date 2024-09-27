@@ -13,11 +13,13 @@ import Education from "./Components/Education";
 import Carrer from "./Components/Carrer";
 import Story from "./Components/Story";
 import Detail from "./Components/IntimateDetail";
+import Troll from "./Components/Troo";
 const App = () => {
   return ( 
     <>
       <BrowserRouter>
       <Viewer />
+      <Troll/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Biography" element={<Biography />}/>
