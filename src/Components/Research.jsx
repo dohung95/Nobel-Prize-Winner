@@ -8,7 +8,7 @@ import DataResearch from "../Data/Huy/data.json"
 const Research = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
+            duration: 1500
         });
     }, []);
     const path = process.env.PUBLIC_URL
@@ -17,17 +17,16 @@ const Research = () => {
             <div >
                 <NavBar />
             </div>
-
             <h1 data-aos="flip-up">Scientific Research</h1>
 
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-8" data-aos="fade-right" style={{ border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}>
+                    <div className="col-md-8" data-aos="fade-right" style={{ border: "1px solid black", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
                         <p style={{ textAlign: "justify", fontSize: "1.5rem" }}>{DataResearch[0].p1}</p>
                     </div>
                     <div className="col-md-4" data-aos="fade-left" style={{marginTop: "2%"}}>
                         <figure style={{ textAlign: "center" }}>
-                            <img src={`${path}${DataResearch[0].hinh1}`} className="img-fluid" style={{ width: "auto", height: "250px", border: "1px solid black" }} />
+                            <img src={`${path}${DataResearch[0].hinh1}`} className="img-fluid" style={{ width: "auto", height: "250px", border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} />
                             <figcaption style={{ textAlign: "center", marginTop: "10px" }}><b>{DataResearch[0].caption}</b></figcaption>
                         </figure>
                     </div>
@@ -74,7 +73,7 @@ const Research = () => {
                             <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].radium}`} className="img-fluid hover-zoom" alt="Radium Image" /></a>
                         </figure>
                         <figcaption className="text-center mt-2">
-                        <b>{DataResearch[0].caption1}</b>
+                            <b>{DataResearch[0].caption1}</b>
                         </figcaption>
                     </div>
                 </div>
@@ -87,7 +86,7 @@ const Research = () => {
                     <div className="col-md-6" data-aos="zoom-in">
                         <figure className="text-center">
                             <a href="https://www.openculture.com/2023/11/marie-curies-research-papers-are-still-radioactive-a-century-later.html" target="new" rel="noopener noreferrer">
-                                <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" ,border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}} />
+                                <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px", border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} />
                             </a>
                             <figcaption><b>{DataResearch[0].caption2}</b></figcaption>
                         </figure>

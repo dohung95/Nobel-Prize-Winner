@@ -1,7 +1,8 @@
 import "../Css/Huy/Awards.css"
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
-import NavBar from '../Components/Navbar'
-import Footer from '../Components/Footer'
+import NavBar from './Navbar'
+
+import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -12,8 +13,8 @@ const Awards = () => {
           duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
         });
       }, []);
+      
       const path = process.env.PUBLIC_URL
-    //   {DataResearch[0].p6}
     return (
         <>
          <div >
@@ -38,9 +39,9 @@ const Awards = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 text-center" data-aos="zoom-in" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
+                    <div className="col-md-6 text-center" data-aos="zoom-in">
                         <figure>
-                            <img src={`${path}${DTB[1].medal}`} className="img-fluid" />
+                            <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} />
                             <figcaption style={{marginTop: "2%"}}><b>{DTB[1].caption1}</b></figcaption>
                         </figure>
                     </div>
@@ -89,7 +90,7 @@ const Awards = () => {
                     </Col>
                     <Col md={6} className="text-center">
                         <Figure>
-                        <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
+                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
                                 src={`${path}${DTB[1].SICEP}`}
                                 className="img-fluid hover-zoom1"
                                 target="new" rel="noopener noreferrer"
@@ -103,7 +104,7 @@ const Awards = () => {
                 </Row>
             </Container>
             <div className="container mt-4">
-                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
+                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}`</h3>
                 <div className="row">
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                         <iframe
