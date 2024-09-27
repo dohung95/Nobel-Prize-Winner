@@ -38,10 +38,10 @@ const Awards = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 text-center" data-aos="zoom-in">
+                    <div className="col-md-6 text-center" data-aos="zoom-in" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
                         <figure>
                             <img src={`${path}${DTB[1].medal}`} className="img-fluid" />
-                            <figcaption>{DTB[1].caption1}</figcaption>
+                            <figcaption style={{marginTop: "2%"}}><b>{DTB[1].caption1}</b></figcaption>
                         </figure>
                     </div>
                 </div>
@@ -89,20 +89,21 @@ const Awards = () => {
                     </Col>
                     <Col md={6} className="text-center">
                         <Figure>
-                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
+                        <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
                                 src={`${path}${DTB[1].SICEP}`}
                                 className="img-fluid hover-zoom1"
                                 target="new" rel="noopener noreferrer"
+                                style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                             /></a>
                             <Figure.Caption>
-                                {DTB[1].caption2}
+                                <b>{DTB[1].caption2}</b>
                             </Figure.Caption>
                         </Figure>
                     </Col>
                 </Row>
             </Container>
             <div className="container mt-4">
-                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}`</h3>
+                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
                 <div className="row">
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                         <iframe

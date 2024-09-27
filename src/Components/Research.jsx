@@ -22,13 +22,13 @@ const Research = () => {
 
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-8" data-aos="fade-right" style={{ border: "1px solid black", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
+                    <div className="col-md-8" data-aos="fade-right" style={{ border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}>
                         <p style={{ textAlign: "justify", fontSize: "1.5rem" }}>{DataResearch[0].p1}</p>
                     </div>
                     <div className="col-md-4" data-aos="fade-left" style={{marginTop: "2%"}}>
                         <figure style={{ textAlign: "center" }}>
                             <img src={`${path}${DataResearch[0].hinh1}`} className="img-fluid" style={{ width: "auto", height: "250px", border: "1px solid black" }} />
-                            <figcaption style={{ textAlign: "center", marginTop: "10px" }}>{DataResearch[0].caption}</figcaption>
+                            <figcaption style={{ textAlign: "center", marginTop: "10px" }}><b>{DataResearch[0].caption}</b></figcaption>
                         </figure>
                     </div>
                 </div>
@@ -68,13 +68,13 @@ const Research = () => {
                             <b>{DataResearch[0].p54}</b>: {DataResearch[0].p55}
                         </p>
                     </div>
-                    <div className="col-lg-6" data-aos="slide-left">
+                    <div className="col-lg-6" data-aos="slide-left" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}>
                         <figure className="d-flex justify-content-around">
                             <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].hinh2}`} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
                             <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].radium}`} className="img-fluid hover-zoom" alt="Radium Image" /></a>
                         </figure>
                         <figcaption className="text-center mt-2">
-                            <small>{DataResearch[0].caption1}</small>
+                        <b>{DataResearch[0].caption1}</b>
                         </figcaption>
                     </div>
                 </div>
@@ -87,9 +87,9 @@ const Research = () => {
                     <div className="col-md-6" data-aos="zoom-in">
                         <figure className="text-center">
                             <a href="https://www.openculture.com/2023/11/marie-curies-research-papers-are-still-radioactive-a-century-later.html" target="new" rel="noopener noreferrer">
-                                <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" }} />
+                                <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px" ,border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}} />
                             </a>
-                            <figcaption>{DataResearch[0].caption2}</figcaption>
+                            <figcaption><b>{DataResearch[0].caption2}</b></figcaption>
                         </figure>
                     </div>
                     <div className="col-md-6" data-aos="slide-left">
