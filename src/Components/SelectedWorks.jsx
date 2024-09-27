@@ -9,7 +9,7 @@ import { useEffect } from "react"
 const SelectedWorks = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
+            duration: 1500,
         });
 
     }, []);
@@ -32,11 +32,11 @@ const SelectedWorks = () => {
                                 <div className='Khoidiv row' >
                                     <div className='col-md-6' data-aos="fade-right" >
                                         <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text'>Research Process:</h4>
+                                            <h4 className='shadow_text'>Research Process</h4>
                                             <div style={{ textAlign: "left" }}>
                                                 <ul>
-                                                    <li>{output.textR1}</li>
-                                                    <li>{output.textR2}</li>
+                                                    <li danhmuc="♔ .">{output.textR1}</li>
+                                                    <li danhmuc="♔ .">{output.textR2}</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -52,10 +52,10 @@ const SelectedWorks = () => {
                                             <h4 className='shadow_text'>{output.textProcess}</h4>
                                             <div style={{ textAlign: "left" }}>
                                                 <ol>
-                                                    <li>{output.textP1}</li>
-                                                    <li>{output.textP2}</li>
-                                                    <li>{output.textP3}</li>
-                                                    <li>{output.textP4}</li>
+                                                    <li danhmuc="1.">{output.textP1}</li>
+                                                    <li danhmuc="2.">{output.textP2}</li>
+                                                    <li danhmuc="3.">{output.textP3}</li>
+                                                    <li danhmuc="4.">{output.textP4}</li>
                                                 </ol>
                                             </div>
                                         </div>
@@ -70,11 +70,11 @@ const SelectedWorks = () => {
                                     </div>
                                     <div className='col-md-6' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text'>Applications:</h4>
+                                            <h4 className='shadow_text'>Applications</h4>
                                             <div style={{ textAlign: "left" }}>
                                                 <ul>
-                                                    <li>{output.textA1}</li>
-                                                    <li>{output.textA2}</li>
+                                                    <li danhmuc="🜲 .">{output.textA1}</li>
+                                                    <li danhmuc="🜲 .">{output.textA2}</li>
                                                 </ul>
                                             </div>
                                         </div>

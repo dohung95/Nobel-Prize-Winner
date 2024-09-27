@@ -104,7 +104,7 @@ const Awards = () => {
                 </Row>
             </Container>
             <div className="container mt-4">
-                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}`</h3>
+                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
                 <div className="row">
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                         <iframe

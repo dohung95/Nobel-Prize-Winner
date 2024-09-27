@@ -2,7 +2,7 @@
     {
         "id": "1",
         "nobel":"Marie Curie, her husband and Becquerel discovered radioactivity",
-        "textProcess":"Process of Receiving the Nobel Prize in Physics (1903):",
+        "textProcess":"Process of Receiving the Nobel Prize in Physics (1903)",
         "textImgR":"Marie Curie and her husband and \n Becquerel researched together",
         "textImgP":"Nobel Prize diploma (1903)",
         "textImgA1":"Radiation therapy at MSK circa 1949",
@@ -26,7 +26,7 @@
     {
         "id": "2",
         "nobel":"Discovery of polonium and radium",
-        "textProcess":"Process of Receiving the Nobel Prize in Chemistry (1911):",
+        "textProcess":"Process of Receiving the Nobel Prize in Chemistry (1911)",
         "textImgR":"Research on polonium and radium",
         "textImgP":"Nobel Prize diploma (1911)",
         "textImgA1":"The use of concentrated chemical light rays in medicine",
