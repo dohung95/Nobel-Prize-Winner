@@ -1,0 +1,58 @@
+.Van_slide1{
+    /* margin: 100px 0 0 200px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+    position: relative;
+    background-color:#091236;
+    overflow: hidden;
+    padding: 10px ;
+}
+.Van_slide1 img{
+    width: 5%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #FFBE0B;
+    transition: all ease-in-out 0.7s;
+    padding: 2px;
+}
+.Van_slide1 img:hover{
+    width: 50%;
+}
+.Van_trang_refer {
+    background-color: #fffadf;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 30px;
+    margin-top: 50px 50px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+.khoibio_Van_refer {
+    border: 5px double #d3ac64b0;
+    border-radius: 10px;
+    
+}
+.background_refer{
+    background-image: url('../../Img/Van/background.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*chu hoa*/
+.chuhoa p::first-letter {
+    font-size: 4rem;
+    /* Tăng kích cỡ chữ cái đầu */
+    font-weight: bold;
+    /* Làm đậm chữ cái đầu */
+    color: #0f4578;
+    /* Đặt màu sắc cho chữ cái đầu */
+    /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
+    font-family: 'Pacifico', cursive;
+
+}

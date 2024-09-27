@@ -14,9 +14,10 @@ const Research = () => {
     const path = process.env.PUBLIC_URL
     return (
         <>
-            <div >
+            <div>
                 <NavBar />
             </div>
+
             <h1 data-aos="flip-up">Scientific Research</h1>
 
             <div className="container">
@@ -67,8 +68,8 @@ const Research = () => {
                             <b>{DataResearch[0].p54}</b>: {DataResearch[0].p55}
                         </p>
                     </div>
-                    <div className="col-lg-6" data-aos="slide-left" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}>
-                        <figure className="d-flex justify-content-around">
+                    <div className="col-lg-6" data-aos="slide-left" >
+                        <figure className="d-flex justify-content-around" style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"}}>
                             <a href="https://www.facebook.com/iaeaorg/photos/on-26-december-1898-marie-and-pierre-curie-announced-their-discovery-of-radium-a/10153154478247062/" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].hinh2}`} className="img-fluid hover-zoom" alt="Experiment Image 1" /></a>
                             <a href="https://history.aip.org/exhibits/curie/brief/03_radium/radium_8.html" target="new" rel="noopener noreferrer"><img src={`${path}${DataResearch[0].radium}`} className="img-fluid hover-zoom" alt="Radium Image" /></a>
                         </figure>
@@ -88,7 +89,7 @@ const Research = () => {
                             <a href="https://www.openculture.com/2023/11/marie-curies-research-papers-are-still-radioactive-a-century-later.html" target="new" rel="noopener noreferrer">
                                 <img src={`${path}${DataResearch[0].notebook}`} className="img-fluid hover-zoom" style={{ width: "auto", height: "250px", border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} />
                             </a>
-                            <figcaption><b>{DataResearch[0].caption2}</b></figcaption>
+                            <figcaption style={{marginTop: "2%"}}><b>{DataResearch[0].caption2}</b></figcaption>
                         </figure>
                     </div>
                     <div className="col-md-6" data-aos="slide-left">

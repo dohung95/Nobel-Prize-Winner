@@ -28,7 +28,7 @@ const SelectedWorks = () => {
                     Data.map((output) => (
                         <div key={output.id} data-aos="fade-right">
                             <div style={{ padding: "2% 6% 3% 6%" }} >
-                                <h3 className='shadow_text'><img src={medal} width={35} /> {output.nobel}</h3>
+                                <h3 className='shadow_text'><img src={medal} width={35} className='Nobel_Hung'/> {output.nobel}</h3>
                                 <div className='Khoidiv row' >
                                     <div className='col-md-6' data-aos="fade-right" >
                                         <div align='center' style={{ paddingTop: '2%' }}>
@@ -44,7 +44,7 @@ const SelectedWorks = () => {
                                     <div className='col-md-6' style={{ height: '300px' }} data-aos="fade-left">
                                         <div align='center' style={{ paddingTop: '2%' }}>
                                             <img src={`${path}${output.imgR}`} className='SizeImg_Hung' />
-                                            <div>{output.textImgR}</div>
+                                            <div><b>{output.textImgR}</b></div>
                                         </div>
                                     </div>
                                     <div className='col-md-6' data-aos="fade-right">
@@ -65,7 +65,7 @@ const SelectedWorks = () => {
                                             <a href={`${output.urlWebImgP}`}>
                                                 <img src={`${path}${output.imgP}`} className='SizeImg_Hung' />
                                             </a>
-                                            <div>{output.textImgP}</div>
+                                            <div><b>{output.textImgP}</b></div>
                                         </div>
                                     </div>
                                     <div className='col-md-6' data-aos="fade-right">
@@ -84,13 +84,13 @@ const SelectedWorks = () => {
                                             <a href={`${output.urlWebImgA1}`}>
                                                 <img src={`${path}${output.imgA1}`} className='SizeImg_Hung1' />
                                             </a>
-                                            <div>{output.textImgA1}</div>
+                                            <div><b>{output.textImgA1}</b></div>
                                         </div>
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${output.urlWebImgA2}`}>
                                                 <img src={`${path}${output.imgA2}`} className='SizeImg_Hung1' />
                                             </a>
-                                            <div>{output.textImgA2}</div>
+                                            <div><b>{output.textImgA2}</b></div>
                                         </div>
                                     </div>
                                     <div>

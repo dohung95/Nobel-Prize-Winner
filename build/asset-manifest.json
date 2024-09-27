@@ -1,36 +1,37 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.c91309d6.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.4652eaba.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.d5aa254f.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.708f6526.js",
     "static/media/irene-marie.jpg": "/Nobel-Prize-Winner/static/media/irene-marie.0c8a36de9e634922782b.jpg",
     "static/media/nghiencuu.jpg": "/Nobel-Prize-Winner/static/media/nghiencuu.0f316fb78680efe69f97.jpg",
-    "static/media/information.png": "/Nobel-Prize-Winner/static/media/information.755a5e5d28225b215cc0.png",
     "static/media/nho.png": "/Nobel-Prize-Winner/static/media/nho.9db22b2d9419121febf0.png",
+    "static/media/background.jpg": "/Nobel-Prize-Winner/static/media/background.fc1b8843fed79dc25726.jpg",
     "static/media/bamecon-nho.jpg": "/Nobel-Prize-Winner/static/media/bamecon-nho.1533cbd067a6eb99c822.jpg",
+    "static/media/bamecon.jpg": "/Nobel-Prize-Winner/static/media/bamecon.b8763c06a4ba53f0dece.jpg",
     "static/media/gia.png": "/Nobel-Prize-Winner/static/media/gia.dfde9c6d465137957996.png",
     "static/media/con-irence.jpg": "/Nobel-Prize-Winner/static/media/con-irence.d2e1ca693644d5889835.jpg",
     "static/media/Nobel_Prize.png": "/Nobel-Prize-Winner/static/media/Nobel_Prize.67a956416300e1510022.png",
     "static/media/congaidaulong.png": "/Nobel-Prize-Winner/static/media/congaidaulong.e1ad7e9681eabae5e36d.png",
-    "static/media/chong.jpg": "/Nobel-Prize-Winner/static/media/chong.eeeb9c48fda437658fc2.jpg",
+    "static/media/bamecon1.jpg": "/Nobel-Prize-Winner/static/media/bamecon1.a303f62310ab51e859ae.jpg",
     "static/media/gia-dinh.jpg": "/Nobel-Prize-Winner/static/media/gia-dinh.8820fdfc78cedf84ef14.jpg",
     "static/media/logo.png": "/Nobel-Prize-Winner/static/media/logo.743032a8496d07c4d495.png",
     "static/media/vochongdapxe.png": "/Nobel-Prize-Winner/static/media/vochongdapxe.efd326e2fd002f1e494e.png",
     "static/media/marie-curie-01.jpg": "/Nobel-Prize-Winner/static/media/marie-curie-01.168560c271f652e4011c.jpg",
-    "static/media/marie-curie-15.jpg": "/Nobel-Prize-Winner/static/media/marie-curie-15.168560c271f652e4011c.jpg",
-    "static/media/bamecon.jpg": "/Nobel-Prize-Winner/static/media/bamecon.7e4be79e65248fd8f14c.jpg",
+    "static/media/xechupdidong1915.jpg": "/Nobel-Prize-Winner/static/media/xechupdidong1915.8bff170964f5abedc911.jpg",
+    "static/media/tivi.png": "/Nobel-Prize-Winner/static/media/tivi.122e3832d1ea767455ab.png",
+    "static/media/Nobel1903.jpg": "/Nobel-Prize-Winner/static/media/Nobel1903.2410436c2f1e4a7095e2.jpg",
     "static/media/vochong.jpg": "/Nobel-Prize-Winner/static/media/vochong.f5839d22a2c561dd018d.jpg",
     "static/media/chiem.png": "/Nobel-Prize-Winner/static/media/chiem.4e0e0c89165887cd9dad.png",
-    "static/media/eve.jpg": "/Nobel-Prize-Winner/static/media/eve.dad7c0942f0bed9bb931.jpg",
     "static/media/world-wide-web.png": "/Nobel-Prize-Winner/static/media/world-wide-web.297833d78476cdf61628.png",
     "static/media/tiktok.png": "/Nobel-Prize-Winner/static/media/tiktok.f4f1ba774661763ef41c.png",
     "static/media/facebook.png": "/Nobel-Prize-Winner/static/media/facebook.b22498dbe9c4a041a18e.png",
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.c91309d6.css.map": "/Nobel-Prize-Winner/static/css/main.c91309d6.css.map",
-    "main.4652eaba.js.map": "/Nobel-Prize-Winner/static/js/main.4652eaba.js.map"
+    "main.d5aa254f.css.map": "/Nobel-Prize-Winner/static/css/main.d5aa254f.css.map",
+    "main.708f6526.js.map": "/Nobel-Prize-Winner/static/js/main.708f6526.js.map"
   },
   "entrypoints": [
-    "static/css/main.c91309d6.css",
-    "static/js/main.4652eaba.js"
+    "static/css/main.d5aa254f.css",
+    "static/js/main.708f6526.js"
   ]
 }

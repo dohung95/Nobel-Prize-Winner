@@ -1,0 +1,45 @@
+/*gpt slde hinh chay tu trai qua phai*/
+.Van2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+    padding: 12% ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm bóng cho container */
+
+}
+.animated-img{
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    width: auto;
+    height: 300px;
+    
+    animation: moveRight 4s linear forwards;
+    transform: translateY(-50%); /* Giúp căn giữa hình theo chiều dọc */
+    
+}
+
+/*Keyframes để di chuyển hình ảnh*/
+@keyframes moveRight{
+    0% {
+        left: -200px;
+        opacity: 1;
+    }
+    80% {
+        left: calc(100% - 100px);
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+/*thay đoi kich thuoc tren man hinh nho*/
+@media (max-width: 776px) {
+    .animated-img {
+        width:  90px;
+        height: auto;
+    }
+}

@@ -1,16 +1,20 @@
 .SizeImg_Hung {
     width: 55%;
     height: 55%;
-    border: 2px solid rgba(65, 64, 64, 0.529);
+    border: 1.5px solid rgb(65, 64, 64);
     padding: 3%;
     border-radius: 3px;
+    background-color: #edf2fb;
+    box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
 }
 .SizeImg_Hung1 {
     width: 60%;
     height: 55%;
-    border: 2px solid rgba(65, 64, 64, 0.529);
+    border: 1.5px solid rgb(65, 64, 64);
     padding: 3%;
     border-radius: 3px;
+    background-color: #edf2fb;
+    box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
 }
 
 .Top_Hung {
@@ -55,33 +59,12 @@
     background-color: rgba(255, 238, 175, 0.2);
     box-shadow: 3px 3px 5px rgba(248, 224, 196, 0.821);
 }
-/**/
-#overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-    background-color: rgba(232, 186, 130, 0.245);
-  }
-  
-  /* Style cho nội dung chính */
-  .overlay-text {
-    position: absolute; /* Định vị văn bản */
-    top: 70%; /* Đưa văn bản lên giữa */
-    left: 50%; /* Đưa văn bản sang giữa */
-    transform: translate(-50%, -50%); /* Căn giữa chính xác */
-    color: rgb(255, 255, 255); /* Màu chữ */
-    font-size: 24px; /* Kích thước chữ */
-    text-align: center; /* Căn giữa văn bản */
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Đổ bóng cho văn bản để dễ nhìn hơn */
-    font-weight: bold;
-}
+
 .shadow_text{
     text-shadow: 2px 2px 3px rgba(98, 100, 95, 0.7);
     color: #585123;
+}
+.Nobel_Hung{
+    box-shadow: 3px 3px 5px #979dac;
+    border-radius: 50%;
 }
