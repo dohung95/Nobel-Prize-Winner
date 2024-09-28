@@ -16,16 +16,26 @@
 }
 
 .Top_Hung {
-    position: fixed;
-    bottom: 27%;
-    right: 37px;
-    z-index: 1000;
+    
     box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
     border-radius: 50%;
     background-color: #00b4d8;
 }
 .Top_Hung:hover {
     animation: pulse512 1.2s infinite;
+}
+.BackHome_Hung {
+    margin-left: 8%;
+    padding-bottom: 10%;
+}
+.BackHome_Hung:hover {
+    animation: pulse512 1.5s infinite;
+}
+.Button_Hung{
+    position: fixed;
+    bottom: 27%;
+    right: 37px;
+    z-index: 1000;
 }
 @keyframes pulse512 {
     0% {
@@ -40,15 +50,7 @@
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
    }
-.BackHome_Hung {
-    position: fixed;
-    bottom: 32.5%;
-    right: 40px;
-    z-index: 1000;
-}
-.BackHome_Hung:hover {
-    animation: pulse512 1.5s infinite;
-}
+
 .Khoidiv {
     border: 3px double #d3ac64b0;
     border-radius: 10px;

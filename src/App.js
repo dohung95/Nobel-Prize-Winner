@@ -8,15 +8,13 @@ import Biography from "./Components/Biography";
 import References from "./Components/References"
 import BackHomeAndTop from "./Components/BackHomeAndTop";
 import NavBar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 import Information from './Components/Information'
 import Education from "./Components/Education";
 import Carrer from "./Components/Carrer";
 import Story from "./Components/Story";
 import Detail from "./Components/IntimateDetail";
-import Troll from "./Components/Troo";
-import Footer from "./Components/Footer";
-
 
 const App = () => {
   return ( 
@@ -24,7 +22,6 @@ const App = () => {
       <BrowserRouter>
       <NavBar/>
       <BackHomeAndTop/>
-      <Troll/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Biography" element={<Biography />}/>
