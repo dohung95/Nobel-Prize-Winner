@@ -4,7 +4,7 @@
         "img": "/img/Dat/Hung.jpg",
         "name": "Mr. Do Thanh Hung",
         "position": "Leader",
-        "slogan": "Updating..."
+        "slogan": "Dare to dream big, commit to learning!"
     },
 
     {
@@ -12,7 +12,7 @@
         "img": "/img/Dat/Van.jpg",
         "name": "Ms. Dang Le Phuong Van",
         "position": "Designer",
-        "slogan": "Updating..."
+        "slogan": "Be yourself never too late!"
     },
 
     {
@@ -28,6 +28,6 @@
         "img": "/img/Dat/Huy.jpg",
         "name": "Mr. Phu Vinh Huy",
         "position": "Programming",
-        "slogan": "Updating..."
+        "slogan": "Make it work, make it right, make it fast"
     }
 ]
