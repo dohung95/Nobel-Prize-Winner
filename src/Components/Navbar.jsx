@@ -39,15 +39,6 @@ const NavBar = () => {
             };
         }, [lastScrollY]);
 
-    // effect to run change color header event
-        useEffect( () => {
-                window.addEventListener('scroll', handleScroll);
-                // Cleanup khi component unmount
-                return () => {
-                    window.removeEventListener('scroll', handleScroll);
-                };
-            }, []);
-
     return (
         <div className={`header-dat ${showHeader ? 'visible' : 'hidden'}`} style={{ backgroundColor: bgColor}}>
             <nav className="bg-color navbar navbar-expand-lg navbar-light">
