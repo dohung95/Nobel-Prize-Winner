@@ -11,9 +11,7 @@ const Biography = () => {
     }
     return (
         <>
-            <div >
-                <NavBar />
-            </div>
+
             <div className='background_bio' >
 
                 <div style={{ padding: '30px' }}>
@@ -234,9 +232,6 @@ const Biography = () => {
                     </Container>
                 </div>
 
-            </div>
-            <div >
-                <Footer />
             </div>
         </>
     );

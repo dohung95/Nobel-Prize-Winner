@@ -3,10 +3,11 @@ import Home from "./Components/Home";
 import SelectedWorks from "./Components/SelectedWorks";
 import Research from "./Components/Research";
 import Awards from './Components/AwardsAndHonor';
-import Viewer from "./Components/viewer";
 import Contact from "./Components/Contact";
 import Biography from "./Components/Biography";
 import References from "./Components/References"
+import BackHomeAndTop from "./Components/BackHomeAndTop";
+import NavBar from "./Components/Navbar";
 
 import Information from './Components/Information'
 import Education from "./Components/Education";
@@ -14,11 +15,15 @@ import Carrer from "./Components/Carrer";
 import Story from "./Components/Story";
 import Detail from "./Components/IntimateDetail";
 import Troll from "./Components/Troo";
+import Footer from "./Components/Footer";
+
+
 const App = () => {
   return ( 
     <>
       <BrowserRouter>
-      <Viewer />
+      <NavBar/>
+      <BackHomeAndTop/>
       <Troll/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,6 +41,7 @@ const App = () => {
           <Route path="/Detail" element={<Detail/>} />
           <Route path="*" element={<Home />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
    );

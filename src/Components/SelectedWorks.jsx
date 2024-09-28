@@ -16,10 +16,6 @@ const SelectedWorks = () => {
     const path = process.env.PUBLIC_URL;
     return (
         <>
-            <div >
-                <NavBar />
-            </div>
-
             <div style={{ backgroundColor: "#f7f7f7" }}>
                 <div align='center' >
                     <br /><h1 data-aos="slide-right" className='shadow_text' style={{ color: "#222e50" }}> Two great studies</h1>
@@ -101,11 +97,6 @@ const SelectedWorks = () => {
                         </div>
                     ))
                 }
-
-                <div >
-                    <Footer />
-                </div>
-
             </div>
         </>
     );

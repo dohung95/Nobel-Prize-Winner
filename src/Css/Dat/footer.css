@@ -1,6 +1,9 @@
-.footer-dat{
+.footer-dat {
     background-color: rgba(58, 55, 55, 1);
-    padding: 25px;
+    padding-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
     align-items: center;
     color: white;
     text-align: center;
@@ -8,13 +11,13 @@
     padding-bottom: 0;
 }
 
-.footer-dat img{
+.footer-dat img {
     width: 100px;
     display: inline-block;
     padding-top: 20px;
 }
 
-.footer-dat-info{
+.footer-dat-info {
     color: white;
     font-size: 12pt;
     text-align: center;
@@ -24,44 +27,52 @@
     height: auto;
 }
 
-.footer-dat-contact{
+.footer-dat-contact {
     border-left: 1px solid white;
 }
 
-.footer-dat-contact a{
+.footer-dat-contact a {
     text-decoration: none;
     color: aqua;
 }
 
-.footer-dat-contact a:hover{
+.footer-dat-contact a:hover {
     text-decoration: underline;
 }
 
 
-.footer-dat-timer{
+.footer-dat-timer {
     border-left: 1px solid white;
 }
 
-.list-group-item a{
+.list-group-item a {
     text-decoration: none;
     color: white;
 }
 
-.list-group-item a:hover{
+.list-group-item a:hover {
     text-decoration: underline;
 }
 
-.footer-dat-navbar a{
+.footer-dat-navbar a {
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
-
 .footer-dat-navbar a:hover{
-    text-decoration: underline;
+    background-color:rgb(124, 124, 124);
+    border-radius: 3px;
 }
 
 @media (max-width: 768px) {
-    .footer-dat-timer, .footer-dat-contact{
+
+    .footer-dat-timer,
+    .footer-dat-contact {
         border-left: none;
     }
+
+    .footer-dat-logo {
+        margin-bottom: 30px;
+    }
+
 }

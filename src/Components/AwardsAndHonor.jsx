@@ -17,9 +17,6 @@ const Awards = () => {
       const path = process.env.PUBLIC_URL
     return (
         <>
-         <div >
-                <NavBar />
-            </div>
             <h1 data-aos="flip-up">Awards and Honors</h1>
 
             <div className="container" >
@@ -131,9 +128,6 @@ const Awards = () => {
                         ></iframe>
                     </div>
                 </div>
-            </div>
-            <div >
-                <Footer />
             </div>
         </>
     );

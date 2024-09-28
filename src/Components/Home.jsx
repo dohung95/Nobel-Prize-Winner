@@ -8,11 +8,7 @@ import '../Css/Dat/home.css';
 const Home = () => {
     return (
         <>
-            <div>
-                <NavBar />
-            </div>
-
-            <div style={{display: 'block'}}> 
+            <div className="home-content-dat" style={{display: 'block'}}> 
                 <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0', margin:"3%"}}>
                     <div className="col-md-4" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>
                         <img src={avarta} />
@@ -65,11 +61,6 @@ const Home = () => {
                         the Physiology or Medicine Prize is decided by the Nobel Committee of the Karolinska Institute; and the Peace Prize is decided by the Nobel Committee of the Norwegian Parliament.
                     </p>
                 </div>
-            </div>
-            
-
-            <div>
-                <Footer/>
             </div>
         </>
     );

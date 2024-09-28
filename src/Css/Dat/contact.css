@@ -39,13 +39,6 @@
     overflow: hidden;
 }
 
-/* .hidden-text {
-    font-size: 16px;
-    color: #000000;
-    opacity: 0; 
-    transition: opacity 0.5s ease;
-} */
-
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -61,6 +54,7 @@
     z-index: -1;
 }
 
+
 /* hover */
 .network:hover .overlay-text {
     left: 60px; 
@@ -71,13 +65,31 @@
     color: blue;
 }
 
-/* .hung:hover .hidden-text {
-    opacity: 1;
-} */
+@media (max-width: 1180px) {
+    .overlay-text{
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 1030px) {
+    .overlay-text{
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 910px) {
+    .overlay-text{
+        font-size: 8pt;
+    }
+}
 
 @media (max-width: 767px) {
     .contact-map{
         display: none;
+    }
+
+    .overlay-text{
+        font-size: 14pt;
     }
 }
 

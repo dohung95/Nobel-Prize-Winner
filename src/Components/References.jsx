@@ -35,9 +35,6 @@ const References = () => {
     }, []);
     return (
         <>
-            <div >
-                <NavBar />
-            </div>
             <div className='background_refer' >
                 <h1>Galary</h1>
 
@@ -108,11 +105,6 @@ const References = () => {
                     </Container>
                 </div >
             </div >
-
-            <div>
-                <Footer />
-            </div>
-
         </>
     );
 }

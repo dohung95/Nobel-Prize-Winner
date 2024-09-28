@@ -14,10 +14,6 @@ const Research = () => {
     const path = process.env.PUBLIC_URL
     return (
         <>
-            <div>
-                <NavBar />
-            </div>
-
             <h1 data-aos="flip-up">Scientific Research</h1>
 
             <div className="container">
@@ -101,10 +97,6 @@ const Research = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-
-            <div >
-                <Footer />
             </div>
         </>
     );

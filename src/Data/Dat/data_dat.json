@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "img": "/img/Dat/pig.png",
+        "name": "Mr. Do Thanh Hung",
+        "position": "Leader",
+        "slogan": "Updating..."
+    },
+
+    {
+        "id": "2",
+        "img": "/img/Dat/oldman.png",
+        "name": "Ms. Dang Le Phuong Van",
+        "position": "Designer",
+        "slogan": "Updating..."
+    },
+
+    {
+        "id": "3",
+        "img": "/img/Dat/monkey.png",
+        "name": "Mr. Le Quoc Dat",
+        "position": "Programming",
+        "slogan": "Program anything you want"
+    },
+
+    {
+        "id": "4",
+        "img": "/img/Dat/pig2.png",
+        "name": "Mr. Phu Vinh Huy",
+        "position": "Programming",
+        "slogan": "Updating..."
+    }
+]

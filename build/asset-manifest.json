@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.7dfe060e.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.9c325450.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.d5ccd52a.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.61aa1923.js",
     "static/media/irene-marie.jpg": "/Nobel-Prize-Winner/static/media/irene-marie.0c8a36de9e634922782b.jpg",
     "static/media/nghiencuu.jpg": "/Nobel-Prize-Winner/static/media/nghiencuu.0f316fb78680efe69f97.jpg",
     "static/media/nho.png": "/Nobel-Prize-Winner/static/media/nho.9db22b2d9419121febf0.png",
@@ -9,6 +9,7 @@
     "static/media/bamecon-nho.jpg": "/Nobel-Prize-Winner/static/media/bamecon-nho.1533cbd067a6eb99c822.jpg",
     "static/media/bamecon.jpg": "/Nobel-Prize-Winner/static/media/bamecon.b8763c06a4ba53f0dece.jpg",
     "static/media/gia.png": "/Nobel-Prize-Winner/static/media/gia.dfde9c6d465137957996.png",
+    "static/media/logo_school.png": "/Nobel-Prize-Winner/static/media/logo_school.c508a97d25a7d76532d4.png",
     "static/media/con-irence.jpg": "/Nobel-Prize-Winner/static/media/con-irence.d2e1ca693644d5889835.jpg",
     "static/media/Nobel_Prize.png": "/Nobel-Prize-Winner/static/media/Nobel_Prize.67a956416300e1510022.png",
     "static/media/congaidaulong.png": "/Nobel-Prize-Winner/static/media/congaidaulong.e1ad7e9681eabae5e36d.png",
@@ -27,11 +28,11 @@
     "static/media/facebook.png": "/Nobel-Prize-Winner/static/media/facebook.b22498dbe9c4a041a18e.png",
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.7dfe060e.css.map": "/Nobel-Prize-Winner/static/css/main.7dfe060e.css.map",
-    "main.9c325450.js.map": "/Nobel-Prize-Winner/static/js/main.9c325450.js.map"
+    "main.d5ccd52a.css.map": "/Nobel-Prize-Winner/static/css/main.d5ccd52a.css.map",
+    "main.61aa1923.js.map": "/Nobel-Prize-Winner/static/js/main.61aa1923.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfe060e.css",
-    "static/js/main.9c325450.js"
+    "static/css/main.d5ccd52a.css",
+    "static/js/main.61aa1923.js"
   ]
 }

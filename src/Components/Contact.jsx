@@ -5,6 +5,7 @@ import icon_youtube from '../Img/Dat/youtube.png'
 import icon_website from '../Img/Dat/world-wide-web.png'
 import icon_facebook from '../Img/Dat/facebook.png'
 import icon_tiktok from '../Img/Dat/tiktok.png'
+import dt from '../Data/Dat/data_dat.json'
 
 const Contact = () => {
     // confirm call
@@ -18,11 +19,7 @@ const Contact = () => {
 
 
     return (
-        <>
-            <div>
-                <NavBar />
-            </div>
-            
+        <>      
             <div className="contact-content-dat" style={{margin: '5%'}}>
                 <div className="contact-content-dat-about">
                     <h1>About US</h1>
@@ -32,7 +29,7 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="row" style={{}}>
+                <div className="row">
                     <div  className="contact-content-dat-network col-md-4">
                         <h2 align="center" style={{marginBottom: '20px'}}>Social Network</h2>
                         <div className="network">
@@ -96,32 +93,19 @@ const Contact = () => {
                 </div>
                 
                 <div style={{padding: '20px 0 0 0'}}>
-                    <dl>
-                        <dt><h2>Group 1 with the theme "NOBEL Prize winners" includes the following members:</h2></dt>
-                        <div style={{paddingLeft: '50px', fontSize: '24px', fontFamily: 'fantasy'}}>
-                            <dd className="hung">mr. Do Thanh Hung</dd>
-                                <dd className="hidden-text">leader</dd>   
-
-                            <dd className="van">ms. Dang Le Phuong Van</dd>
-                                <dd className="hidden-text">leader</dd>
-
-                            <dd className="dat">mr. Do Thanh Hung</dd>
-                                <dd className="hidden-text">leader</dd>
-
-                            <dd className="dat">mr. Le Quoc Dat</dd>
-                                <dd className="hidden-text">leader</dd>
-
-                            <dd className="huy">mr. Phu Vinh Huy</dd>
-                                <dd className="hidden-text">leader</dd>
-                        </div>
-                    </dl>
+                    <h2>Group 1 with the theme "NOBEL Prize winners" includes the following members:</h2>
+                    <div className="row " style={{marginTop: '20px', fontSize: '24px'}}>
+                        {dt.map((dt) => (
+                            <div key={dt.id} className="col-md-3" style={{}}>
+                                <img src={dt.img}  />
+                                <p style={{marginBottom: '0px'}}>Full Name: {dt.name}</p>
+                                <p style={{marginBottom: '0px'}}>Position: {dt.position}</p>
+                                <p style={{marginBottom: '0px'}}>Slogan: {dt.slogan}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-            </div>
-
-            <div>
-                <Footer />
-            </div>
-            
+            </div>          
         </>
     )
 }
