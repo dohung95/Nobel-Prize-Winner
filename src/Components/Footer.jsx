@@ -83,13 +83,13 @@ const Footer = () => {
                     <div className="footer-dat-contact col-md-4">
                         <h2>Contact</h2>
                         <div style={{ textAlign: "left" }}>
-                            address:
+                            Address:
                             <a href="https://maps.app.goo.gl/sfuG6bZqQdCBgsbe6" target="_blank"> 590 CMT8, P.11, Q.3, Ho Chi Minh city, VietNam</a>
                             <br />
-                            phone number:
+                            Phone number:
                             <a href="" onClick={() => confirmCall(842838803888)}> (028).3880.3888</a>
                             <br />
-                            email:
+                            Email:
                             <a href="mailto:tuvan@aptechsaigon.edu.vn"> tuvan@aptechsaigon.edu.vn</a>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Footer = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d979.8313756314764!2d106.6656105!3d10.7863627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edac37c5025%3A0xd5fab66e51e1049d!2zTeG7uSB0aHXhuq10IMSRYSBwaMawxqFuZyB0aeG7h24gRlBUIEFyZW5h!5e0!3m2!1svi!2s!4v1727270759189!5m2!1svi!2s" width="100%" height="200px" style={{ border: '0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div className="footer-dat-time">
-                            <div className="footer-dat-timer-date" style={{ textAlign: "right", fontSize: "1.5rem", marginTop: "10px" }}>
+                            <div className="footer-dat-timer-date" style={{ textAlign: "right", fontSize: "1.2rem" }}>
                                 {day}/{month}/{year}&nbsp;{hours}:{minutes}:{seconds}
                             </div>
                         </div>
