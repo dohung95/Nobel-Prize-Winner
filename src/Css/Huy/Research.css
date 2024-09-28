@@ -5,3 +5,11 @@
 .hover-zoom:hover {
     transform: scale(1.5);
 }
+.Strengths-Huy{
+    border-right: 2px solid black;
+}
+@media (max-width: 767.9px) {
+    .Strengths-Huy{
+        border-right: none;
+    }
+}

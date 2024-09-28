@@ -34,7 +34,18 @@
         "p62": "Development of Techniques and Equipment",
         "p63": "During World War I, Marie Curie developed mobile X-ray machines, known as 'petites Curies', to help doctors diagnose injuries on the battlefield. These devices not only saved many soldiers' lives but also paved the way for the use of X-rays in medicine.",
         "p64": "Research on Radon",
-        "p65": "Marie Curie and Pierre Curie also researched radon, a decay product of radium. Although radon was not well-known at the time, her research contributed to the modern understanding of the health risks associated with radon gas, which is now recognized as a leading cause of lung cancer."
+        "p65": "Marie Curie and Pierre Curie also researched radon, a decay product of radium. Although radon was not well-known at the time, her research contributed to the modern understanding of the health risks associated with radon gas, which is now recognized as a leading cause of lung cancer.",
+        "p7": "Besides the studies already mentioned, there are a few additional noteworthy contributions:",
+        "li6": "Research on Radiation Emission from Uranium:",
+        "li61": "This is regarded as the foundation for recognizing the concept of radioactivity, which later led to the discovery of polonium and radium.",
+        "li7": "Work at the Radium Institute:",
+        "li71": "She dedicated her later years to developing the Radium Institute (now the Curie Institute), where cancer research and other applications of radioactivity were conducted.",
+        "S": "Strengths:",
+        "li8": "Her pioneering research opened up numerous new fields of study.",
+        "li9": "She contributed not only to theoretical science but also made practical applications in medicine and industry.",
+        "W": "Weaknesses:",
+        "li10": "The nature of her work severely affected her health, ultimately leading to her death due to prolonged exposure to radiation.",
+        "li101": "The development of radium raised many controversies related to safety and the long-term effects of radioactive substances in various industries."
     },
     {
         "id": "2",
@@ -62,7 +73,9 @@
         "p3": "These honorary titles and recognitions not only reflect the acknowledgment of Marie Curie's contributions to science but also underscore her lasting impact on medicine and science in general. These honors helped solidify her legacy as a pioneering scientist and an inspiration for future generations of researchers.",
         "SICEP": "/img/Huy/SICEP.png",
         "caption2": "The fifth Solvay International Conference on Electrons and Photons, held in October 1927.",
-        "video":"Some Videos About Marie Curie"
+        "video":"Some Videos About Marie Curie",
+        "LG5": "Franklin Medal (1909):",
+        "LG51": "Awarded by the Franklin Institute for her contributions to the field of science."
     }
 
 ]

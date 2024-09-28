@@ -17,7 +17,7 @@ const Awards = () => {
       const path = process.env.PUBLIC_URL
     return (
         <>
-            <h1 data-aos="flip-up">Awards and Honors</h1>
+            <h1 data-aos="flip-up" style={{textAlign: "center", textShadow: "2px 2px 5px rgba(0, 0, 0, 0.5)", fontFamily: "Sans-serif"}}>Awards and Honors</h1>
 
             <div className="container" >
                 <div className="row align-items-center" >
@@ -61,15 +61,21 @@ const Awards = () => {
                         </p>
                     </ListGroup.Item>
                     <ListGroup.Item data-aos="zoom-in">
-                        <h4>{DTB[1].LG2}</h4>
-                        <p style={{ textAlign: "justify" }}>
-                            <b>{DTB[1].LG21}</b>: {DTB[1].LG22}
-                        </p>
-                    </ListGroup.Item>
-                    <ListGroup.Item data-aos="zoom-in">
                         <h4>{DTB[1].LG3}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG31}</b>: {DTB[1].LG32}
+                        </p>
+                    </ListGroup.Item>
+                    <ListGroup.Item data-aos="zoom-in">
+                    <h4>{DTB[1].LG5}</h4>
+                        <p style={{ textAlign: "justify" }}>
+                            <b>{DTB[1].LG51}</b>: {DTB[1].LG32}
+                        </p>
+                    </ListGroup.Item>
+                    <ListGroup.Item data-aos="zoom-in">
+                        <h4>{DTB[1].LG2}</h4>
+                        <p style={{ textAlign: "justify" }}>
+                            <b>{DTB[1].LG21}</b>: {DTB[1].LG22}
                         </p>
                     </ListGroup.Item>
                     <ListGroup.Item data-aos="zoom-in">
@@ -87,10 +93,9 @@ const Awards = () => {
                     </Col>
                     <Col md={6} className="text-center">
                         <Figure>
-                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/"><Figure.Image
+                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/" target="_blank" rel="noopener noreferrer"><Figure.Image
                                 src={`${path}${DTB[1].SICEP}`}
                                 className="img-fluid hover-zoom1"
-                                target="new" rel="noopener noreferrer"
                                 style={{border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
                             /></a>
                             <Figure.Caption>
