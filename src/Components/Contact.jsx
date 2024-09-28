@@ -15,7 +15,7 @@ const Contact = () => {
             window.location.href = `tel:${phoneNumber}`;
         }
     }
-
+    const path = process.env.PUBLIC_URL
 
 
     return (
@@ -97,7 +97,7 @@ const Contact = () => {
                     <div className="row " style={{marginTop: '20px', fontSize: '24px'}}>
                         {dt.map((dt) => (
                             <div key={dt.id} className="col-md-3" style={{}}>
-                                <img src={dt.img}  />
+                                <img src={`${path}${dt.img}`}  style={{width:"100%"}}/>
                                 <p style={{marginBottom: '0px'}}>Full Name: {dt.name}</p>
                                 <p style={{marginBottom: '0px'}}>Position: {dt.position}</p>
                                 <p style={{marginBottom: '0px'}}>Slogan: {dt.slogan}</p>

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "img": "/img/Dat/pig.png",
+        "img": "/img/Dat/Hung.jpg",
         "name": "Mr. Do Thanh Hung",
         "position": "Leader",
         "slogan": "Updating..."
@@ -9,7 +9,7 @@
 
     {
         "id": "2",
-        "img": "/img/Dat/oldman.png",
+        "img": "/img/Dat/Van.jpg",
         "name": "Ms. Dang Le Phuong Van",
         "position": "Designer",
         "slogan": "Updating..."
@@ -25,7 +25,7 @@
 
     {
         "id": "4",
-        "img": "/img/Dat/pig2.png",
+        "img": "/img/Dat/Huy.jpg",
         "name": "Mr. Phu Vinh Huy",
         "position": "Programming",
         "slogan": "Updating..."
