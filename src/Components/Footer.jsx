@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 
 const Footer = () => {
     const top = () => {
-        window.scrollTo(0,0);
+        document.documentElement.scrollTop = 0;
     }
 
     // confirm call
