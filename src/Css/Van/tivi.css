@@ -1,0 +1,60 @@
+.box-hover {
+    border-radius: 20px;
+    height: 350px;
+    width: 450px;
+    
+    margin:  auto;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+   
+    
+    
+}
+
+.box-hover img {
+    max-width: 100%;
+    transition: all 0.3s;
+    opacity: 1;
+    
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.nut1{
+    margin-top: 1%;
+    font-size: 1rem;
+    color: #FFFDC3;
+}
+.box-hover .nut1,
+.box-hover .nut2 {
+    position: absolute;
+    right: -200%;
+    width: 100%;
+   
+}
+
+.box-hover .nut1 {
+    top: 0%;
+    transition: all 0.5s;
+}
+
+.box-hover .nut2 {
+    top: 50%;
+    transition: all 1s;
+    color: #FFFDC3;
+    padding: 5%;
+}
+
+.box-hover:hover {
+    background-color:  #5E1213;
+    height: 250px;
+    width: 350;
+}
+
+.box-hover:hover img {
+    opacity: 0.1;
+}
+
+.box-hover:hover .nut1,
+.box-hover:hover .nut2 {
+    right: 0;
+}

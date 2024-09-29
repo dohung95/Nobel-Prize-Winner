@@ -1,30 +1,30 @@
-.Van_slide1{
+.slide_marie{
     /* margin: 100px 0 0 200px; */
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
 
     position: relative;
-    background-color:#091236;
+    background-color:#FFFDC3;
     overflow: hidden;
-    padding: 10px ;
+    padding: 5px ;
 }
-.Van_slide1 img{
+.slide_marie img{
     width: 5%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #FFBE0B;
-    transition: all ease-in-out 0.7s;
+    transition: all ease-in-out 0.6s;
     padding: 2px;
 }
-.Van_slide1 img:hover{
-    width: 50%;
+.slide_marie img:hover{
+    width: 80%;
 }
 .Van_trang_refer {
-    background-color: #fffadf;
+    background-color:#FFFDC3 ;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 30px;
@@ -38,7 +38,7 @@
     
 }
 .background_refer{
-    background-image: url('../../Img/Van/background.jpg');
+    background-color:#FFFDC3 ;/*kem*/
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -50,9 +50,10 @@
     /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
     /* Làm đậm chữ cái đầu */
-    color: #0f4578;
+    color: #5E1213;
     /* Đặt màu sắc cho chữ cái đầu */
     /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
     font-family: 'Pacifico', cursive;
 
 }
+/**/
