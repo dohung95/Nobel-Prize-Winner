@@ -13,7 +13,21 @@ const SelectedWorks = () => {
 
     }, []);
     const path = process.env.PUBLIC_URL;
-
+    const NP1 = () => {
+        window.location.href = 'https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer';
+    };
+    const NP2 = () => {
+        window.location.href = 'https://en.wikipedia.org/wiki/Dorothy_Hodgkin';
+    };
+    const NP3 = () => {
+        window.location.href = 'https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow';
+    };
+    const NP4 = () => {
+        window.location.href = 'https://en.wikipedia.org/wiki/Rita_Levi-Montalcini';
+    };
+    const NP5 = () => {
+        window.location.href = 'https://en.wikipedia.org/wiki/Gertrude_B._Elion';
+    };
     return (
         <>
             <div>
@@ -117,14 +131,14 @@ const SelectedWorks = () => {
                                 <img src={`${path}${Data2[0].img4}`} className='icon_Hung four' />
 
                             </div>
-                            <div className='col-md-7' data-aos="fade-left" style={{boxShadow:"3px 3px 3px black", borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                            <div className='col-md-7' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px black", borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>Open up new perspectives</h3>
                                 {Data2[0].text1}
                             </div>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>
-                            <div className='col-md-7' data-aos="fade-right" style={{boxShadow:"3px 3px 3px black",columnCount: 2, borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                            <div className='col-md-7' data-aos="fade-right" style={{ boxShadow: "3px 3px 3px black", columnCount: 2, borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>In real life and medicine</h3>
                                 {Data2[0].text2}
                             </div>
@@ -140,15 +154,15 @@ const SelectedWorks = () => {
                         <div className='row' style={{ marginTop: "3%" }}>
                             <div className='col-md-6' data-aos="fade-right">
                                 <div className='slide_Hung'>
-                                    <img src={`${path}${Data2[0].img5}`} />
-                                    <img src={`${path}${Data2[0].img6}`} />
-                                    <img src={`${path}${Data2[0].img7}`} />
-                                    <img src={`${path}${Data2[0].img8}`} />
-                                    <img src={`${path}${Data2[0].img9}`} />
+                                    <img src={`${path}${Data2[0].img5}`} onClick={NP1} />
+                                    <img src={`${path}${Data2[0].img6}`} onClick={NP2}/>
+                                    <img src={`${path}${Data2[0].img7}`} onClick={NP3}/>
+                                    <img src={`${path}${Data2[0].img8}`} onClick={NP4}/>
+                                    <img src={`${path}${Data2[0].img9}`} onClick={NP5}/>
                                 </div>
                                 <div align='center'><b>Some women have won the nobel prize.</b></div>
                             </div>
-                            <div className='col-md-6' data-aos="fade-left" style={{boxShadow:"3px 3px 3px black", borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                            <div className='col-md-6' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px black", borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>On a social level</h3>
                                 {Data2[0].text3}
                             </div>
