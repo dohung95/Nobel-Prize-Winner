@@ -1,5 +1,5 @@
 .background_bio {
-    background-image: url('../../Img/Van/background.jpg');
+    background-color:#FFFDC2 ;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -7,19 +7,18 @@
     /* Cố định hình nền khi cuộn */
 }
 
-/*tổng trang*/
+/*all trang*/
 .khoibio_Van_bio {
-    border: 5px double #d3ac64b0;
+    border: 5px double #96630B;
     border-radius: 10px;
-    /* padding: 30px 50px; */
 }
 
 /*quote*/
 .custom-quote {
     padding: 10px;
-    background-color: #b8cddb;
-    border-left: 8px solid #0f4578;
-    border-right: 8px solid #0f4578;
+    background-color:  #5E1213;
+    border-left: 8px solid #FFFDC3;
+    border-right: 8px solid #FFFDC3;
     text-align: center;
     border-radius: 30px;
     font-size: 1.5rem;
@@ -39,18 +38,12 @@
 
 
 }
-
-.price {
-    color: grey;
-    font-size: 22px;
-}
-
 .card button {
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #966f48;
+    color:  #5E1213;
+    background-color: #FFFDC3;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -61,16 +54,18 @@
     opacity: 0.7;
 }
 
-.myEffect {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /* Tạo hiệu ứng mượt */
+.card img{
+    animation: slide-up 0.7s ease-in-out;/*qui tac hieu ung chuyen dong tu duoi len tren*/
+  transform: translateY(100%);/*ban dau, hình o phia duoi*/
+  opacity: 0;
+  animation-fill-mode: forwards; /*giu hinh o lai diem cuoi khong bien mat*/
 }
-
-.myEffect:hover {
-    box-shadow: 1px 2px 10px #888;
-    /* Đổ bóng khi hover */
-    /* transform: scale(1.1);  Phóng to hình ảnh lên 1.1 lần */
-}
+@keyframes slide-up {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  } 
 
 
 /*chữ hoa*/
@@ -79,7 +74,7 @@
     /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
     /* Làm đậm chữ cái đầu */
-    color: #0f4578;
+    color: #5E1213;
     /* Đặt màu sắc cho chữ cái đầu */
     /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
     font-family: 'Pacifico', cursive;
@@ -89,30 +84,30 @@
 
 
 /*phần đầu*/
-.container1 {
-    background-color: #fffadf;
+.gioithieu {
+    background-color:#FFFDC9; /*mau kem*/
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 20px 30px 30px 30px;
     margin-top: 50px 50px;
     border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 568px) {
     /* .background {
         background-attachment: scroll;
         /* Trên thiết bị di động, hình nền sẽ cuộn theo nội dung */
-    
-    .chiakhoi{
-        column-count:1;
+
+}
+
+@media (max-width: 978px) {
+    .chiakhoi {
+        column-count: 2;
     }
 }
-@media (max-width: 978px){
-    .chiakhoi{
-        column-count:2;
-    }
-}
+
 /*trang 2*/
-.chiakhoi{
+.chiakhoi {
     column-count: 3;
 }

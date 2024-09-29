@@ -1,5 +1,3 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 import '../Css/Dat/contact.css'
 import icon_youtube from '../Img/Dat/youtube.png'
 import icon_website from '../Img/Dat/world-wide-web.png'

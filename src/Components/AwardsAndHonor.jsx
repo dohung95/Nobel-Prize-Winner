@@ -1,8 +1,5 @@
 import "../Css/Huy/Awards.css"
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
-import NavBar from './Navbar'
-
-import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -119,7 +116,7 @@ const Awards = () => {
                             referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen
                         ></iframe>
-                    </div>
+                    </div>                   
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
                         <iframe
                             width="560"

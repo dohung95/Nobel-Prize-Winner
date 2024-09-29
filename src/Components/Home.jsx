@@ -1,5 +1,3 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 import avarta from "../Img/Dat/marie-curie-01.jpg";
 import '../Css/Dat/home.css';
 

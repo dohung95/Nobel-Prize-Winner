@@ -3,8 +3,6 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import { Container } from 'react-bootstrap';
-import NavBar from './Navbar'
-import Footer from './Footer'
 
 import h2 from "../Img/Van/slide/vochong.jpg"
 import h3 from "../Img/Van/slide/vochongdapxe.png"
@@ -17,7 +15,7 @@ import h9 from "../Img/Van/slide/irene-marie.jpg"
 import h10 from "../Img/Van/slide/congaidaulong.png"
 import h11 from "../Img/Van/slide/nghiencuu.jpg"
 import h12 from "../Img/Van/slide/xechupdidong1915.jpg"
-import h13 from "../Img/Van/slide/nho.png"
+import h13 from "../Img/Van/slide/fiveyears.png"
 import h14 from "../Img/Van/slide/con-irence.jpg"
 import h15 from "../Img/Van/slide/gia.png"
 
