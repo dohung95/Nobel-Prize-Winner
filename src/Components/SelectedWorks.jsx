@@ -13,6 +13,7 @@ const SelectedWorks = () => {
 
     }, []);
     const path = process.env.PUBLIC_URL;
+
     return (
         <>
             <div>
@@ -101,53 +102,64 @@ const SelectedWorks = () => {
                     }
                 </div>
 
-                <div style={{ padding: "0% 6% 3% 6%" }}>
-                    <div >
+                <div style={{ padding: "0% 6% 3% 6%" }} >
+                    <div className='Khoidiv2_Hung' style={{ padding: "0% 6% 3% 6%" }}>
                         <div align='center'>
-                            <h1 className='shadow_text' style={{ color: "#222e50" }}>Impact of Her Two Nobel Prizes on Science and Society</h1>
+                            <h1 className='shadow_text' style={{ color: "#222e50" }} data-aos="slide-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>
 
-                            <div className='col-md-5 container_Hung'>
+                            <div className='col-md-5 container_Hung' data-aos="fade-right">
                                 <img src={`${path}${Data2[0].img1}`} className='icon_Hung one' />
                                 <img src={`${path}${Data2[0].img2}`} className='icon_Hung two' />
                                 <img src={`${path}${Data2[0].img3}`} className='icon_Hung three' />
                                 <img src={`${path}${Data2[0].img4}`} className='icon_Hung four' />
 
                             </div>
-                            <div className='col-md-7' >
-                                <h3>Open up new perspectives</h3>
+                            <div className='col-md-7' data-aos="fade-left" style={{boxShadow:"3px 3px 3px black", borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                                <h3 className='shadow_text'>Open up new perspectives</h3>
                                 {Data2[0].text1}
                             </div>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>
-                            <div className='col-md-7' style={{ columnCount: 2 }}>
-                                <h3>In real life and medicine</h3>
+                            <div className='col-md-7' data-aos="fade-right" style={{boxShadow:"3px 3px 3px black",columnCount: 2, borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                                <h3 className='shadow_text'>In real life and medicine</h3>
                                 {Data2[0].text2}
                             </div>
                             <div className='col-md-5' >
-                                <div align='center' style={{ marginTop: "2%" }}>
+                                <div align='center' style={{ marginTop: "2%" }} data-aos="fade-left">
                                     <iframe src="https://www.youtube.com/embed/CKjEz-9CbgE" height={200} width={'80%'} ></iframe>
                                     <div>
-                                        Radiation Therapy for Cancer 1940s Tumor Treated How it Works
+                                        <b>Radiation Therapy for Cancer 1940s Tumor Treated How it Works</b>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <hr />
                         <div className='row' style={{ marginTop: "3%" }}>
-                            <div className='col-md-6'>                         
-
+                            <div className='col-md-6' data-aos="fade-right">
+                                <div className='slide_Hung'>
+                                    <img src={`${path}${Data2[0].img5}`} />
+                                    <img src={`${path}${Data2[0].img6}`} />
+                                    <img src={`${path}${Data2[0].img7}`} />
+                                    <img src={`${path}${Data2[0].img8}`} />
+                                    <img src={`${path}${Data2[0].img9}`} />
+                                </div>
+                                <div align='center'><b>Some women have won the nobel prize.</b></div>
                             </div>
-                            <div className='col-md-6'>
-                                <h3>On a social level</h3>
+                            <div className='col-md-6' data-aos="fade-left" style={{boxShadow:"3px 3px 3px black", borderTop:"1px solid black", borderLeft:"1px solid black", borderRadius:"0px 25px 0px 25px"}}>
+                                <h3 className='shadow_text'>On a social level</h3>
                                 {Data2[0].text3}
                             </div>
                         </div>
+                        <br />
 
-                        <b><i>{Data2[0].text4}</i></b>
+                        <div data-aos="fade-in" data-aos-delay="1000">
+                            <h3>
+                                <i>{Data2[0].text4}</i>
+                            </h3>
+                        </div>
 
                     </div>
                 </div>
