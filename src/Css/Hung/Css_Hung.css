@@ -82,6 +82,7 @@ li::before {
 .container_Hung {
     display: flex;
     justify-content: center;
+    height: 270px;
 }
 
 .icon_Hung {

@@ -13,7 +13,6 @@ const SelectedWorks = () => {
 
     }, []);
     const path = process.env.PUBLIC_URL;
-
     return (
         <>
             <div>
@@ -122,7 +121,7 @@ const SelectedWorks = () => {
                                 {Data2[0].text1}
                             </div>
                         </div>
-                        <hr />
+
                         <div className='row' style={{ marginTop: "3%" }}>
                             <div className='col-md-7' style={{ columnCount: 2 }}>
                                 <h3>In real life and medicine</h3>
@@ -139,10 +138,10 @@ const SelectedWorks = () => {
                         </div>
                         <hr />
                         <div className='row' style={{ marginTop: "3%" }}>
-                            <div className='col-md-5'>
+                            <div className='col-md-6'>                         
 
                             </div>
-                            <div className='col-md-7'>
+                            <div className='col-md-6'>
                                 <h3>On a social level</h3>
                                 {Data2[0].text3}
                             </div>
