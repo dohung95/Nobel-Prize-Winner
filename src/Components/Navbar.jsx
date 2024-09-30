@@ -3,24 +3,23 @@ import Logo from "../Img/Dat/logo.png";
 import '../Css/Dat/navbar.css';
 import React, { useState, useEffect } from 'react';
 import Viewer from './viewer';
-
 const NavBar = () => {
-    const [showHeader, setShowHeader] = useState(true); 
+    const [showHeader, setShowHeader] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
     const [bgColor, setBgColor] = useState('rgba(157, 157, 157, 1)');
 
     const handleScroll = () => {
-    // function to run header show hide event
+        // function to run header show hide event
         const currentScrollY = window.scrollY;
         if (currentScrollY > 50 && currentScrollY > lastScrollY) {
-        setShowHeader(false);
-        } 
-        else {
-        setShowHeader(true);
+            setShowHeader(false);
         }
-        setLastScrollY(currentScrollY); 
-        
-    // function to run change color header event
+        else {
+            setShowHeader(true);
+        }
+        setLastScrollY(currentScrollY);
+
+        // function to run change color header event
         const scrollPosition = window.scrollY;
         const docHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrollPercentage = scrollPosition / docHeight;
@@ -29,18 +28,19 @@ const NavBar = () => {
         const green = Math.floor(157 + (55 - 157) * scrollPercentage);
         const blue = Math.floor(157 + (55 - 157) * scrollPercentage);
         setBgColor(`rgb(${red}, ${green}, ${blue})`);
-        };
-    
+    };
+
     // effect to run header show hide event
-        useEffect(() => {
-            window.addEventListener('scroll', handleScroll);
-            return () => {
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
             window.removeEventListener('scroll', handleScroll);
-            };
-        }, [lastScrollY]);
+        };
+    }, [lastScrollY]);
 
     return (
-        <div className={`header-dat ${showHeader ? 'visible' : 'hidden'}`} style={{ backgroundColor: bgColor}}>
+
+        <div className={`header-dat ${showHeader ? 'visible' : 'hidden'}`} style={{ backgroundColor: bgColor }}>
             <nav className="bg-color navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
 
@@ -52,25 +52,25 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-evenly">
                             <li className="nav-item">
-                                <Link  className="nav-link active" aria-current="page" to='/'>HOME</Link>
+                                <Link className="nav-link active" aria-current="page" to='/'>HOME</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/Biography'>BIOGRAPHY</Link>
+                                <Link className="nav-link" to='/Biography'>BIOGRAPHY</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/Research'>RESEARCH</Link>
+                                <Link className="nav-link" to='/Research'>RESEARCH</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/Awards'>AWARDS AND HONORS</Link>
+                                <Link className="nav-link" to='/Awards'>AWARDS AND HONORS</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/SelectedWorks'>SELECTED WORKS</Link>
+                                <Link className="nav-link" to='/SelectedWorks'>SELECTED WORKS</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/References'>REFERENCES</Link>
+                                <Link className="nav-link" to='/References'>REFERENCES</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  className="nav-link" to='/Contact'>CONTACT</Link>
+                                <Link className="nav-link" to='/Contact'>CONTACT</Link>
                             </li>
                         </ul>
                     </div>

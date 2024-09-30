@@ -1,3 +1,5 @@
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 import '../Css/Dat/contact.css'
 import icon_youtube from '../Img/Dat/youtube.png'
 import icon_website from '../Img/Dat/world-wide-web.png'
@@ -22,8 +24,12 @@ const Contact = () => {
                 <div className="contact-content-dat-about">
                     <h1>About US</h1>
                     <p style={{paddingLeft: '30px'}}>
-                    This is a website about the biography of Marie Curie, who won two Nobel prizes in two different fields: 
-                    Nobel Prize in Physics in 1903 with her husband and Nobel Prize in Chemistry in 1911.
+                    The team that developed this website consists of 4 people. 
+                    When we were given the topic of Nobel Prize winners in the field of science, we had many ideas. 
+                    Fortunately, under the guidance of teachers and official sources, along with the good coordination of each member, 
+                    we completed the work beyond expectations. 
+                    We would like to send our deep thanks to the school, teachers, the contest organizers and all of our viewers around the world, 
+                    along with the teams that have updated accurate knowledge on the internet.
                     </p>
                 </div>
 
@@ -96,9 +102,9 @@ const Contact = () => {
                         {dt.map((dt) => (
                             <div key={dt.id} className="col-md-3" style={{}}>
                                 <img src={`${path}${dt.img}`}  style={{width:"100%"}}/>
-                                <p style={{marginBottom: '0px'}}>Full Name: {dt.name}</p>
-                                <p style={{marginBottom: '0px'}}>Position: {dt.position}</p>
-                                <p style={{marginBottom: '0px'}}>Slogan: {dt.slogan}</p>
+                                <p style={{marginBottom: '0px'}}><b>Full Name: </b>{dt.name}</p>
+                                <p style={{marginBottom: '0px'}}><b>Position: </b>{dt.position}</p>
+                                <p style={{marginBottom: '0px'}}><b>Slogan: </b>{dt.slogan}</p>
                             </div>
                         ))}
                     </div>

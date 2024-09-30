@@ -8,18 +8,19 @@
     animation: transform 3s ease forwards;
 }
 
+
 .home-content-dat-about p {
     font-size: 26pt;
     overflow: hidden; 
     position: relative;
     animation: slideText 5s ease forwards;
     padding: 0 10px 0 0;
+    text-align: justify;
 }
 
 .home-content-dat-nobel{
     margin: 0 5% 5% 5%;
     font-size: 14pt;
-    border: 7px double #b89e14;
     padding: 10px;
     column-count: 3;
     
@@ -29,8 +30,8 @@
     display: inline;
 }
 
-.home-content-dat-group{
-    margin: 0 10% 0 10%;
+.react-slideshow-container .default-nav {
+    display: none !important;
 }
 
 @keyframes slideText {

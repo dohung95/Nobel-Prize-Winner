@@ -1,15 +1,29 @@
-import avarta from "../Img/Dat/marie-curie-01.jpg";
 import '../Css/Dat/home.css';
-
-
+import { Zoom } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 const Home = () => {
+    const images = [
+        '/img/Dat/slide_img/marie-curie-01.jpg',
+        '/img/Dat/slide_img/marie-curie-02.jpg',
+        '/img/Dat/slide_img/marie-curie-03.jpg',
+        '/img/Dat/slide_img/marie-curie-04.jpg',
+        '/img/Dat/slide_img/marie-curie-05.jpg',
+        '/img/Dat/slide_img/marie-curie-06.jpg',
+        '/img/Dat/slide_img/marie-curie-07.jpg',
+      ];
+
+      const path = process.env.PUBLIC_URL;
     return (
         <>
             <div className="home-content-dat" style={{display: 'block'}}> 
                 <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0', margin:"3%"}}>
-                    <div className="col-md-4" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>
-                        <img src={avarta} />
+                    <div className="col-md-4 slide-container" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>
+                        <Zoom scale={0.4}>
+                        {
+                            images.map((each, index) => <img key={index} src={path+each} />)
+                        }
+                        </Zoom>
                     </div>
                     <div className="col-md-8" style={{paddingRight: '0', width: '66%'}}>
                         <p>

@@ -57,10 +57,9 @@
     }
 }
 
-.Khoidiv {
-    border: 3px double #d3ac64b0;
+.Khoidiv { 
     border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(248, 224, 196, 0.821);
+    box-shadow: 3px 3px 5px rgba(74, 74, 74, 0.821);
 }
 
 .shadow_text {

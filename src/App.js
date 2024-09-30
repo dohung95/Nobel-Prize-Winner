@@ -15,6 +15,7 @@ import Education from "./Components/Education";
 import Carrer from "./Components/Carrer";
 import Story from "./Components/Story";
 import Detail from "./Components/IntimateDetail";
+import Site_Map from "./Components/SiteMap";
 
 const App = () => {
   return ( 
@@ -22,6 +23,7 @@ const App = () => {
       <BrowserRouter>
       <NavBar/>
       <BackHomeAndTop/>
+      <Site_Map/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Biography" element={<Biography />}/>

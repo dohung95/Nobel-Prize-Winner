@@ -44,7 +44,7 @@ const SelectedWorks = () => {
                                     <h3 className='shadow_text'><img src={medal} width={35} className='Nobel_Hung' /> {output.nobel}</h3>
                                     <div className='Khoidiv row' >
                                         <div className='col-md-6' data-aos="fade-right" >
-                                            <div align='center' style={{ paddingTop: '2%' }}>
+                                            <div align='center' style={{ paddingTop: '2%' }} >
                                                 <h4 className='shadow_text'>Research Process</h4>
                                                 <div style={{ textAlign: "left" }}>
                                                     <ul>

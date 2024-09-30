@@ -1,0 +1,53 @@
+.Site_Map_Hung img {
+    width: 45px;
+    height: auto;
+    margin-left: -18px;
+    position: fixed;
+    bottom: 20%;
+    z-index: 1000;
+
+}
+
+.Site_Map_Hung img:hover {
+    cursor: pointer;
+
+}
+
+#popupDiv {
+    width: 50vw;
+    height: 52vh;
+    background-color: lightblue;
+    /* Màu nền */
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.5%;
+    z-index: 1000;
+    display: none;
+    /* Ẩn khối div ban đầu */
+    background-image: url('../../Img/Hung/bg_sitemap.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
+    
+}
+.button_close_Hung{
+    border: none;
+}
+.site_map_text{
+    color: white;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.262);
+    width: 85%;
+}
+.site_map_text a{
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    color: #f8ecae;
+    font-weight: bolder;
+}

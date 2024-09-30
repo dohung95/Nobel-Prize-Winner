@@ -54,7 +54,7 @@ const Footer = () => {
                         <Link onClick={top} to='/SelectedWorks'>SELECTED WORKS</Link>
                     </div>
                     <div className="col-md-2 footer-dat-navbar">
-                        <Link onClick={top} to='/References'>REFERENCES ETC</Link>
+                        <Link onClick={top} to='/References'>REFERENCES</Link>
                     </div>
                     <div className="col-md-1 footer-dat-navbar">
                         <Link onClick={top} to='/Contact' style={{ width: '30px' }}>CONTACT</Link>
