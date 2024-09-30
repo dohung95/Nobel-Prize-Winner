@@ -31,19 +31,21 @@ const Awards = () => {
                 {slideImg.map((img, index) => (
                     <Carousel.Item key={index}>
                         <img
-                            className="d-block w-100"
-                            src={path+img}
+                            
+                            src={path + img}
                             alt={`Slide ${index + 1}`}
                             style={{
-                                width: "auto",
-                                maxHeight: "500px",
-                                objectFit: "contain", // Đảm bảo không bị cắt mất hình
+                                height: "500px",      // Đặt chiều cao cố định
+                                width: "100%",        // Đảm bảo hình ảnh chiếm toàn bộ chiều rộng
+                                objectFit: "contain",   // Đảm bảo tỷ lệ ảnh đồng đều, cắt ảnh nếu cần
                             }}
                         />
                     </Carousel.Item>
                 ))}
             </Carousel>
-<br />
+
+            <br />
+
             <div className="container" >
                 <div className="row align-items-center" >
                     <div className="col-md-6" style={{ border: "1px solid black", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>

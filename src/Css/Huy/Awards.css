@@ -5,3 +5,19 @@
 .hover-zoom1:hover {
     transform: scale(1.1);
 }
+.carousel-item img {
+    max-height: 500px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      max-height: 300px; /* Điều chỉnh chiều cao khi màn hình nhỏ hơn */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-item img {
+      max-height: 200px; /* Điều chỉnh cho màn hình rất nhỏ */
+    }
+  }
+  
