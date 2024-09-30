@@ -2,9 +2,10 @@ import React from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import { Container } from 'react-bootstrap';
+import Chart from './Chart';
 import NavBar from './Navbar'
 import Footer from './Footer'
+import MoreNobel from './MoreNobel'
 
 import h2 from "../Img/Van/slide/vochong.jpg"
 import h3 from "../Img/Van/slide/vochongdapxe.png"
@@ -36,75 +37,64 @@ const References = () => {
     return (
         <>
 
-            <div className='background_refer' >
 
-
-
-
-                <div >
-                    <Container className='khoibio_Van_refer 'alignItem='center'>
-
-                        
-
-
-                        <div className="container Van_trang_refer">
-                            
-                            <div className=' Van_slide_lefttoright '>
-                                {images_run.map((image, index) => (
-                                    <img
-                                        key={index}
-                                        src={image }
-                                        alt=""
-                                        className="animated-img img-fluid"
-                                        style={{ animationDelay: `${index * 0.5}s`, height:'90%'}} // Add animation delay for each image
-                                    />
-                                ))}
-                                {/* dong text cam on */}
-                                <div className='thank-you-text'>
-                                    Chào mừng các bạn quay về lịch sử để tìm hiểu sâu hơn về người phụ nữ vĩ đại-MarieCurie.
-                                    <h1> Wellcom ! THU VIEN MARIE CURIE</h1>
-                                </div>
-
-                            </div>
+            <div className='Van_khoibio_refer ' style={{ padding: '30px' }}>
+                <div className="container Van_trang_refer " >
+                    <div className=' Van_slide_lefttoright '>
+                        {images_run.map((image, index) => (
+                            <img
+                                key={index}
+                                src={image}
+                                alt=""
+                                className="animated-img img-fluid"
+                                style={{ animationDelay: `${index * 0.5}s`, height: '90%' }} // Add animation delay for each image
+                            />
+                        ))}
+                        {/* dong text cam on */}
+                        <div className='thank-you-text'>
+                            Chào mừng các bạn quay về lịch sử để tìm hiểu sâu hơn về người phụ nữ vĩ đại-MarieCurie.
+                            <h1> Wellcom ! THU VIEN MARIE CURIE</h1>
                         </div>
+                    </div>
+                </div>
 
-                        <div className="container Van_trang_refer">
-                            slide này làgioi thieu sach ve bà. mỏw mọt hinh ra là hiện text so tuọc ve sach do! CẦN MẤY BẠN HỖ TRỢ
+                <div className="container Van_trang_refer">
+                    slide này làgioi thieu sach ve bà. mỏw mọt hinh ra là hiện text so tuọc ve sach do! CẦN MẤY BẠN HỖ TRỢ
 
-                            <div className='container slide_marie'>
-                                <img src={h3} alt="" className="col-4" />
-                                <img src={h6} alt="" className="col-4" />
-                                <img src={h13} alt="" className="col-4" />
+                    <div className='container slide_marie'>
+                        <img src={h3} alt="" className="col-4" />
+                        <img src={h6} alt="" className="col-4" />
+                        <img src={h13} alt="" className="col-4" />
 
-                                {/* <img src={h15} alt="" className="col-4" /> */}
-                                <img src={h16} alt="" className="col-4" />
-                                <img src={h11} alt="" className="col-4" />
-                                <img src={h12} alt="" className="col-4" />
-                            </div>
+                        {/* <img src={h15} alt="" className="col-4" /> */}
+                        <img src={h16} alt="" className="col-4" />
+                        <img src={h11} alt="" className="col-4" />
+                        <img src={h12} alt="" className="col-4" />
+                    </div>
 
-                        </div>
-
-
-                        <h1>Youtube</h1>
-
-                        <div class="box-hover" >
-                            <img src={tivi} alt="thu cam on" />
-                            <div href={h2} class="nut1" target="_top">
-                                Xin chân thành cảm ơn thầy cô, bạn bè, ban giám khảo và tất cả những người đã quan tâm theo dõi!
-
-                                Team chúng tôi chân thành cảm ơn những tác giả đã để nội dung công khai cho team lấy làm tư liệu nghiên cứu học tập.
-                            </div>
-                            <div href={h2} class="nut2" target="">
-                                Nguồn: (© Copyright 2017 Marie Curie Hanoi School. All right reserved. - ® Trường Marie Curie giữ bản quyền nội dung trên website này.)
-                                Nguồn: vi.wikipedia.org, kenh14.vn, nghiencuuquocte.org, alphabooks.vn, zingnews.vn
-                            </div>
-                        </div>
+                </div>
 
 
+                <h1>Youtube</h1>
+
+                <div class="box-hover" >
+                    <img src={tivi} alt="thu cam on" />
+                    <div href={h2} class="nut1" target="_top">
+                        Xin chân thành cảm ơn thầy cô, bạn bè, ban giám khảo và tất cả những người đã quan tâm theo dõi!
+
+                        Team chúng tôi chân thành cảm ơn những tác giả đã để nội dung công khai cho team lấy làm tư liệu nghiên cứu học tập.
+                    </div>
+                    <div href={h2} class="nut2" target="">
+                        Nguồn: (© Copyright 2017 Marie Curie Hanoi School. All right reserved. - ® Trường Marie Curie giữ bản quyền nội dung trên website này.)
+                        Nguồn: vi.wikipedia.org, kenh14.vn, nghiencuuquocte.org, alphabooks.vn, zingnews.vn
+                    </div>
+                </div>
 
 
-                    </Container>
-                </div >
+
+
+
+
 
                 <div className="container mt-4">
                     <h3 className="text-center mb-4" data-aos="fade-up">Some Videos About Marie Curie</h3>
@@ -136,6 +126,14 @@ const References = () => {
                     </div>
                 </div>
 
+
+                <div className=" Van_sheet_refer" >
+                    <Chart />
+                </div>
+
+                <div className=" Van_sheet_refer" >
+                    <MoreNobel />
+                </div>
             </div >
         </>
     );

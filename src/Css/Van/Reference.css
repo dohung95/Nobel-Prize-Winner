@@ -23,27 +23,22 @@
 .slide_marie img:hover{
     width: 80%;
 }
-.Van_trang_refer {
-    background-color:#FFFDC3 ;
+.Van_sheet_refer {
+    background-color:#FFFDC9 ;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border: none;
-    padding: 30px;
-    margin-top: 50px 50px;
+    padding: 30px; /* bop ben trong */
+    margin-top: 50px 50px; /*day ben ngoai*/
     margin-bottom: 25px;
     border-radius: 30px;
 }
-.khoibio_Van_refer {
+/*css div duongvien all trang*/
+.Van_khoibio_refer {
     border: 5px double #d3ac64b0;
     border-radius: 10px;
-    
+    padding: 50px;
 }
-.background_refer{
-    background-color:#FFFDC3 ;/*kem*/
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 /*chu hoa*/
 .chuhoa p::first-letter {
     font-size: 4rem;
