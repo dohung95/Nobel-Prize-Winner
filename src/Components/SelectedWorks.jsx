@@ -30,9 +30,9 @@ const SelectedWorks = () => {
     };
     return (
         <>
-            <div>
+            <div style={{backgroundColor:"rgb(21,21,21)", color:"white"}}>
                 <div align='center' >
-                    <br /><h1 data-aos="slide-right" className='shadow_text' style={{ color: "#222e50" }}> Two great studies</h1>
+                    <br /><h1 data-aos="slide-right" className='shadow_text' style={{ color: "white" }}> Two great studies</h1>
                     <hr width='35%' />
                 </div>
 
@@ -46,7 +46,7 @@ const SelectedWorks = () => {
                                         <div className='col-md-6' data-aos="fade-right" >
                                             <div align='center' style={{ paddingTop: '2%' }} >
                                                 <h4 className='shadow_text'>Research Process</h4>
-                                                <div style={{ textAlign: "left" }}>
+                                                <div style={{ textAlign: "left", color:"white" }}>
                                                     <ul>
                                                         <li danhmuc="♔ .">{output.textR1}</li>
                                                         <li danhmuc="♔ .">{output.textR2}</li>
@@ -119,7 +119,7 @@ const SelectedWorks = () => {
                 <div style={{ padding: "0% 6% 3% 6%" }} >
                     <div className='Khoidiv2_Hung' style={{ padding: "0% 6% 3% 6%" }}>
                         <div align='center'>
-                            <h1 className='shadow_text' style={{ color: "#222e50" }} data-aos="slide-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
+                            <h1 className='shadow_text' data-aos="slide-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>
@@ -131,14 +131,14 @@ const SelectedWorks = () => {
                                 <img src={`${path}${Data2[0].img4}`} className='icon_Hung four' />
 
                             </div>
-                            <div className='col-md-7' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px black", borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
+                            <div className='col-md-7' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px #dddddd", borderTop: "1px solid white", borderLeft: "1px solid white", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>Open up new perspectives</h3>
                                 {Data2[0].text1}
                             </div>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>
-                            <div className='col-md-7' data-aos="fade-right" style={{ boxShadow: "3px 3px 3px black", columnCount: 2, borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
+                            <div className='col-md-7' data-aos="fade-right" style={{ boxShadow: "3px 3px 3px #dddddd", columnCount: 2, borderTop: "1px solid white", borderLeft: "1px solid white", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>In real life and medicine</h3>
                                 {Data2[0].text2}
                             </div>
@@ -162,7 +162,7 @@ const SelectedWorks = () => {
                                 </div>
                                 <div align='center'><b>Some women have won the nobel prize.</b></div>
                             </div>
-                            <div className='col-md-6' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px black", borderTop: "1px solid black", borderLeft: "1px solid black", borderRadius: "0px 25px 0px 25px" }}>
+                            <div className='col-md-6' data-aos="fade-left" style={{ boxShadow: "3px 3px 3px #dddddd", borderTop: "1px solid white", borderLeft: "1px solid white", borderRadius: "0px 25px 0px 25px" }}>
                                 <h3 className='shadow_text'>On a social level</h3>
                                 {Data2[0].text3}
                             </div>

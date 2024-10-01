@@ -4,7 +4,7 @@
     padding: 3%;
     border-radius: 3px;
     background-color: #edf2fb;
-    box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
+    box-shadow: 2px 2px 5px #dddddd;
 }
 
 .SizeImg_Hung1 {
@@ -13,14 +13,14 @@
     padding: 3%;
     border-radius: 3px;
     background-color: #edf2fb;
-    box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
+    box-shadow: 2px 2px 5px #dddddd;
 }
 
 .Top_Hung {
 
-    box-shadow: 2px 2px 5px rgba(96, 88, 88, 0.7);
+    box-shadow: 2px 2px 5px #dddddd;
     border-radius: 50%;
-    background-color: #00b4d8;
+    background-color: #FFFFFF;
 }
 
 .Top_Hung:hover {
@@ -45,7 +45,7 @@
 
 @keyframes pulse512 {
     0% {
-        box-shadow: 0 0 0 0 #05bada66;
+        box-shadow: 0 0 0 0 #FFFFFF;
     }
 
     70% {
@@ -59,17 +59,17 @@
 
 .Khoidiv { 
     border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(74, 74, 74, 0.821);
+    box-shadow: 3px 3px 5px #dddddd;
 }
 
 .shadow_text {
-    text-shadow: 2px 2px 3px rgba(98, 100, 95, 0.7);
-    color: #585123;
+    text-shadow: 2px 2px 3px #dddddd;
+    color: white;
     font-family: 'Dancing Script', cursive;
 }
 
 .Nobel_Hung {
-    box-shadow: 3px 3px 5px #979dac;
+    box-shadow: 3px 3px 5px #dddddd;
     border-radius: 50%;
 }
 
@@ -82,7 +82,7 @@ li::before {
     content: attr(danhmuc) " ";
     font-size: 17px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -100,7 +100,7 @@ li::before {
     height: auto;
     border: 2px solid black;
     border-radius: 5%;
-    box-shadow: 2px 2px 2px rgb(112, 108, 108);
+    box-shadow: 2px 2px 2px #dddddd;
 }
 
 .one {
@@ -151,7 +151,7 @@ li::before {
 .img_slide_Hung img {
     width: 100%;
     height: auto;
-    box-shadow: 2px 2px 2px rgb(155, 155, 155);
+    box-shadow: 2px 2px 2px #dddddd;
 }
 
 .slide_Hung {
@@ -169,17 +169,17 @@ li::before {
     object-fit: cover;
     border-radius: 5px;
     transition: all ease-in-out 0.5s;
-    box-shadow: 3px 3px 3px rgb(174, 172, 172);
+    box-shadow: 3px 3px 3px #dddddd;
 }
 
 .slide_Hung img:hover {
     width: 100%;
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 20px #dddddd;
     transform: scale(1.3);
     cursor: pointer
 }
 .Khoidiv2_Hung{
-    box-shadow: 3px 3px 3px rgb(67, 67, 73);
-    border-top: 1px solid black;
-    border-left: 1px solid black;
+    box-shadow: 3px 3px 3px #dddddd;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
 }

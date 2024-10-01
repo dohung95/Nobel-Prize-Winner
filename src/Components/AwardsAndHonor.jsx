@@ -25,8 +25,7 @@ const Awards = () => {
         "/img/Huy/MarieCurie10.png"
     ]
     return (
-        <>
-
+        <div style={{backgroundColor: "rgb(21,21,21)", color: "white"}}>
             <Carousel interval={4000} pause={false} controls={true}>
                 {slideImg.map((img, index) => (
                     <Carousel.Item key={index}>
@@ -35,9 +34,9 @@ const Awards = () => {
                             src={path + img}
                             alt={`Slide ${index + 1}`}
                             style={{
-                                height: "500px",      // Đặt chiều cao cố định
-                                width: "100%",        // Đảm bảo hình ảnh chiếm toàn bộ chiều rộng
-                                objectFit: "contain",   // Đảm bảo tỷ lệ ảnh đồng đều, cắt ảnh nếu cần
+                                height: "500px",     
+                                width: "100%",        
+                                objectFit: "contain",   
                             }}
                         />
                     </Carousel.Item>
@@ -48,7 +47,7 @@ const Awards = () => {
 
             <div className="container" >
                 <div className="row align-items-center" >
-                    <div className="col-md-6" style={{ border: "1px solid black", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
+                    <div className="col-md-6" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
                         <p style={{ textAlign: "justify" }}>{DTB[1].p1}</p>
                         <ul>
                             <li>
@@ -65,20 +64,20 @@ const Awards = () => {
                     </div>
                     <div className="col-md-6 text-center" data-aos="zoom-in">
                         <figure>
-                            <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{ border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} />
                             <figcaption style={{ marginTop: "2%" }}><b>{DTB[1].caption1}</b></figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
 
-            <Container className="mt-4" style={{ border: "1px solid black", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
+            <Container className="mt-4" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}>
                 <h3 data-aos="flip-left">{DTB[1].h3}</h3>
                 <p style={{ textAlign: "justify", fontSize: "1.4rem" }} data-aos="fade-up">
                     {DTB[1].p2}
                 </p>
                 <ListGroup className="mb-4">
-                    <ListGroup.Item data-aos="zoom-in">
+                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
                         <h4>{DTB[1].LG1}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG12}</b>: {DTB[1].LG13}
@@ -87,25 +86,25 @@ const Awards = () => {
                             <b>{DTB[1].LG14}</b>: {DTB[1].LG15}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item data-aos="zoom-in">
+                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
                         <h4>{DTB[1].LG3}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG31}</b>: {DTB[1].LG32}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item data-aos="zoom-in">
+                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
                         <h4>{DTB[1].LG5}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG51}</b>: {DTB[1].LG32}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item data-aos="zoom-in">
+                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
                         <h4>{DTB[1].LG2}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG21}</b>: {DTB[1].LG22}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item data-aos="zoom-in">
+                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
                         <h4>{DTB[1].LG4}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG41}</b>: {DTB[1].LG42}
@@ -123,9 +122,9 @@ const Awards = () => {
                             <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/" target="_blank" rel="noopener noreferrer"><Figure.Image
                                 src={`${path}${DTB[1].SICEP}`}
                                 className="img-fluid hover-zoom1"
-                                style={{ border: "5px double gold", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}
+                                style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}
                             /></a>
-                            <Figure.Caption>
+                            <Figure.Caption style={{color: "white"}}>
                                 <b>{DTB[1].caption2}</b>
                             </Figure.Caption>
                         </Figure>
@@ -133,7 +132,7 @@ const Awards = () => {
                 </Row>
             </Container>
             <div className="container mt-4">
-                <h3 className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
+                <h3 style={{ textShadow: "0 4px 6px #DDDDDD" }} className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
                 <div className="row">
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                         <iframe
@@ -145,6 +144,7 @@ const Awards = () => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen
+                            style={{ border: "5px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}
                         ></iframe>
                     </div>
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
@@ -157,11 +157,13 @@ const Awards = () => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen
+                            style={{ border: "5px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}
                         ></iframe>
                     </div>
                 </div>
             </div>
-        </>
+            
+        </div>
     );
 }
 
