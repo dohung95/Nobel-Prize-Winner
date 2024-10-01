@@ -14,40 +14,88 @@
 }
 
 #popupDiv {
-    width: 50vw;
-    height: 52vh;
-    background-color: lightblue;
-    /* Màu nền */
+    max-width: auto;
+    max-height: auto;
     position: fixed;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     padding: 1.5%;
     z-index: 1000;
     display: none;
-    /* Ẩn khối div ban đầu */
     background-image: url('../../Img/Hung/bg_sitemap.png');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.485);
 }
 
 .hidden {
     display: none;
-    
+
 }
-.button_close_Hung{
+
+.button_close_Hung {
     border: none;
 }
-.site_map_text{
-    color: white;
-    padding: 2%;
-    background-color: rgba(255, 255, 255, 0.262);
-    width: 85%;
+
+.site_map_text {
+    color: #E9D17F;
+    font-size: 15pt;
 }
-.site_map_text a{
+
+.site_map_text a {
     text-decoration: none;
     text-shadow: 3px 3px 3px black;
-    color: #f8ecae;
-    font-weight: bolder;
+    color: #E9D17F;
+    font-weight: 600;
+    background-color: #9285856c;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(199, 199, 199, 0.485);
+}
+
+.site_map_text a:hover {
+    background-color: #babababd;
+    border: thin solid white;
+}
+
+.Tieude_Hung {
+    text-shadow: 2px -3px 3px black;
+    font-size: 25pt;
+    color: #ffffffe9;
+}
+
+.Group_a_Hung {
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 15px;
+}
+.paddingleft_Hung{
+    padding-left: 8%;
+}
+
+.LinkReal_Hung {
+    align-content: center;
+}
+
+@media (max-width: 978px) {
+    .site_map_text {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 768px) {
+    .site_map_text {
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 576px) {
+    .site_map_text {
+        font-size: 10pt;
+    }
+
+    .Tieude_Hung {
+        font-size: 15pt;
+    }
 }

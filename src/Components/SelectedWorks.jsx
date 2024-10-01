@@ -41,7 +41,7 @@ const SelectedWorks = () => {
                         Data.map((output) => (
                             <div key={output.id} data-aos="fade-right">
                                 <div style={{ padding: "0% 6% 3% 6%" }} >
-                                    <h3 className='shadow_text'><img src={medal} width={35} className='Nobel_Hung' /> {output.nobel}</h3>
+                                    <h3 className='shadow_text'><img src={medal} width={35} className='Nobel_Hung'/> {output.nobel}</h3>
                                     <div className='Khoidiv row' >
                                         <div className='col-md-6' data-aos="fade-right" >
                                             <div align='center' style={{ paddingTop: '2%' }} >
