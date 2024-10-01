@@ -17,7 +17,6 @@
 }
 
 .Top_Hung {
-
     box-shadow: 2px 2px 5px #dddddd;
     border-radius: 50%;
     background-color: #FFFFFF;
@@ -65,11 +64,10 @@
 .shadow_text {
     text-shadow: 2px 2px 3px #dddddd;
     color: white;
-    font-family: 'Dancing Script', cursive;
 }
 
 .Nobel_Hung {
-    box-shadow: 3px 3px 5px #dddddd;
+    box-shadow: 3px 3px 5px #676766;
     border-radius: 50%;
 }
 

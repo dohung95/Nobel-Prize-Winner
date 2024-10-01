@@ -1,7 +1,10 @@
-import { ListGroup } from 'react-bootstrap';
+
+import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
 import { useEffect } from "react"
-import hinh_card from '../Img/Van/Nobel1903.jpg'
+
 import AOS from 'aos'
+import Game from "./Game";
+import MyComponentBio from "./MyComponentBio";
 const Biofirst = () => {
     const alertClicked = () => {
 
@@ -12,43 +15,121 @@ const Biofirst = () => {
     }, []);
     return (
         <>
-            <div className="row align-items-center">
-                <div className="col-md-8" data-aos="fade-right">
-                    <div style={{ textAlign: "justify", fontSize: "1.25rem" }} className='chuhoa'>
-                        <p > Marie Curie, from a burning passion for science to the first woman who won two Nobell prizes. Until now, women who do scientific research are few, the women have achieved great success in this industry. And Marie Curie is one of the few. Marie Curie is a physicist, Balan -original French chemist. She was a woman who impressed the world with discoveries that opened up new foundations in physics and chemistry, and also opened the door for advances in techniques, biology and medicine. learn. She was also the one who created a new platform for women in the field of science by becoming the first woman to receive a PhD scientist in France, the first woman to present in Solvbon and especially her. Also the first and only woman to achieve two Nobel prizes in two different areas: Physics and Chemistry.</p>
+            <Row className="align-items-center mb-4">
+
+                <Col md={8} data-aos="slide-left">
+                    <div style={{ textAlign: "justify", fontSize: "1.25rem", color: " #F2F2CE" }} className='chuhoa'>
+                        <p className="col-md-8" data-aos="fade-right"> Marie Curie, from a burning passion for science to the first woman who won two Nobell prizes. Until now, women who do scientific research are few, the women have achieved great success in this industry. And Marie Curie is one of the few. Marie Curie is a physicist, Balan -original French chemist. She was a woman who impressed the world with discoveries that opened up new foundations in physics and chemistry, and also opened the door for advances in techniques, biology and medicine. learn. She was also the one who created a new platform for women in the field of science by becoming the first woman to receive a PhD scientist in France, the first woman to present in Solvbon and especially her. Also the first and only woman to achieve two Nobel prizes in two different areas: Physics and Chemistry.</p>
                         <hr align='center' />
-                        <div >Who is this first many women ???</div>
+                        <Row>
+                            <Col md={6} data-aos="fade-up">
+                                <div style={{ color: " #F2F2CE" }} > * Marie Curie was a pioneer in many ways.</div>
+                                <div style={{ color: " #F2F2CE" }}> * Come find out with us!</div>
+                                <div className="col-md-4" data-aos="fade-left">
+                                    <ul>
+                                        <ListGroup defaultActiveKey="#link1">
+                                            <ListGroup.Item action href="#link1">
+                                                <button >See more</button>
+                                            </ListGroup.Item>
+                                        </ListGroup>
+                                    </ul>
+                                </div>
+                            </Col>
+                            <Col md={6} data-aos="fade-down">
+                               <Game />
+                            </Col>
+                        </Row>
+
                     </div>
 
-                    <div className="col-md-4" data-aos="fade-left">
-                        <div className='game'>
-                            <ul>
-                                <ListGroup defaultActiveKey="#link1">
-                                    <ListGroup.Item action href="#link1">
-                                        We can play mini game now!
-                                    </ListGroup.Item>
-                                    <ListGroup.Item action onClick={alertClicked}>
-                                        Information
-                                    </ListGroup.Item>
-                                    <ListGroup.Item action onClick={alertClicked}>
-                                        Education
-                                    </ListGroup.Item>
-                                    <ListGroup.Item action onClick={alertClicked}>
-                                        Carrer
-                                    </ListGroup.Item>
-                                    <ListGroup.Item action onClick={alertClicked}>
-                                        Life story
-                                    </ListGroup.Item>
-                                    <ListGroup.Item action onClick={alertClicked}>
-                                        Intimate detail
-                                    </ListGroup.Item>
-                                </ListGroup>
-                            </ul>
+                    {/* <div className='row'>
+                        <div className="col-md-4" data-aos="fade-left">
+                            <div className='game'>
+                                <ul>
+                                    <ListGroup defaultActiveKey="#link1">
+                                        <ListGroup.Item action href="#link1">
+                                            We can play mini game now!
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Information
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Education
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Carrer
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Life story
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Intimate detail
+                                        </ListGroup.Item>
+                                    </ListGroup>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div className="col-md-4" style={{ padding: '0% 3%' }}>
+                        <div className="col-md-4" data-aos="fade-left">
+                            <div className='game'>
+                                <ul>
+                                    <ListGroup defaultActiveKey="#link1">
+                                        <ListGroup.Item action href="#link1">
+                                            We can play mini game now!
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Information
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Education
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Carrer
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Life story
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Intimate detail
+                                        </ListGroup.Item>
+                                    </ListGroup>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div className="col-md-4" data-aos="fade-left">
+                            <div className='game'>
+                                <ul>
+                                    <ListGroup defaultActiveKey="#link1">
+                                        <ListGroup.Item action href="#link1">
+                                            We can play mini game now!
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Information
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Education
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Carrer
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Life story
+                                        </ListGroup.Item>
+                                        <ListGroup.Item action onClick={alertClicked}>
+                                            Intimate detail
+                                        </ListGroup.Item>
+                                    </ListGroup>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> */}
+
+                </Col>
+
+                {/* <Col md={4} data-aos="slide-left">
+                   
                     <div className='card ' >
                         <figure style={{ textAlign: "center" }}>
                             <div className='myEffect'>
@@ -88,12 +169,23 @@ const Biofirst = () => {
                             </tr>
                         </table>
                         <ListGroup>
-                            <ListGroup.Item variant="info">MORE</ListGroup.Item>
-                            {/* <p><button>MORE</button></p> */}
+                            <ListGroup.Item variant="nostyle">
+
+                                <Figure><img src={chumarie} alt="chữ kí" style={{ width: "100%", height: "auto" }} /> </Figure>
+                                <Figure.Caption>
+                                    Chu ky
+                                </Figure.Caption>
+
+
+                            </ListGroup.Item>
+                            
                         </ListGroup>
                     </div>
-                </div>
-            </div>
+                </Col> */}
+
+                <MyComponentBio />
+            </Row>
+
         </>
     );
 }

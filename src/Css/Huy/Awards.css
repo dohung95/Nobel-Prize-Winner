@@ -20,4 +20,12 @@
       max-height: 200px; /* Điều chỉnh cho màn hình rất nhỏ */
     }
   }
-  
+  .linkNobel {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease
+}
+
+.linkNobel:hover {
+    color: #0353a4;
+} 

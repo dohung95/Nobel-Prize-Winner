@@ -1,48 +1,41 @@
-.background_bio {
-    background-color:#FFFDC2 ;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* Cố định hình nền khi cuộn */
-}
-
-/*all trang*/
-.khoibio_Van_bio {
-    border: 5px double #96630B;
+/*vien all trang*/
+.Van_khoibio_bio {
+    border: none;
     border-radius: 10px;
+    padding: 60px;
+    background-color: rgb(21,21,21);
 }
 
 /*quote*/
 .custom-quote {
     padding: 10px;
-    background-color:  #5E1213;
-    border-left: 8px solid #FFFDC3;
-    border-right: 8px solid #FFFDC3;
+    background-color: #F2F2CE;
+    border-left: 4px solid #E3E3C1;
+    border-right: 3px solid #E3E3C1;
     text-align: center;
-    border-radius: 30px;
-    font-size: 1.5rem;
+    border-radius:1000px;
+    font-size: 2rem;
+    box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
 }
 
 .quote {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 #F2F2CE;
     margin-top: 30px;
     text-align: center;
     font-family: arial;
     background-color: #f9f9f9;
     border-radius: 30px;
-
-
 }
+
 .card button {
     border: none;
     outline: 0;
     padding: 12px;
-    color:  #5E1213;
+    color: #5E1213;
     background-color: #FFFDC3;
     text-align: center;
     cursor: pointer;
@@ -54,60 +47,44 @@
     opacity: 0.7;
 }
 
-.card img{
-    animation: slide-up 0.7s ease-in-out;/*qui tac hieu ung chuyen dong tu duoi len tren*/
-  transform: translateY(100%);/*ban dau, hình o phia duoi*/
-  opacity: 0;
-  animation-fill-mode: forwards; /*giu hinh o lai diem cuoi khong bien mat*/
+.card img {
+    animation: slide-up 0.9s ease-in-out;
+    /*qui tac hieu ung chuyen dong tu duoi len tren*/
+    transform: translateY(100%);
+    /*ban dau, hình o phia duoi*/
+    opacity: 0;
+    animation-fill-mode: forwards;
+    /*giu hinh o lai diem cuoi khong bien mat*/
 }
+
 @keyframes slide-up {
     to {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  } 
+}
 
-
-/*chữ hoa*/
+/*chu hoa*/
 .chuhoa p::first-letter {
     font-size: 4rem;
     /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
     /* Làm đậm chữ cái đầu */
-    color: #5E1213;
+    text-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
+    color:  #F2F2CE;
     /* Đặt màu sắc cho chữ cái đầu */
     /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
     font-family: 'Pacifico', cursive;
-
+  
 }
 
 
-
-/*phần đầu*/
-.gioithieu {
-    background-color:#FFFDC9; /*mau kem*/
-    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
-    border: none;
-    padding: 20px 30px 30px 30px;
+/*bố cuc hienthi*/
+.Van_sheet_bio {   
+    border:dotted;
+    padding: 30px;
     margin-top: 50px 50px;
     border-radius: 30px;
     margin-bottom: 30px;
-}
-
-@media (max-width: 568px) {
-    /* .background {
-        background-attachment: scroll;
-        /* Trên thiết bị di động, hình nền sẽ cuộn theo nội dung */
-
-}
-
-@media (max-width: 978px) {
-    .chiakhoi {
-        column-count: 2;
-    }
-}
-
-/*trang 2*/
-.chiakhoi {
-    column-count: 3;
+    
 }

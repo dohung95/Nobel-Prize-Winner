@@ -25,18 +25,18 @@ const Awards = () => {
         "/img/Huy/MarieCurie10.png"
     ]
     return (
-        <div style={{backgroundColor: "rgb(21,21,21)", color: "white"}}>
+        <div style={{ backgroundColor: "rgb(21,21,21)", color: "white" }}>
             <Carousel interval={4000} pause={false} controls={true}>
                 {slideImg.map((img, index) => (
                     <Carousel.Item key={index}>
                         <img
-                            
+
                             src={path + img}
                             alt={`Slide ${index + 1}`}
                             style={{
-                                height: "500px",     
-                                width: "100%",        
-                                objectFit: "contain",   
+                                height: "500px",
+                                width: "100%",
+                                objectFit: "contain",
                             }}
                         />
                     </Carousel.Item>
@@ -51,12 +51,12 @@ const Awards = () => {
                         <p style={{ textAlign: "justify" }}>{DTB[1].p1}</p>
                         <ul>
                             <li>
-                                <a href="https://www.nobelprize.org/prizes/physics/1903/summary/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.nobelprize.org/prizes/physics/1903/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel">
                                     <h4>{DTB[1].li1}</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.nobelprize.org/prizes/chemistry/1911/summary/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.nobelprize.org/prizes/chemistry/1911/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel">
                                     <h4>{DTB[1].li2}</h4>
                                 </a>
                             </li>
@@ -77,7 +77,7 @@ const Awards = () => {
                     {DTB[1].p2}
                 </p>
                 <ListGroup className="mb-4">
-                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
+                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
                         <h4>{DTB[1].LG1}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG12}</b>: {DTB[1].LG13}
@@ -86,25 +86,25 @@ const Awards = () => {
                             <b>{DTB[1].LG14}</b>: {DTB[1].LG15}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
+                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
                         <h4>{DTB[1].LG3}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG31}</b>: {DTB[1].LG32}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
+                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
                         <h4>{DTB[1].LG5}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG51}</b>: {DTB[1].LG32}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
+                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
                         <h4>{DTB[1].LG2}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG21}</b>: {DTB[1].LG22}
                         </p>
                     </ListGroup.Item>
-                    <ListGroup.Item style={{backgroundColor: "rgb(21,21,21)", color: "white"}} data-aos="zoom-in">
+                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
                         <h4>{DTB[1].LG4}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG41}</b>: {DTB[1].LG42}
@@ -124,7 +124,7 @@ const Awards = () => {
                                 className="img-fluid hover-zoom1"
                                 style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}
                             /></a>
-                            <Figure.Caption style={{color: "white"}}>
+                            <Figure.Caption style={{ color: "white" }}>
                                 <b>{DTB[1].caption2}</b>
                             </Figure.Caption>
                         </Figure>
@@ -162,7 +162,7 @@ const Awards = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 }

@@ -6,48 +6,51 @@ import Biotwo from './Biotwo'
 import Biothree from './Biothree'
 import Biofour from './Biofour'
 import "../Css/Van/Biography.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
-
-
-import { Container } from 'react-bootstrap';
-
+//import Thunghiem from '../Components/Thunghiem.jsx' //   thử nghiêm thanh công
 const Biography = () => {
-
+    useEffect(() => {
+        AOS.init({
+            duration: 1500, // thời gian hiệu ứng chạy, tính bằng ms
+        });
+    }, []);
     return (
         <>
-            <div className='background_bio' >
-                <Container className='khoibio_Van_bio ' style={{ padding: "30px" }}>
-                    <div>
+            <div className='Van_khoibio_bio '>
+                <div>
 
-                        <div className='quote' style={{ color: '#f479a3', background: '#b8cddb', padding: '5px 20px' }}>
-                            <blockquote className="custom-quote">
-                                <div>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
-                                <footer style={{ color: 'black' }}>— Marie Curie</footer>
-                            </blockquote>
-                        </div>
-
-                        <div className=" gioithieu" >
-                            <Biofrist />
-                        </div>
-
-                        <div className=" gioithieu" >
-                            <Bioone />
-                        </div>
-
-                        <div className=" gioithieu" >
-                            <Biotwo />
-                        </div>
-
-                        <div className=" gioithieu" >
-                            <Biothree />
-                        </div>
-
-                        <div className=" gioithieu" >
-                            <Biofour />
-                        </div>
+                    <div className='quote' data-aos="fade-up">
+                        <blockquote className="custom-quote">
+                            <div>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
+                            <footer style={{ fontSize: '5rem' }}>— Marie Curie</footer>
+                        </blockquote>
                     </div>
 
-                </Container>
+                    <div className=" Van_sheet_bio" >
+                        <Biofrist />
+                    </div>
+
+                    <div className=" Van_sheet_bio" >
+                        <Bioone />
+                    </div>
+
+                    <div className=" Van_sheet_bio" >
+                        <Biotwo />
+                    </div>
+
+                    <div className=" Van_sheet_bio" >
+                        <Biothree />
+                    </div>
+
+                    <div className=" Van_sheet_bio" >
+                        <Biofour />
+                    </div>
+
+                    
+                </div>
             </div>
         </>
     );
