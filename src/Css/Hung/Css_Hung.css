@@ -38,8 +38,8 @@
 
 .Button_Hung {
     position: fixed;
-    bottom: 27%;
-    right: 37px;
+    bottom: 12%;
+    right: 25px;
     z-index: 1000;
 }
 
