@@ -51,80 +51,84 @@ const Site_Map = () => {
                 </div>
                 <div className='row site_map_text col-md-11'>
                     <h4 align='center' className='Tieude_Hung'>Site Map</h4>
-                    <div className='row '>
-                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                    <div className='row ' style={{paddingBottom:"2%"}}>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Biography' onClick={top}>&nbsp;BIOGRAPHY&nbsp;</Link>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-7'>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography' onClick={hideDiv}>- Personal Information&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>&nbsp;- Personal Information&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography' onClick={hideDiv}>- Education&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>&nbsp;- Education&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography' onClick={hideDiv}>- Career&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>&nbsp;- Career&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography' onClick={hideDiv}>- Life Story&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>&nbsp;- Life Story&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography' onClick={hideDiv}>- Intimate details of experience&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>&nbsp;- Intimate details of experience&nbsp;</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className='row'>
-                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                    </div> <hr style={{marginBottom:"0.3em"}}/>
+                    <div className='row' style={{paddingBottom:"2%"}}>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
                         </div>
-                        <div className='col-md-6 '>
+                        <div className='col-md-7 '>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Research#discovery' onClick={hideDiv}>- Discovery&nbsp;</Link >
+                                <Link to='/Research#discovery' onClick={hideDiv}>&nbsp;- Discovery&nbsp;</Link >
                             </div>
                         </div>
                     </div>
-                    <div className='row '>
-                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                    <hr style={{marginBottom:"0.3em"}}/>
+                    <div className='row ' style={{paddingBottom:"2%"}}>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Awards' onClick={top}>&nbsp;AWARDS & HONORS&nbsp;</Link>
                         </div>
-                        <div className='col-md-6 '>
+                        <div className='col-md-7 '>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Awards#nobel' onClick={hideDiv}>- Two nobel&nbsp;</Link>
+                                <Link to='/Awards#nobel' onClick={hideDiv}>&nbsp;- Two nobel&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Awards#recognition' onClick={hideDiv}>- Recognition&nbsp;</Link>
+                                <Link to='/Awards#recognition' onClick={hideDiv}>&nbsp;- Recognition&nbsp;</Link>
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                    <hr style={{marginBottom:"0.3em"}}/>
+                    <div className='row'style={{paddingBottom:"2%"}}>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/SelectedWorks' onClick={top}>&nbsp;SELECTED WORKS&nbsp;</Link>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-7'>
                             <div className='paddingleft_Hung' onClick={hideDiv}>
-                                <Link to='/SelectedWorks#vitri1' >- Two outstanding studies&nbsp;</Link>
+                                <Link to='/SelectedWorks#vitri1' >&nbsp;- Two outstanding studies&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung' onClick={hideDiv}>
-                                <Link to='/SelectedWorks#vitri2' >- Her influence&nbsp;</Link>
+                                <Link to='/SelectedWorks#vitri2' >&nbsp;- Her influence&nbsp;</Link>
                             </div>
                         </div>
                     </div>
-                    <div className='row '>
-                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                    <hr style={{marginBottom:"0.3em"}}/>
+                    <div className='row ' style={{paddingBottom:"2%"}}>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/References' onClick={top}>&nbsp;REFERENCES&nbsp;</Link>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-7'>
                             <div className='paddingleft_Hung'>
-                                <Link to='/References' onClick={hideDiv}>- Image&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>&nbsp;- Image&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/References' onClick={hideDiv}>- Video&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>&nbsp;- Video&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/References' onClick={hideDiv}>- Link&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>&nbsp;- Link&nbsp;</Link>
                             </div>
                         </div>
                     </div>
+                    <hr style={{marginBottom:"0.3em"}}/>
                     <div style={{ paddingLeft: "5%", paddingBottom: "3%" }} onClick={hideDiv}>
                         <Link to='/Contact' onClick={top} >&nbsp;CONTACT&nbsp;</Link>
                     </div>

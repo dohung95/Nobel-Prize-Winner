@@ -86,14 +86,11 @@
 }
 .paddingleft_Hung a{
     font-weight: 300;
-    background-color: rgba(0, 0, 0, 0.537);
+    background-color: rgba(0, 0, 0, 0.452);
     border-radius: 0px 5px 0px 5px ;
     color: white;
 }
 
-.LinkReal_Hung {
-    align-content: center;
-}
 
 @media (max-width: 978px) {
     .site_map_text {
