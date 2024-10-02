@@ -57,25 +57,30 @@ const Site_Map = () => {
                         </div>
                         <div className='col-md-6'>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Biography' onClick={hideDiv}>- Personal Information&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>- Personal Information&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Biography' onClick={hideDiv}>- Education&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>- Education&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Biography' onClick={hideDiv}>- Career&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>- Career&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Biography' onClick={hideDiv}>- Life Story&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>- Life Story&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Biography' onClick={hideDiv}>- Intimate details of experience&nbsp;</Link>
+                                <Link to='/Biography' onClick={hideDiv}>- Intimate details of experience&nbsp;</Link>
                             </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
+                        </div>
+                        <div className='col-md-6 '>
+                            <div className='paddingleft_Hung'>
+                                <Link to='/Research#discovery' onClick={hideDiv}>- Discovery&nbsp;</Link >
+                            </div>
                         </div>
                     </div>
                     <div className='row '>
@@ -84,10 +89,10 @@ const Site_Map = () => {
                         </div>
                         <div className='col-md-6 '>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Awards#nobel' onClick={hideDiv}>- Two nobel&nbsp;</Link>
+                                <Link to='/Awards#nobel' onClick={hideDiv}>- Two nobel&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/Awards#recognition' onClick={hideDiv}>- Recognition&nbsp;</Link>
+                                <Link to='/Awards#recognition' onClick={hideDiv}>- Recognition&nbsp;</Link>
                             </div>
                         </div>
                     </div>
@@ -110,13 +115,13 @@ const Site_Map = () => {
                         </div>
                         <div className='col-md-6'>
                             <div className='paddingleft_Hung'>
-                            <Link to='/References' onClick={hideDiv}>- Image&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>- Image&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/References' onClick={hideDiv}>- Video&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>- Video&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                            <Link to='/References' onClick={hideDiv}>- Link&nbsp;</Link>
+                                <Link to='/References' onClick={hideDiv}>- Link&nbsp;</Link>
                             </div>
                         </div>
                     </div>

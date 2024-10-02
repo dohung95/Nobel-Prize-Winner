@@ -3,12 +3,22 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import DataResearch from "../Data/Huy/data.json"
+import React from 'react';
 const Research = () => {
     useEffect(() => {
         AOS.init({
             duration: 1500
         });
     }, []);
+    React.useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, []);
     const path = process.env.PUBLIC_URL
     return (
         <div style={{backgroundColor: "rgb(21,21,21)", color: "white", paddingBottom: "2%"}}>
@@ -29,7 +39,7 @@ const Research = () => {
             </div>
 
 
-            <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}>
+            <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} id ='discovery'>
                 <p className="fst-italic" style={{ fontSize: "1.4rem" }}>{DataResearch[0].p2}</p>
                 <ul className="list-unstyled">
                     <li data-aos="zoom-in"><h5><b>{DataResearch[0].li1}</b>:</h5>
