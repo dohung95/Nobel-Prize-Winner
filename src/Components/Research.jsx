@@ -32,14 +32,14 @@ const Research = () => {
                     <div className="col-md-4" data-aos="fade-left" style={{ marginTop: "2%" }}>
                         <figure style={{ textAlign: "center" }}>
                             <img src={`${path}${DataResearch[0].hinh1}`} className="img-fluid" style={{ width: "auto", height: "250px", border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} />
-                            <figcaption style={{ textAlign: "center", marginTop: "10px" }}><b>{DataResearch[0].caption}</b></figcaption>
+                            <figcaption style={{ textAlign: "center", marginTop: "10px" }}  id ='discovery'><b>{DataResearch[0].caption}</b></figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
 
 
-            <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} id ='discovery'>
+            <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} >
                 <p className="fst-italic" style={{ fontSize: "1.4rem" }}>{DataResearch[0].p2}</p>
                 <ul className="list-unstyled">
                     <li data-aos="zoom-in"><h5><b>{DataResearch[0].li1}</b>:</h5>
