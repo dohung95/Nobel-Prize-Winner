@@ -5,6 +5,7 @@ import medal from '../Img/Hung/Nobel_Prize.png'
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import React from 'react';
 const SelectedWorks = () => {
     useEffect(() => {
         AOS.init({
@@ -28,6 +29,15 @@ const SelectedWorks = () => {
     const NP5 = () => {
         window.location.href = 'https://en.wikipedia.org/wiki/Gertrude_B._Elion';
     };
+    React.useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, []);
     return (
         <>
             <div style={{backgroundColor:"rgb(21,21,21)", color:"white"}}>
@@ -36,7 +46,7 @@ const SelectedWorks = () => {
                     <hr width='35%' />
                 </div>
 
-                <div>
+                <div id='vitri1'>
                     {
                         Data.map((output) => (
                             <div key={output.id} data-aos="fade-right">
@@ -118,7 +128,7 @@ const SelectedWorks = () => {
 
                 <div style={{ padding: "0% 6% 3% 6%" }} >
                     <div className='Khoidiv2_Hung' style={{ padding: "0% 6% 3% 6%" }}>
-                        <div align='center'>
+                        <div align='center' id='vitri2'>
                             <h1 className='shadow_text' data-aos="slide-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
                         </div>
 

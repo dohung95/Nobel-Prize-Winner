@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import DTB from "../Data/Huy/data.json"
+import React from 'react';
 const Awards = () => {
     useEffect(() => {
         AOS.init({
@@ -24,6 +25,15 @@ const Awards = () => {
         "/img/Huy/MarieCurie9.png",
         "/img/Huy/MarieCurie10.png"
     ]
+    React.useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, []);
     return (
         <div style={{ backgroundColor: "rgb(21,21,21)", color: "white" }}>
             <Carousel interval={4000} pause={false} controls={true}>
@@ -46,7 +56,7 @@ const Awards = () => {
             <br />
 
             <div className="container" >
-                <div className="row align-items-center" >
+                <div className="row align-items-center"  >
                     <div className="col-md-6" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
                         <p style={{ textAlign: "justify" }}>{DTB[1].p1}</p>
                         <ul>
@@ -62,7 +72,7 @@ const Awards = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 text-center" data-aos="zoom-in">
+                    <div className="col-md-6 text-center" data-aos="zoom-in" id='nobel'>
                         <figure>
                             <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} />
                             <figcaption style={{ marginTop: "2%" }}><b>{DTB[1].caption1}</b></figcaption>
@@ -71,7 +81,7 @@ const Awards = () => {
                 </div>
             </div>
 
-            <Container className="mt-4" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}>
+            <Container className="mt-4" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD"  }} id='recognition'>
                 <h3 data-aos="flip-left">{DTB[1].h3}</h3>
                 <p style={{ textAlign: "justify", fontSize: "1.4rem" }} data-aos="fade-up">
                     {DTB[1].p2}

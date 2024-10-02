@@ -49,7 +49,7 @@ const Site_Map = () => {
                 <div style={{ float: "right" }} className='col-md-1'>
                     <button id="closeDivBtn" className='button_close_Hung ' style={{ borderRadius: "30%" }}><b>✘</b></button>
                 </div>
-                <div className='row site_map_text col-md-11 Group_a_Hung'>
+                <div className='row site_map_text col-md-11'>
                     <h4 align='center' className='Tieude_Hung'>Site Map</h4>
                     <div className='row '>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
@@ -57,19 +57,19 @@ const Site_Map = () => {
                         </div>
                         <div className='col-md-6'>
                             <div className='paddingleft_Hung'>
-                                - Personal Information
+                            <Link to='/Biography' onClick={hideDiv}>- Personal Information&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Education
+                            <Link to='/Biography' onClick={hideDiv}>- Education&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Career
+                            <Link to='/Biography' onClick={hideDiv}>- Career&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Life Story
+                            <Link to='/Biography' onClick={hideDiv}>- Life Story&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Intimate details of experience
+                            <Link to='/Biography' onClick={hideDiv}>- Intimate details of experience&nbsp;</Link>
                             </div>
                         </div>
                     </div>
@@ -77,24 +77,18 @@ const Site_Map = () => {
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
                         </div>
-                        <div className='col-md-6'>
-                            <div className='paddingleft_Hung'>
-                               - Honorary
-                            </div>
-                            <div className='paddingleft_Hung'>
-                                - Recognitions
-                            </div>
-                        </div>
                     </div>
                     <div className='row '>
-                        <div style={{ padding: "0% 0% 2% 5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
+                        <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-6 LinkReal_Hung'>
                             <Link to='/Awards' onClick={top}>&nbsp;AWARDS & HONORS&nbsp;</Link>
                         </div>
                         <div className='col-md-6 '>
                             <div className='paddingleft_Hung'>
-                                - Nobel or two nobel
+                            <Link to='/Awards#nobel' onClick={hideDiv}>- Two nobel&nbsp;</Link>
                             </div>
-
+                            <div className='paddingleft_Hung'>
+                            <Link to='/Awards#recognition' onClick={hideDiv}>- Recognition&nbsp;</Link>
+                            </div>
                         </div>
                     </div>
                     <div className='row'>
@@ -102,11 +96,11 @@ const Site_Map = () => {
                             <Link to='/SelectedWorks' onClick={top}>&nbsp;SELECTED WORKS&nbsp;</Link>
                         </div>
                         <div className='col-md-6'>
-                            <div className='paddingleft_Hung'>
-                                - Two outstanding studies
+                            <div className='paddingleft_Hung' onClick={hideDiv}>
+                                <Link to='/SelectedWorks#vitri1' >- Two outstanding studies&nbsp;</Link>
                             </div>
-                            <div className='paddingleft_Hung'>
-                                - Her influence
+                            <div className='paddingleft_Hung' onClick={hideDiv}>
+                                <Link to='/SelectedWorks#vitri2' >- Her influence&nbsp;</Link>
                             </div>
                         </div>
                     </div>
@@ -116,13 +110,13 @@ const Site_Map = () => {
                         </div>
                         <div className='col-md-6'>
                             <div className='paddingleft_Hung'>
-                                - Image
+                            <Link to='/References' onClick={hideDiv}>- Image&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Video
+                            <Link to='/References' onClick={hideDiv}>- Video&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                - Link
+                            <Link to='/References' onClick={hideDiv}>- Link&nbsp;</Link>
                             </div>
                         </div>
                     </div>

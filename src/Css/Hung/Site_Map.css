@@ -5,12 +5,27 @@
     position: fixed;
     bottom: 20%;
     z-index: 1000;
+    filter: drop-shadow(0 0 5px rgb(180, 180, 180)) ;
 
 }
 
 .Site_Map_Hung img:hover {
     cursor: pointer;
+    animation: pulse512 1.5s infinite;
+}
 
+@keyframes pulse512 {
+    0% {
+        filter: drop-shadow(0 0 0px #FFFFFF);
+    }
+
+    70% {
+        filter: drop-shadow(0 0 10px rgba(218, 103, 68, 0));
+    }
+
+    100% {
+        filter: drop-shadow(0 0 0px rgba(218, 103, 68, 0));
+    }
 }
 
 #popupDiv {
@@ -66,12 +81,14 @@
     color: #ffffffe9;
 }
 
-.Group_a_Hung {
-    background-color: rgba(0, 0, 0, 0.201);
-    border-radius: 15px;
-}
 .paddingleft_Hung{
     padding-left: 8%;
+}
+.paddingleft_Hung a{
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.537);
+    border-radius: 0px 5px 0px 5px ;
+    color: white;
 }
 
 .LinkReal_Hung {
