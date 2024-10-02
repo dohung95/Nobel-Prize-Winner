@@ -57,7 +57,7 @@ const Awards = () => {
 
             <div className="container" >
                 <div className="row align-items-center"  >
-                    <div className="col-md-6" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }}>
+                    <div className="col-md-6" style={{ border: "1px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)" }} id='nobel'>
                         <p style={{ textAlign: "justify" }}>{DTB[1].p1}</p>
                         <ul>
                             <li>
@@ -72,7 +72,7 @@ const Awards = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 text-center" data-aos="zoom-in" id='nobel'>
+                    <div className="col-md-6 text-center" data-aos="zoom-in" >
                         <figure>
                             <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} />
                             <figcaption style={{ marginTop: "2%" }}><b>{DTB[1].caption1}</b></figcaption>
