@@ -63,7 +63,7 @@ const Footer = () => {
                 <hr style={{ marginBottom: '30px', marginTop: '3px' }} />
                 <div className="row">
                     <div className="col-md-2 footer-dat-logo">
-                        <div className="footer-dat-logo_team">
+                        <div className="footer-dat-logo_team" style={{paddingLeft:"6%"}}>
                             <img  src={Logo} />
                         </div>
                         <div className="footer-dat-logo_school">

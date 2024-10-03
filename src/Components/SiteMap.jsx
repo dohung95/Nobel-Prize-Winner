@@ -47,7 +47,7 @@ const Site_Map = () => {
             </div>
             <div id="popupDiv" className="hidden row">
                 <div style={{ float: "right" }} className='col-md-1'>
-                    <button id="closeDivBtn" className='button_close_Hung ' style={{ borderRadius: "30%" }}><b>✘</b></button>
+                    <button id="closeDivBtn" className='button_close_Hung ' style={{ borderRadius: "10px" }}><b>✘</b></button>
                 </div>
                 <div className='row site_map_text col-md-11'>
                     <h4 align='center' className='Tieude_Hung'>Site Map</h4>
