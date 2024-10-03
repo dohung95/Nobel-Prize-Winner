@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.57c58013.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.c6049333.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.924f0c27.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.dcea52e3.js",
     "static/media/tuongolublin.jpg": "/Nobel-Prize-Winner/static/media/tuongolublin.2ee4e27f3e8ce530955e.jpg",
     "static/media/irene-marie.jpg": "/Nobel-Prize-Winner/static/media/irene-marie.0c8a36de9e634922782b.jpg",
     "static/media/birth_place.png": "/Nobel-Prize-Winner/static/media/birth_place.b20d6814c38b1c455d50.png",
@@ -22,7 +22,7 @@
     "static/media/logo.png": "/Nobel-Prize-Winner/static/media/logo.af4e112fe54c8651d2a3.png",
     "static/media/hinhBiotwo3.png": "/Nobel-Prize-Winner/static/media/hinhBiotwo3.efd326e2fd002f1e494e.png",
     "static/media/vochongdapxe.png": "/Nobel-Prize-Winner/static/media/vochongdapxe.efd326e2fd002f1e494e.png",
-    "static/media/logo_school.png": "/Nobel-Prize-Winner/static/media/logo_school.e144643c3cd721f433e7.png",
+    "static/media/logo_school.png": "/Nobel-Prize-Winner/static/media/logo_school.ae90277780db3f52cee2.png",
     "static/media/xechupdidong1915.jpg": "/Nobel-Prize-Winner/static/media/xechupdidong1915.8bff170964f5abedc911.jpg",
     "static/media/hinhBiotwo5.jpg": "/Nobel-Prize-Winner/static/media/hinhBiotwo5.b93ece2d303a3c2af82c.jpg",
     "static/media/tivi.png": "/Nobel-Prize-Winner/static/media/tivi.122e3832d1ea767455ab.png",
@@ -40,11 +40,11 @@
     "static/media/facebook.png": "/Nobel-Prize-Winner/static/media/facebook.b22498dbe9c4a041a18e.png",
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.57c58013.css.map": "/Nobel-Prize-Winner/static/css/main.57c58013.css.map",
-    "main.c6049333.js.map": "/Nobel-Prize-Winner/static/js/main.c6049333.js.map"
+    "main.924f0c27.css.map": "/Nobel-Prize-Winner/static/css/main.924f0c27.css.map",
+    "main.dcea52e3.js.map": "/Nobel-Prize-Winner/static/js/main.dcea52e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.57c58013.css",
-    "static/js/main.c6049333.js"
+    "static/css/main.924f0c27.css",
+    "static/js/main.dcea52e3.js"
   ]
 }
