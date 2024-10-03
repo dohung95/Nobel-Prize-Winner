@@ -2,12 +2,12 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 const van_data_chart = [
-  { year: 1867, event: "Sinh ra tại Ba Lan", achievement: 0, perseverance: 10, obstacle: "Sống dưới sự chiếm đóng của Nga" },
-  { year: 1891, event: "Chuyển đến Paris học tại Sorbonne", achievement: 20, perseverance: 30, obstacle: "Khó khăn tài chính khi học tập ở nước ngoài" },
-  { year: 1898, event: "Phát hiện ra polonium và radium", achievement: 50, perseverance: 60, obstacle: "Phải đối mặt với sự nghi ngờ từ cộng đồng khoa học" },
-  { year: 1903, event: "Nhận giải Nobel Vật lý", achievement: 70, perseverance: 80, obstacle: "Bị kỳ thị giới tính trong lĩnh vực khoa học" },
-  { year: 1911, event: "Nhận giải Nobel Hóa học", achievement: 90, perseverance: 95, obstacle: "Khủng hoảng cá nhân và sự nghi ngờ từ công chúng" },
-  { year: 1934, event: "Qua đời vì phơi nhiễm phóng xạ", achievement: 100, perseverance: 100, obstacle: "Tác động lâu dài của nghiên cứu phóng xạ đến sức khỏe" }
+  { year: 1867, event: "Born in Poland", achievement: 0, perseverance: 10, obstacle: "Living under Russian occupation" },
+  { year: 1891, event: "Moved to Paris to study at Sorbonne", achievement: 20, perseverance: 30, obstacle: "Financial difficulties while studying abroad" },
+  { year: 1898, event: "Discovered polonium and radium", achievement: 50, perseverance: 60, obstacle: "Faced skepticism from the scientific community" },
+  { year: 1903, event: "Received Nobel Prize in Physics", achievement: 70, perseverance: 80, obstacle: "Gender discrimination in the scientific field" },
+  { year: 1911, event: "Received Nobel Prize in Chemistry", achievement: 90, perseverance: 95, obstacle: "Personal crisis and public doubt" },
+  { year: 1934, event: "Died from radiation exposure", achievement: 100, perseverance: 100, obstacle: "Long-term health effects from radiation research" }
 ];
 
 const TimelineChart = () => {
@@ -25,15 +25,15 @@ const TimelineChart = () => {
         <Tooltip formatter={(value, name, props) => {
           const { payload } = props;
           return [
-            `Thành tựu: ${payload.achievement}% | Kiên trì: ${payload.perseverance}%`,
-            `Sự kiện: ${payload.event}, Trở ngại: ${payload.obstacle}`
+            `Achievement: ${payload.achievement}% | Perseverance: ${payload.perseverance}%`,
+            `Event: ${payload.event}, Obstacle: ${payload.obstacle}`
           ];
         }} />
         <Legend />
-        {/* Đường biểu diễn achievement (Thành tựu) */}
-        <Line type="monotone" dataKey="achievement" stroke="#8884d8" name="Thành tựu" activeDot={{ r: 8 }} />
-        {/* Đường biểu diễn perseverance (Kiên trì vượt qua khó khăn) */}
-        <Line type="monotone" dataKey="perseverance" stroke="#82ca9d" name="Kiên trì" activeDot={{ r: 8 }} />
+        {/* Line representing achievement */}
+        <Line type="monotone" dataKey="achievement" stroke="#8884d8" name="Achievement" activeDot={{ r: 8 }} />
+        {/* Line representing perseverance */}
+        <Line type="monotone" dataKey="perseverance" stroke="#82ca9d" name="Perseverance" activeDot={{ r: 8 }} />
       </LineChart>
     </ResponsiveContainer>
   );

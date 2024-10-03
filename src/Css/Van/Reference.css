@@ -1,42 +1,42 @@
-.slide_marie{
-    /* margin: 100px 0 0 200px; */
+.slide_marie {
     width: 80%;
-    height: auto;
+    height: 300px;
     display: flex;
     justify-content: center;
-    gap: 5%;
-
-    position: relative;
-    background-color:#FFFDC3;
-    overflow: hidden;
-    padding: 5px ;
+    gap: 10px;
 }
-.slide_marie img{
-    width: 5%;
-    height: 400px;
+
+.slide_marie img {
+    width: 10%;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #FFBE0B;
-    transition: all ease-in-out 0.6s;
+    transition: all ease-in-out 0.5s;
     padding: 2px;
 }
-.slide_marie img:hover{
-    width: 80%;
+
+.slide_marie img:hover {
+    width: 25%;
 }
+
 .Van_sheet_refer {
-    background-color:#FFFDC9 ;
+    background-color: rgb(21,21,21);
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border: none;
-    padding: 30px; /* bop ben trong */
-    margin-top: 50px 50px; /*day ben ngoai*/
+    padding: 30px;
+    /* bop ben trong */
+    margin-top: 50px 50px;
+    /*day ben ngoai*/
     margin-bottom: 25px;
     border-radius: 30px;
 }
+
 /*css div duongvien all trang*/
-.Van_khoibio_refer {
-    border: 5px double #d3ac64b0;
+.Van_duongvien {
+    border:none;
     border-radius: 10px;
     padding: 50px;
+    background-color: rgb(21,21,21);
 }
 
 /*chu hoa*/
@@ -45,10 +45,13 @@
     /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
     /* Làm đậm chữ cái đầu */
-    color: #5E1213;
+    text-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
+    color: rgb(248, 247, 247);
     /* Đặt màu sắc cho chữ cái đầu */
     /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
     font-family: 'Pacifico', cursive;
-
+  
 }
+
+
 /**/

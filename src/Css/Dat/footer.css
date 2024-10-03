@@ -1,6 +1,5 @@
 .footer-dat {
     background-color: rgb(88, 85, 85);
-    /* background-color: #dc143c; */
     padding-top: 0;
     padding-left: 25px;
     padding-right: 25px;
@@ -65,6 +64,36 @@
     border-radius: 3px;
 }
 
+.footer-dat-logo .footer-dat-logo_school img{
+    width: 130px;
+}
+
+.footer-dat-logo_school{
+    margin-left: 50px;
+}
+
+.footer-dat-logo_team, .footer-dat-logo_school{
+    display: inline-block;
+}
+
+@media (max-width: 1875px) {
+    .footer-dat-logo_school{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 970px) {
+    .footer-dat-logo_school{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-dat-logo_school{
+        margin-left: 70px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .footer-dat-timer,
@@ -76,4 +105,7 @@
         margin-bottom: 30px;
     }
 
+    .footer-dat-timer iframe {
+        margin-top: 30px;
+    }
 }

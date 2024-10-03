@@ -36,7 +36,7 @@ const Awards = () => {
       }, []);
     return (
         <div style={{ backgroundColor: "rgb(21,21,21)", color: "white" }}>
-            <Carousel interval={4000} pause={false} controls={true}>
+            <Carousel interval={3500} pause={false} controls={true}>
                 {slideImg.map((img, index) => (
                     <Carousel.Item key={index}>
                         <img
@@ -61,12 +61,13 @@ const Awards = () => {
                         <p style={{ textAlign: "justify" }}>{DTB[1].p1}</p>
                         <ul>
                             <li>
-                                <a href="https://www.nobelprize.org/prizes/physics/1903/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel">
+                                <a href="https://www.nobelprize.org/prizes/physics/1903/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel nobel1Huy">
                                     <h4>{DTB[1].li1}</h4>
                                 </a>
                             </li>
+                            <br />
                             <li>
-                                <a href="https://www.nobelprize.org/prizes/chemistry/1911/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel">
+                                <a href="https://www.nobelprize.org/prizes/chemistry/1911/summary/" target="_blank" rel="noopener noreferrer" className="linkNobel nobel2Huy">
                                     <h4>{DTB[1].li2}</h4>
                                 </a>
                             </li>
@@ -128,8 +129,9 @@ const Awards = () => {
                         </p>
                     </Col>
                     <Col md={6} className="text-center">
-                        <Figure>
-                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/" target="_blank" rel="noopener noreferrer"><Figure.Image
+                        <Figure className="figure-container">
+                            <a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/photo-gallery/" target="_blank" rel="noopener noreferrer">
+                            <Figure.Image
                                 src={`${path}${DTB[1].SICEP}`}
                                 className="img-fluid hover-zoom1"
                                 style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}
@@ -141,6 +143,7 @@ const Awards = () => {
                     </Col>
                 </Row>
             </Container>
+
             <div className="container mt-4">
                 <h3 style={{ textShadow: "0 4px 6px #DDDDDD" }} className="text-center mb-4" data-aos="fade-up">{DTB[1].video}</h3>
                 <div className="row">

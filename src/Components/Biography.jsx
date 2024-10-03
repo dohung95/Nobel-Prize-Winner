@@ -1,5 +1,3 @@
-import NavBar from './Navbar'
-import Footer from './Footer'
 import Bioone from './Bioone'
 import Biofrist from './Biofrist'
 import Biotwo from './Biotwo'
@@ -25,7 +23,7 @@ const Biography = () => {
                     <div className='quote' data-aos="fade-up">
                         <blockquote className="custom-quote">
                             <div>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
-                            <footer style={{ fontSize: '5rem' }}>— Marie Curie</footer>
+                            <footer style={{ fontSize: '4rem', color:'black' }}>— Marie Curie</footer>
                         </blockquote>
                     </div>
 

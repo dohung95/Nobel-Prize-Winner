@@ -1,0 +1,55 @@
+/* .popup { */
+/* Styles cho popup */
+/* background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popup button { */
+/* Style cho các nút */
+/* margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+.theEnd {
+   text-align: center;
+
+}
+.custom-link {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-link:hover {
+    background-color: #e0e0e0;
+}
+
+.expanded-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+}

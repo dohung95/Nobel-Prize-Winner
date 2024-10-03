@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "title": "Marie Curie - Nhà nữ khoa học kiệt xuất",
+        "author": "Nhiều tác giả",
+        "image": "sach1.png",
+        "description": "Qua ngòi bút của tác giả sẽ mang đến người xem rõ ràng, chân thật nhất về Marie Curie-Nhà bác học vĩ đại"
+    },
+    
+    {
+        "id": "2",
+        "title": " Sách Kể Chuyện Cuộc Đời Các Thiên Tài: Marie Curie - Nhà Nữ Khoa Học Kiệt Xuất:",
+        "author": "Tiến sĩ Richard Gunderman là giáo sư ngành X-quang tại Đại học Indiana, Hoa Kỳ.",
+        "image": "sach2.png",
+        "description": "Sách được viết về nhà khoa học Marie Curie-người duy nhất hai lần đoạt giải Nobel trong 2 lĩnh vực: vật lý và khoa học"
+    },
+
+    {
+        "id": "1",
+        "title": "Marie Curie - Nhà Nữ Khoa Học Tiên Phong, Người Đạt Giải Nobel, Người Khám Phá Ra Chất Phóng Xạ:",
+        "author": "Rasmus Hoài Nam",
+        "image": "sach3.png",
+        "description": "  Cuốn sách tập trung vào những khám phá khoa học quan trọng của Marie Curie và ảnh hưởng của bà đối với thế giới."
+    }
+]

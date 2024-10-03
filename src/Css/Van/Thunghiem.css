@@ -1,0 +1,45 @@
+/*vien all trang*/
+.Van_khoibio_bio {
+    border: 5px double#D69840;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+/*quote*/
+.custom-quote {
+    padding: 10px;
+    background-color: #F2F2CE;
+    border-left: 4px solid #E3E3C1;
+    border-right: 3px solid #E3E3C1;
+    text-align: center;
+    border-radius:1000px;
+    font-size: 2rem;
+    box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
+}
+
+.quote {
+    margin-bottom: 40px;
+}
+
+/*chu hoa*/
+.chuhoa p::first-letter {
+    font-size: 4rem;
+    /* Tăng kích cỡ chữ cái đầu */
+    font-weight: bold;
+    /* Làm đậm chữ cái đầu */
+    text-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
+    color: black;
+    /* Đặt màu sắc cho chữ cái đầu */
+    /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
+    font-family: 'Pacifico', cursive;  
+}
+
+/*bố cuc hienthi*/
+.Van_sheet_bio {   
+    border:dotted;
+    padding: 30px;
+    margin-top: 50px 50px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+

@@ -51,11 +51,11 @@ const Site_Map = () => {
                 </div>
                 <div className='row site_map_text col-md-11'>
                     <h4 align='center' className='Tieude_Hung'>Site Map</h4>
-                    <div className='row ' style={{paddingBottom:"2%"}}>
+                    <div className='row ' style={{borderBottom:"1.5px solid white"}}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Biography' onClick={top}>&nbsp;BIOGRAPHY&nbsp;</Link>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='col-md-7'style={{paddingBottom:"2%"}}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Biography' onClick={hideDiv}>&nbsp;- Personal Information&nbsp;</Link>
                             </div>
@@ -72,23 +72,24 @@ const Site_Map = () => {
                                 <Link to='/Biography' onClick={hideDiv}>&nbsp;- Intimate details of experience&nbsp;</Link>
                             </div>
                         </div>
-                    </div> <hr style={{marginBottom:"0.3em"}}/>
-                    <div className='row' style={{paddingBottom:"2%"}}>
+                    </div> 
+                    
+                    <div className='row'style={{borderBottom:"1.5px solid white",paddingTop:"2%"}}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
                         </div>
-                        <div className='col-md-7 '>
+                        <div className='col-md-7 'style={{paddingBottom:"2%"}}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Research#discovery' onClick={hideDiv}>&nbsp;- Discovery&nbsp;</Link >
                             </div>
                         </div>
                     </div>
-                    <hr style={{marginBottom:"0.3em"}}/>
-                    <div className='row ' style={{paddingBottom:"2%"}}>
+                    
+                    <div className='row 'style={{borderBottom:"1.5px solid white",paddingTop:"2%"}}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Awards' onClick={top}>&nbsp;AWARDS & HONORS&nbsp;</Link>
                         </div>
-                        <div className='col-md-7 '>
+                        <div className='col-md-7 'style={{paddingBottom:"2%"}}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Awards#nobel' onClick={hideDiv}>&nbsp;- Two nobel&nbsp;</Link>
                             </div>
@@ -97,12 +98,12 @@ const Site_Map = () => {
                             </div>
                         </div>
                     </div>
-                    <hr style={{marginBottom:"0.3em"}}/>
-                    <div className='row'style={{paddingBottom:"2%"}}>
+                    
+                    <div className='row'style={{borderBottom:"1.5px solid white",paddingTop:"2%"}}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/SelectedWorks' onClick={top}>&nbsp;SELECTED WORKS&nbsp;</Link>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='col-md-7' style={{paddingBottom:"2%"}}>
                             <div className='paddingleft_Hung' onClick={hideDiv}>
                                 <Link to='/SelectedWorks#vitri1' >&nbsp;- Two outstanding studies&nbsp;</Link>
                             </div>
@@ -111,12 +112,12 @@ const Site_Map = () => {
                             </div>
                         </div>
                     </div>
-                    <hr style={{marginBottom:"0.3em"}}/>
-                    <div className='row ' style={{paddingBottom:"2%"}}>
+                    
+                    <div className='row 'style={{borderBottom:"1.5px solid white", paddingTop:"2%"}}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/References' onClick={top}>&nbsp;REFERENCES&nbsp;</Link>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='col-md-7' style={{paddingBottom:"2%"}}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/References' onClick={hideDiv}>&nbsp;- Image&nbsp;</Link>
                             </div>
@@ -128,8 +129,8 @@ const Site_Map = () => {
                             </div>
                         </div>
                     </div>
-                    <hr style={{marginBottom:"0.3em"}}/>
-                    <div style={{ paddingLeft: "5%", paddingBottom: "3%" }} onClick={hideDiv}>
+                    
+                    <div style={{ padding: "2% 0% 2% 5%" }} onClick={hideDiv}>
                         <Link to='/Contact' onClick={top} >&nbsp;CONTACT&nbsp;</Link>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "tittle": "In late 1891, she left Poland for France.",
+        "tittle": " In late 1891, she left Poland for France.",
         "noidung_tittle1": "In Paris, Maria briefly found shelter with her sister and brother-in-law before renting a garret closer to the university, in the Latin Quarter, and proceeding with her studies of physics, chemistry, and mathematics at the University of Paris, where she enrolled in late 1891",
         "noidung_tittle2": "She subsisted on her meagre resources, keeping herself warm during cold winters by wearing all the clothes she had. She focused so hard on her studies that she sometimes forgot to eat. Skłodowska studied during the day and tutored evenings, barely earning her keep. ",
         "noidung_tittle3": "In 1893, she was awarded a degree in physics and began work in an industrial laboratory of Gabriel Lippmann. Meanwhile, she continued studying at the University of Paris and with the aid of a fellowship she was able to earn a second degree in 1894.",
@@ -13,6 +13,12 @@
         "thefate": "The fate of Mr. Pierre Curie and Ms. Marie Curie",
         "noidung_thefate1": "Pierre proposed marriage, but at first Skłodowska did not accept as she was still planning to go back to her native country. Curie, however, declared that he was ready to move with her to Poland, even if it meant being reduced to teaching French. ",
         "noidung_thefate2": "Eventually, Meanwhile, for the 1894 summer break, Skłodowska returned to Warsaw, where she visited her family. She was still labouring under the illusion that she would be able to work in her chosen field in Poland, but she was denied a place at Kraków University because of sexism in academia. A letter from Pierre convinced her to return to Paris to pursue a PhD.",
-        "noidung_thefate3": " At Skłodowska's insistence, Curie had written up his research on magnetism and received his own doctorate in March 1895; he was also promoted to professor at the School. A contemporary quip would call Skłodowska 'Pierre's biggest discovery'."
+        "noidung_thefate3": " At Skłodowska's insistence, Curie had written up his research on magnetism and received his own doctorate in March 1895; he was also promoted to professor at the School. A contemporary quip would call Skłodowska 'Pierre's biggest discovery'.",
+        
+        "bienco": "In 1906, her husband died in an unexpected accident. His death was a huge shock to her, but in the end her love for science helped her recover from the pain. Marie threw herself into research on radiation and saved lives during World War I.",
+        "nobel_lan2": "In 1911, she received her second Nobel Prize. This time in chemistry, in recognition of her research in the field of radioactivity, which made great contributions to science and medicine and biology in general. At this point, no one could doubt her ability.",
+        "noidung_bienco": "Marie had two daughters. Irene, who followed her parents into science and eventually won a Nobel Prize with her husband for their work on nuclear reactions. The younger daughter, Eve, wrote the best biography of her mother and married a United Nations official who later won another Nobel Prize for her work with UNICEF.",
+        "tongket_thangtram": "From a poor woman who suffered from gender discrimination, she constantly tried her best for her passion for science and achieved countless achievements, becoming the first woman to receive a doctorate in science in France, the first woman to become a professor at the University of Paris. She shared the Nobel Prize in Physics in 1903 with her husband - Pierre Curie and physicist Henri Becquerel. 8 years later, in 1911, she won the Nobel Prize in Chemistry. Although her life included a series of ups and downs, including 'discrimination', the way she overcame it, left extremely useful lessons for everyone.",
+        "goiy": "Timeline from 1906 to 1914"
     }
 ]

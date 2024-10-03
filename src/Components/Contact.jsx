@@ -1,5 +1,3 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 import '../Css/Dat/contact.css'
 import icon_youtube from '../Img/Dat/youtube.png'
 import icon_website from '../Img/Dat/world-wide-web.png'
@@ -91,7 +89,7 @@ const Contact = () => {
 
                     <div className="contact-content-dat-map col-md-4" align="right">
                         <div className="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d979.8313756314764!2d106.6656105!3d10.7863627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edac37c5025%3A0xd5fab66e51e1049d!2zTeG7uSB0aHXhuq10IMSRYSBwaMawxqFuZyB0aeG7h24gRlBUIEFyZW5h!5e0!3m2!1svi!2s!4v1727270759189!5m2!1svi!2s" width="100%" height="450px" style={{border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1385.690135679622!2d106.66560528225443!3d10.786511276411357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752feb31e24595%3A0xb3d6bce53f82a7c9!2sFPT%20Aptech!5e0!3m2!1svi!2s!4v1727787860372!5m2!1svi!2s" width="100%" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

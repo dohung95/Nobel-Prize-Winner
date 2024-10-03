@@ -38,7 +38,7 @@
     padding: 1.5%;
     z-index: 1000;
     display: none;
-    background-image: url('../../Img/Hung/bg_sitemap.png');
+    background-image: url('../../Img/Hung/bg_sitemap.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,14 +56,13 @@
 }
 
 .site_map_text {
-    color: #E9D17F;
     font-size: 15pt;
 }
 
 .site_map_text a {
     text-decoration: none;
     text-shadow: 3px 3px 3px black;
-    color: #E9D17F;
+    color: #ffffff;
     font-weight: 600;
     background-color: #9285856c;
     border-radius: 15px;
@@ -72,7 +71,7 @@
 
 .site_map_text a:hover {
     background-color: #babababd;
-    border: thin solid white;
+    border: thin solid #ffffff;
 }
 
 .Tieude_Hung {
@@ -96,11 +95,17 @@
     .site_map_text {
         font-size: 14pt;
     }
+    #popupDiv{
+        padding-left: 4%;
+    }
 }
 
 @media (max-width: 768px) {
     .site_map_text {
         font-size: 10pt;
+    }
+    #popupDiv{
+        padding-left: 4%;
     }
 }
 
@@ -111,5 +116,8 @@
 
     .Tieude_Hung {
         font-size: 15pt;
+    }
+    #popupDiv{
+        padding-left: 4%;
     }
 }

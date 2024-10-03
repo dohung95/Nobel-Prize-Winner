@@ -18,6 +18,9 @@ const Home = () => {
         <>
             <div className="home-content-dat" style={{display: 'block'}}> 
                 <div className="row home-content-dat-about" style={{paddingRight: '0', paddingLeft: '0', margin:"3%"}}>
+                    
+                    <p >Brief Summary Of Marie Curie</p>
+                    
                     <div className="col-md-4 slide-container" style={{paddingRight: '0', paddingLeft: '0'}} align='center'>
                         <Zoom scale={0.4}>
                         {
@@ -25,8 +28,8 @@ const Home = () => {
                         }
                         </Zoom>
                     </div>
-                    <div className="col-md-8" style={{paddingRight: '0', width: '66%'}}>
-                        <p>
+                    <div className="col-md-8 .dat-content-about" style={{paddingRight: '0', display: 'inline-block'}}>
+                        <p className='content'>
                         Marie Curie was a French-Polish physicist and chemist, famous worldwide for her work in the study of radioactive substances.
                         She is the first and only woman in the world to receive the Nobel Prize twice in two different fields,
                         and is revered as the best female scientist in the world.

@@ -1,0 +1,30 @@
+.Van_refer_sach {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Van_refer_book {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.Van_refer_row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Van_Didyouknow_sach {
+  width: 55%;
+  height: 55%;
+  border: 2px solid rgba(65, 64, 64, 0.529);
+  padding: 3%;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .col {
+    width: 100%;
+  }
+}

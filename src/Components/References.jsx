@@ -52,14 +52,14 @@ const References = () => {
                         ))}
                         {/* dong text cam on */}
                         <div className='thank-you-text'>
-                            Chào mừng các bạn quay về lịch sử để tìm hiểu sâu hơn về người phụ nữ vĩ đại-MarieCurie.
-                            <h1> Wellcom ! THU VIEN MARIE CURIE</h1>
+                            Welcome back to history to learn more about the great woman - Marie Curie.
+                            <h1> Wellcom ! MARIE CURIE LIBRARY</h1>
                         </div>
                     </div>
                 </div>
 
                 <div className="container Van_trang_refer">
-                    slide này làgioi thieu sach ve bà. mỏw mọt hinh ra là hiện text so tuọc ve sach do! CẦN MẤY BẠN HỖ TRỢ
+                        <h3>Some pictures of her life</h3>
 
                     <div className='container slide_marie'>
                         <img src={h3} alt="" className="col-4" />
@@ -80,13 +80,13 @@ const References = () => {
                 <div class="box-hover" >
                     <img src={tivi} alt="thu cam on" />
                     <div href={h2} class="nut1" target="_top">
-                        Xin chân thành cảm ơn thầy cô, bạn bè, ban giám khảo và tất cả những người đã quan tâm theo dõi!
+                        Sincere thanks to teachers, friends, judges and all those who have been interested in following!
 
-                        Team chúng tôi chân thành cảm ơn những tác giả đã để nội dung công khai cho team lấy làm tư liệu nghiên cứu học tập.
+                        Our team sincerely thanks the authors who have made their content public for the team to use as research and study materials.
                     </div>
                     <div href={h2} class="nut2" target="">
-                        Nguồn: (© Copyright 2017 Marie Curie Hanoi School. All right reserved. - ® Trường Marie Curie giữ bản quyền nội dung trên website này.)
-                        Nguồn: vi.wikipedia.org, kenh14.vn, nghiencuuquocte.org, alphabooks.vn, zingnews.vn
+                        Source: (© Copyright 2017 Marie Curie Hanoi School. All right reserved. - ® Marie Curie School holds the copyright of the content on this website.)
+                        Source: vi.wikipedia.org, kenh14.vn, nghiencuuquocte.org, alphabooks.vn, zingnews.vn
                     </div>
                 </div>
 

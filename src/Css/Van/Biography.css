@@ -3,23 +3,24 @@
     border: none;
     border-radius: 10px;
     padding: 60px;
-    background-color: rgb(21,21,21);
+    background-color: rgb(21, 21, 21);
 }
 
 /*quote*/
 .custom-quote {
-    padding: 10px;
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%; */
     background-color: #F2F2CE;
-    border-left: 4px solid #E3E3C1;
-    border-right: 3px solid #E3E3C1;
+    border-left: 2px solid #D69840;
+    border-right: 4px solid #D69840;
+    border-top: 1px solid #D69840;
+    border-bottom: 1px solid #D69840;
     text-align: center;
-    border-radius:1000px;
+    color: #D69840;
+    border-radius: 1000px;
     font-size: 2rem;
-    box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
-}
-
-.quote {
-    margin-bottom: 40px;
+    box-shadow: 3px 5px 20px 8px rgb(233, 212, 107);
 }
 
 .card {
@@ -35,7 +36,7 @@
     border: none;
     outline: 0;
     padding: 12px;
-    color: #5E1213;
+
     background-color: #FFFDC3;
     text-align: center;
     cursor: pointer;
@@ -48,6 +49,7 @@
 }
 
 .card img {
+    width: 300px;
     animation: slide-up 0.9s ease-in-out;
     /*qui tac hieu ung chuyen dong tu duoi len tren*/
     transform: translateY(100%);
@@ -65,26 +67,32 @@
 }
 
 /*chu hoa*/
-.chuhoa p::first-letter {
+.Van-chuhoa p::first-letter {
     font-size: 4rem;
     /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
     /* Làm đậm chữ cái đầu */
-    text-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
-    color:  #F2F2CE;
+    /* text-shadow: 15px 10px 25px 8px rgb(233, 212, 107); */
+    color: #F2F2CE;
     /* Đặt màu sắc cho chữ cái đầu */
     /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
     font-family: 'Pacifico', cursive;
-  
+
 }
 
 
 /*bố cuc hienthi*/
-.Van_sheet_bio {   
-    border:dotted;
+.Van_sheet_bio {
+    border: dotted;
     padding: 30px;
     margin-top: 50px 50px;
     border-radius: 30px;
     margin-bottom: 30px;
-    
+
+}
+
+.Van-Bioone-clickme {
+    background-color: black;
+    text-align: center;
+    font-size: 1.75rem;    
 }

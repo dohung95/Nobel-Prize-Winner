@@ -1,0 +1,175 @@
+/* .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .timeline-item button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f2f2ce;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .timeline-item:not(:first-child) .timeline-content {
+    margin-top: 20px;
+  }
+  
+  .timeline-content {
+    padding-left: 40px; /* Adjust padding as needed */
+/* }
+  
+  @media (max-width: 768px) {
+    .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .timeline-item button {
+      position: static;
+      margin-bottom: 10px;
+    }
+  } */
+   /* lan 2*/
+/* 
+.timeline {
+    position: relative;
+    color: #ccc;
+}
+
+.timeline-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #ccc;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    position: relative;
+    padding: 10px;
+    color: #ccc;
+}
+
+.timeline-content button {
+    /* Style cho button */
+/* }
+
+.timeline-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+}
+
+.timeline-item:hover .timeline-popup {
+    display: block;
+}
+
+
+.timeline-arrow {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border-left: 10px solid transparent white;
+    border-right: 10px solid transparent white;
+    border-bottom: 10px solid white;
+}
+
+.dot:hover {
+    background-color: blue;
+    transform: scale(1.2);
+  } */
+
+  /***/
+
+  /**lan3**/
+
+   .timeline-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f7f6f6;
+   /* padding-top: 50px; /*khoang trong phia tren*/
+  } 
+   .timeline{
+    display: flex;
+    justify-content: space-between; /*can deu cac item*/
+     align-items: center;
+    position: relative;
+    width: 100%;
+  } 
+  
+  .timeline::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   height: 2px;
+   background-color: #f7f6f6;
+   z-index: 1;
+
+}
+/*tao hien thi nam ngang IntimateDetail.jsx*/   
+   .timeline-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    color: aliceblue;
+  } 
+  /*buton de len duong thang*/
+   .timeline-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(234, 139, 15);
+    z-index: 2; /*de dam bao dot va buto nam tren duong thang*/
+  }
+   
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 10px; /*de tao khoang cach giua cham va button*/
+    position: relative;
+   top: -15px; /* Position the dot above the button*/
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+ 
+  
+  

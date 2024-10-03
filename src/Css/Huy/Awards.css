@@ -1,31 +1,73 @@
+.figure-container:hover::after {
+  content: "Click to view more about Marie Curie photo gallery";
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
 .hover-zoom1 {
     transition: transform 0.3s ease;
+    position: relative;
 }
 
 .hover-zoom1:hover {
     transform: scale(1.1);
 }
+
 .carousel-item img {
     max-height: 500px;
   }
   
   @media (max-width: 768px) {
     .carousel-item img {
-      max-height: 300px; /* Điều chỉnh chiều cao khi màn hình nhỏ hơn */
+      max-height: 300px; 
     }
   }
   
   @media (max-width: 576px) {
     .carousel-item img {
-      max-height: 200px; /* Điều chỉnh cho màn hình rất nhỏ */
+      max-height: 200px; 
     }
   }
   .linkNobel {
     text-decoration: none;
     color: white;
-    transition: color 0.3s ease
+    transition: color 0.3s ease;
+    position: relative;
 }
 
 .linkNobel:hover {
     color: #0353a4;
-} 
+}
+
+.nobel1Huy:hover::after {
+    content: "Shared with Pierre Curie and Henri Becquerel for their work on radioactivity. Click to learn more";
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    top: 110%; 
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+.nobel2Huy:hover::after {
+  content: "For her discovery of the elements radium and polonium, and further studies into radioactivity. Click to learn more";
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  top: 110%; 
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.9;
+  z-index: 1000;
+}

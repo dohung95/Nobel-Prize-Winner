@@ -34,7 +34,7 @@ const MoreNobel = () => {
                         {isExpanded ? longText.join(" ") : `${longText.join(" ").slice(0, 263)}...`}
                     </p>
                     <button onClick={toggleReadMore} className="read-more-btn">
-                        {isExpanded ? 'Ẩn bớt' : 'Xem thêm'}
+                        {isExpanded ? 'Hide' : 'See more'}
                     </button>
                     {/* Chia thành 3 cột khi mở rộng */}
                     {isExpanded && (

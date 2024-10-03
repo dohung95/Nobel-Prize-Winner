@@ -44,14 +44,11 @@
     top: 50%;
     left: -100%; 
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0); 
-    color: rgb(0, 0, 0);
     padding: 10px;
     font-size: 1.2rem;
     font-weight: bold;
     white-space: nowrap;
     transition: left 0.5s ease-in-out; 
-    z-index: -1;
 }
 
 
@@ -77,6 +74,12 @@
     }
 }
 
+@media (max-width: 991px) {
+    .contact-content-dat-about p{
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 910px) {
     .overlay-text{
         font-size: 8pt;
@@ -85,16 +88,32 @@
 
 @media (max-width: 767px) {
     .contact-map{
-        display: none;
+        margin-top: 30px;
     }
 
     .overlay-text{
         font-size: 14pt;
     }
+
+    .contact-content-dat-about p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-content-dat-about p{
+        font-size: 20px;
+    }    
 }
 
 @media (max-width: 543px) {
     .contact-content-dat-contact{
         display: block;
     }
+}
+
+@media (max-width: 350px) {
+    .contact-content-dat-about p{
+        font-size: 18px;
+    }    
 }

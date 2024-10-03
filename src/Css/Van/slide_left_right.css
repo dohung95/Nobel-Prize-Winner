@@ -85,7 +85,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
-    color:#0C1B54;
+    color:#ffffff;
     animation: appearText 3s ease-in forwards;
     animation-delay: 5s; /* Đợi sau khi hình ảnh chạy xong, text hien ra */
 }
