@@ -36,6 +36,7 @@ const Site_Map = () => {
             }
         };
     }, [hideDiv]); // Thêm hideDiv vào dependency array
+    
     const top = () => {
         document.documentElement.scrollTop = 0;
     }

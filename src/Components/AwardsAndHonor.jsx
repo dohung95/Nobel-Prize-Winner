@@ -93,6 +93,7 @@ const Awards = () => {
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG12}</b>: {DTB[1].LG13}
                         </p>
+                        <br />
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG14}</b>: {DTB[1].LG15}
                         </p>

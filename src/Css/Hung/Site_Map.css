@@ -3,7 +3,7 @@
     height: auto;
     margin-left: -18px;
     position: fixed;
-    bottom: 20%;
+    bottom: 10%;
     z-index: 1000;
     filter: drop-shadow(0 0 5px rgb(180, 180, 180)) ;
 
@@ -38,7 +38,7 @@
     padding: 1.5%;
     z-index: 1000;
     display: none;
-    background-image: url('../../Img/Hung/bg_sitemap.webp');
+    background-image: url('../../Img/Hung/bg_sitemap.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,6 @@
 
 .site_map_text a {
     text-decoration: none;
-    text-shadow: 3px 3px 3px black;
     color: #ffffff;
     font-weight: 600;
     background-color: #9285856c;
@@ -72,8 +71,9 @@
 }
 
 .site_map_text a:hover {
-    background-color: #babababd;
+    background-color: #ffffff;
     border: thin solid #ffffff;
+    color: black;
 }
 
 .Tieude_Hung {
@@ -87,12 +87,11 @@
 }
 .paddingleft_Hung a{
     font-weight: 300;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: rgba(0, 0, 0, 0.719);
     border-radius: 0px 5px 0px 5px ;
     color: white;
+    font-weight: 500;
 }
-
-
 @media (max-width: 978px) {
     .site_map_text {
         font-size: 14pt;

@@ -37,37 +37,41 @@ const Contact = () => {
                         <div className="network">
                             <a target="_blank" className="network-website" href="https://aptech.fpt.edu.vn/?fbclid=IwY2xjawFg98dleHRuA2FlbQIxMAABHdo9XENpm8qTmU9GIZk6NvgEWf3g4lBpi2lB9PaTOVyLDy4buH-Zzb-O0A_aem_JYi65L0_SgA5MS8LK-h5QA">
                                 <img src={icon_website} />
+                                <div className="overlay-text">
+                                    CLICK GO TO THE WEBSITE
+                                </div>
                             </a>
-                            <div className="overlay-text">
-                               CLICK GO TO THE WEBSITE
-                            </div>
+                            
                         </div>
 
                         <div className="network">
                             <a target="_blank" className="network-facebook" href="https://www.facebook.com/aptech.fpt">
                                 <img src={icon_facebook} />
+                                <div className="overlay-text">
+                                    CLICK GO TO THE FACEBOOK
+                                </div>
                             </a>
-                            <div className="overlay-text">
-                            CLICK GO TO THE FACEBOOK
-                            </div>
+                            
                         </div>
 
                         <div className="network">
                             <a target="_blank" className="network-titok" href="https://www.tiktok.com/@fptaptechofficial?is_from_webapp=1&sender_device=pc">
                                 <img src={icon_tiktok} />
+                                <div className="overlay-text">
+                                    CLICK GO TO THE TIKTOK
+                                </div>
                             </a>
-                            <div className="overlay-text">
-                            CLICK GO TO THE TIKTOK
-                            </div>
+                            
                         </div>
 
                         <div className="network">
                             <a target="_blank" className="network-youtube" href="https://www.youtube.com/@laptrinhfptaptech/">
                                 <img src={icon_youtube} />
+                                <div className="overlay-text">
+                                    CLICK GO TO THE YOUTUBE
+                                </div>
                             </a>
-                            <div className="overlay-text">
-                            CLICK GO TO THE YOUTUBE
-                            </div>
+                            
                         </div>
                     </div>
 

@@ -43,7 +43,7 @@ const SelectedWorks = () => {
             <div style={{backgroundColor:"rgb(21,21,21)", color:"white"}}>
                 <div align='center' >
                     <br /><h1 data-aos="slide-right" className='shadow_text' style={{ color: "white" }} id='vitri1'> Two great studies</h1>
-                    <hr width='35%' />
+                    
                 </div>
 
                 <div >

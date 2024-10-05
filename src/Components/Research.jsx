@@ -41,20 +41,20 @@ const Research = () => {
 
             <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} id ='discovery'>
                 <p className="fst-italic" style={{ fontSize: "1.4rem" }}>{DataResearch[0].p2}</p>
-                <ul className="list-unstyled">
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li1}</b>:</h5>
+                <ul data-aos= "fade-up" className="list-unstyled" >
+                    <li ><h5><b>{DataResearch[0].li1}</b>:</h5>
                         {DataResearch[0].li11}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li2}</b>:</h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li2}</b>:</h5>
                         {DataResearch[0].li21}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li3}</b>:</h5>
+                   
+                    <li ><h5><b>{DataResearch[0].li3}</b>:</h5>
                         {DataResearch[0].li31}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li4}</b>:</h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li4}</b>:</h5>
                         {DataResearch[0].li41}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li5}</b>:</h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li5}</b>:</h5>
                         {DataResearch[0].li51}</li>
                 </ul >
                 <p className="fst-italic" style={{ fontSize: "1.4rem", textAlign: "justify" }}>{DataResearch[0].p3}</p>
@@ -63,24 +63,23 @@ const Research = () => {
             <div className="container mt-4" data-aos="fade-up" style={{ border: "2px solid white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }}>
                 <p className="fst-italic" style={{ fontSize: "1.4rem", textAlign: "justify" }}>{DataResearch[0].p7}</p>
                 <ul className="list-unstyled">
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li6}</b></h5>
+                    <li ><h5><b>{DataResearch[0].li6}</b></h5>
                         {DataResearch[0].li61}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li7}</b></h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li7}</b></h5>
                         {DataResearch[0].li71}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li201}</b></h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li201}</b></h5>
                         {DataResearch[0].li202}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li203}</b></h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li203}</b></h5>
                         {DataResearch[0].li204}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li205}</b></h5>
+                   
+                    <li ><h5><b>{DataResearch[0].li205}</b></h5>
                         {DataResearch[0].li206}</li>
-                    <br />
-                    <li data-aos="zoom-in"><h5><b>{DataResearch[0].li207}</b></h5>
+                    
+                    <li ><h5><b>{DataResearch[0].li207}</b></h5>
                         {DataResearch[0].li208}</li>
-                    <br />
                 </ul>
             </div>
 
