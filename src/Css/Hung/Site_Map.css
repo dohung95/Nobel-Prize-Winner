@@ -38,7 +38,7 @@
     padding: 1.5%;
     z-index: 1000;
     display: none;
-    background-image: url('../../Img/Hung/bg_sitemap.jpg');
+    background-image: url('../../Img/Hung/background-den.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
-    background-color: #9285856c;
+    background-color: #b0b0b06c;
     border-radius: 15px;
     box-shadow: 1px 1px 1px 1px rgba(199, 199, 199, 0.485);
 }
@@ -87,7 +87,7 @@
 }
 .paddingleft_Hung a{
     font-weight: 300;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgba(30, 30, 30, 0.615);
     border-radius: 0px 5px 0px 5px ;
     color: white;
     font-weight: 500;
