@@ -20,7 +20,7 @@
 }
 
 .Van_sheet_refer {
-    background-color: rgb(21,21,21);
+    background-color: rgb(21, 21, 21);
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 30px;
@@ -33,25 +33,85 @@
 
 /*css div duongvien all trang*/
 .Van_duongvien {
-    border:none;
+    border: none;
     border-radius: 10px;
     padding: 50px;
-    background-color: rgb(21,21,21);
+    background-color: rgb(21, 21, 21);
 }
 
-/*chu hoa*/
-.chuhoa p::first-letter {
-    font-size: 4rem;
-    /* Tăng kích cỡ chữ cái đầu */
-    font-weight: bold;
-    /* Làm đậm chữ cái đầu */
-    text-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
-    color: rgb(248, 247, 247);
-    /* Đặt màu sắc cho chữ cái đầu */
-    /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
-    font-family: 'Pacifico', cursive;
+.Van_refer_sach {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Van_refer_book {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.Van_refer_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Van_Didyouknow_sach {
+    width: 55%;
+    height: 55%;
+    border: 2px solid rgb(233, 212, 107);
+    padding: 3%;
+    border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+    .Van_refer_sach col {
+        width: 100%;
+    }
+}
+
+.Van-quote-mark {
+    font-size: 2em;
+    /* Điều chỉnh kích thước theo ý muốn */
+    font-family: Georgia, serif;
+    /* Chọn font chữ phù hợp */
+    color: white;
+    /* Màu sắc */
+    position: relative;
+    background-color: #D69840;
+}
+
+.Van-quote-mark::before {
+    content: open-quote;
+    /* Sử dụng ký tự đặc biệt cho dấu mở đầu */
+    position: absolute;
+    left: -0.5em;
+}
+
+.Van-quote-mark::after {
+    content: close-quote;
+    /* Sử dụng ký tự đặc biệt cho dấu kết thúc */
+    position: absolute;
+    right: -0.000005em;
+}
+.Van-khoitron-quot{
+    width: 50%;
+    height:auto;
+    border-radius: 50%; /* Tạo hình tròn */
+    box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
+  /*  overflow: hidden;  Ẩn phần thừa của hình ảnh */
+ 
   
 }
-
-
-/**/
+.Van-khoitron-quot img {
+    border-radius: 30%;
+    width: 90%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ diện tích */
+  }
+@media (max-width: 768px) {
+    .Van-quote-mark {
+        font-size: 1.5em;
+    }
+}

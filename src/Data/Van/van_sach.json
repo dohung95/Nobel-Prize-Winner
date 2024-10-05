@@ -1,25 +1,25 @@
 [
     {
         "id": "1",
-        "title": "Marie Curie - Nhà nữ khoa học kiệt xuất",
-        "author": "Nhiều tác giả",
+        "title": "Marie Curie -Outstanding female scientist",
+        "author": "Many authors",
         "image": "sach1.png",
-        "description": "Qua ngòi bút của tác giả sẽ mang đến người xem rõ ràng, chân thật nhất về Marie Curie-Nhà bác học vĩ đại"
+        "description": "Through the author's pen, it will bring viewers the clearest and most honest story about Marie Curie - the great scientist"
     },
     
     {
         "id": "2",
-        "title": " Sách Kể Chuyện Cuộc Đời Các Thiên Tài: Marie Curie - Nhà Nữ Khoa Học Kiệt Xuất:",
-        "author": "Tiến sĩ Richard Gunderman là giáo sư ngành X-quang tại Đại học Indiana, Hoa Kỳ.",
+        "title": " Books Telling the Lives of Geniuses: Marie Curie - Outstanding Female Scientist:",
+        "author": "Dr. Richard Gunderman is a professor of radiology at Indiana University, USA.",
         "image": "sach2.png",
-        "description": "Sách được viết về nhà khoa học Marie Curie-người duy nhất hai lần đoạt giải Nobel trong 2 lĩnh vực: vật lý và khoa học"
+        "description": "The book was written about scientist Marie Curie - the only person to win the Nobel Prize twice in two fields: physics and science."
     },
 
     {
         "id": "1",
-        "title": "Marie Curie - Nhà Nữ Khoa Học Tiên Phong, Người Đạt Giải Nobel, Người Khám Phá Ra Chất Phóng Xạ:",
+        "title": "Marie Curie - Pioneering Female Scientist, Nobel Prize Winner, Discoverer of Radioactive Substances:",
         "author": "Rasmus Hoài Nam",
         "image": "sach3.png",
-        "description": "  Cuốn sách tập trung vào những khám phá khoa học quan trọng của Marie Curie và ảnh hưởng của bà đối với thế giới."
+        "description": " The book focuses on Marie Curie's important scientific discoveries and her impact on the world."
     }
 ]

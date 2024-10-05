@@ -1,4 +1,4 @@
-/*vien all trang*/
+
 .Van_khoibio_bio {
     border: none;
     border-radius: 10px;
@@ -6,38 +6,35 @@
     background-color: rgb(21, 21, 21);
 }
 
-/*quote*/
 .custom-quote {
-    /* padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 2%; */
-    background-color: #F2F2CE;
-    border-left: 2px solid #D69840;
-    border-right: 4px solid #D69840;
+    
+    background-color:black;
+    border-left: 3px solid #D69840;
+    border-right: 7px solid #D69840;
     border-top: 1px solid #D69840;
-    border-bottom: 1px solid #D69840;
+    border-bottom: 5px solid #D69840;
     text-align: center;
-    color: #D69840;
+    color:white;
     border-radius: 1000px;
     font-size: 2rem;
-    box-shadow: 3px 5px 20px 8px rgb(233, 212, 107);
+    box-shadow: 15px 8px 15px 10px rgb(233, 212, 107);
+    margin-bottom: 2%;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 #F2F2CE;
-    margin-top: 30px;
     text-align: center;
     font-family: arial;
-    background-color: #f9f9f9;
-    border-radius: 30px;
+    background-color:  #cecbc8;
+    border-radius: 3%;
 }
 
 .card button {
     border: none;
     outline: 0;
     padding: 12px;
-
-    background-color: #FFFDC3;
+    border-radius: 0% 0% 10% 10%;
+    background-color: #fffdc3;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -49,14 +46,12 @@
 }
 
 .card img {
-    width: 300px;
+    width: 130%;
     animation: slide-up 0.9s ease-in-out;
-    /*qui tac hieu ung chuyen dong tu duoi len tren*/
     transform: translateY(100%);
-    /*ban dau, hình o phia duoi*/
     opacity: 0;
     animation-fill-mode: forwards;
-    /*giu hinh o lai diem cuoi khong bien mat*/
+    border-radius: 50% 20%;
 }
 
 @keyframes slide-up {
@@ -66,22 +61,14 @@
     }
 }
 
-/*chu hoa*/
 .Van-chuhoa p::first-letter {
     font-size: 4rem;
-    /* Tăng kích cỡ chữ cái đầu */
     font-weight: bold;
-    /* Làm đậm chữ cái đầu */
-    /* text-shadow: 15px 10px 25px 8px rgb(233, 212, 107); */
-    color: #F2F2CE;
-    /* Đặt màu sắc cho chữ cái đầu */
-    /* font-family: "Cursive", sans-serif; Sử dụng phông chữ đặc sắc */
+    color:rgb(233, 212, 107);
     font-family: 'Pacifico', cursive;
 
 }
 
-
-/*bố cuc hienthi*/
 .Van_sheet_bio {
     border: dotted;
     padding: 30px;
@@ -94,5 +81,33 @@
 .Van-Bioone-clickme {
     background-color: black;
     text-align: center;
-    font-size: 1.75rem;    
+    font-size: 1.75rem;
 }
+
+.VanBio_custom-link:hover{
+    background-color: #e0e0e0;
+}
+
+.VanBio_custom-link {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.VanBio_colum{
+    flex: 1;
+    padding: 10px;
+}
+
+.VanBio_expanded-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+/* @media (max-width: 768px) {
+    .VanBio_colum {
+        flex: 100%;
+    }
+} */

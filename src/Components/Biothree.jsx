@@ -3,9 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import React, { useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Container } from "react-bootstrap";
+
 import '../Css/Van/Timeline.css'
-// import Timeline from './IntimateDetail';
 function MyVerticallyCenteredModal(props) {
 
     return (
@@ -38,21 +37,21 @@ function Biothree() {
     return (
         <>
 
-            <h1 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' #F2F2CE', borderRadius: '1000px' }} >Timeline about MarieCurie's life from 1906 to 1914</h1>
+            <h1 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' #F2F2CE', borderRadius: '1000px', color:'black' }} >Timeline about MarieCurie's life from 1906 to 1914</h1>
             <Row className="align-items-center mb-4">
                 <Col md={4}>
-                    <div style={{ textAlign: "justify", fontSize: "1.19rem", color: " #F2F2CE" }} className='Van-chuhoa'>
+                    <div style={{ textAlign: "justify", fontSize: "1.19rem", color: " white" }} className='Van-chuhoa'>
                         <p data-aos="zoom-in"> From a poor woman who suffered from gender discrimination, she constantly tried her best for her passion for science and achieved countless achievements, becoming the first woman to receive a doctorate in science in France, the first woman to receive a doctorate in science. first female to become a professor at the University of Paris. </p>
                     </div>
                 </Col>
 
                 <Col md={3}>
-                    <div style={{ color: '#F2F2CE', fontSize: '1.19rem' }} data-aos="zoom-in" className='chuhoa' >
+                    <div style={{ color: 'white', fontSize: '1.19rem' }} data-aos="zoom-in" className='Van-chuhoa' >
                         <p data-aos="zoom-in"> Marie has two daughters. Irene, who followed her parents into science and eventually won a Nobel Prize with her husband for their work on nuclear reactions. The younger daughter, Eve, wrote the best biography of her mother and married a United Nations official who later won another Nobel Prize for her work with UNICEF. </p>
                     </div>
                 </Col>
                 <Col md={5}>
-                    <div style={{ color: '#F2F2CE', fontSize: '1.19rem' }} data-aos="zoom-in" className='chuhoa' mb={4}>
+                    <div style={{ color: 'white', fontSize: '1.19rem' }} data-aos="zoom-in" className='Van-chuhoa' mb={4}>
                         <p data-aos="zoom-in"> In 1903, Marie shared the Nobel Prize in Physics with her husband and physicist Henri Becquerel. Eight years later, in 1911, she received her second Nobel Prize - Nobel in Chemistry, in recognition of her research in the field of radioactivity, which made great contributions to science, medicine and biology in general. Although her life went through a series of ups and downs, including 'discrimination', the way she overcame it left extremely useful lessons for everyone. At this moment, no one can doubt her abilities.</p>
                     </div>
                 </Col>
@@ -60,7 +59,6 @@ function Biothree() {
 
 
             <div className="timeline">
-
                 <div className="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
@@ -119,10 +117,6 @@ function Biothree() {
                     </div>
                 </div>
             </div>
-
-
-
-            {/* <Timeline /> */}
 
             <MyVerticallyCenteredModal
                 show={modalShow}

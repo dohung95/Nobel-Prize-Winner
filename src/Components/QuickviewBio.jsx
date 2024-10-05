@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-// import '../Css/Van/MoreNobel.css'
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
 import hinh_card from '../Img/Van/Nobel1903.jpg'
 import chukiMari from '../Img/Van/biofirst/chukiMari.png'
 
 const QuickviewBio = () => {
-    // State để điều khiển việc hiển thị đầy đủ hay thu gọn nội dung
     const [isExpanded, setIsExpanded] = useState(false);
-
     const toggleExpand = () => {
         setIsExpanded(!isExpanded);
     };
@@ -26,13 +23,10 @@ const QuickviewBio = () => {
                     </figure>
 
                     <div style={{ display: isExpanded ? 'block' : 'none', textAlign: 'left' }}>
-                        {/* Nội dung sẽ được ẩn/hiển thị */}
-
                         <table>
                             <tr>
                                 <th>Birth_name:</th>
                                 <td >Maria Salomea Skłodowska</td>
-
                             </tr>
                             <tr>
                                 <th>Birth_date:</th>
@@ -60,9 +54,8 @@ const QuickviewBio = () => {
                             </tr>
                         </table>
                     </div>
-                    <ListGroup style={{alignItems: 'center', fontSize:'1.75rem'}}>
-                        <div className='chuki'><img src={chukiMari} alt="chu ki" /></div>
-                       
+                    <ListGroup style={{ alignItems: 'center', fontSize: '1.75rem' }}>
+                        <div><img src={chukiMari} alt="chu ki " /></div>
                     </ListGroup>
                     <button onClick={toggleExpand}>
                         {isExpanded ? 'COMPACT' : 'QUICK VIEW'}
