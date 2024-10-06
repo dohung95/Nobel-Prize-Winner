@@ -1,5 +1,5 @@
 import "../Css/Huy/Awards.css"
-import { Carousel, ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
+import { Carousel, Figure, Container, Row, Col } from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -87,8 +87,8 @@ const Awards = () => {
                 <p style={{ textAlign: "justify", fontSize: "1.4rem" }} data-aos="fade-up">
                     {DTB[1].p2}
                 </p>
-                <ListGroup className="mb-4">
-                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
+                <ul className="mb-4 listAwardHuy"  >
+                    <li   data-aos="zoom-in">
                         <h4>{DTB[1].LG1}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG12}</b>: {DTB[1].LG13}
@@ -97,32 +97,32 @@ const Awards = () => {
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG14}</b>: {DTB[1].LG15}
                         </p>
-                    </ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
+                    </li>
+                    <li  data-aos="zoom-in">
                         <h4>{DTB[1].LG3}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG31}</b>: {DTB[1].LG32}
                         </p>
-                    </ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
+                    </li>
+                    <li  data-aos="zoom-in">
                         <h4>{DTB[1].LG5}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG51}</b>: {DTB[1].LG32}
                         </p>
-                    </ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
+                    </li>
+                    <li  data-aos="zoom-in">
                         <h4>{DTB[1].LG2}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG21}</b>: {DTB[1].LG22}
                         </p>
-                    </ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "rgb(21,21,21)", color: "white" }} data-aos="zoom-in">
+                    </li>
+                    <li  data-aos="zoom-in">
                         <h4>{DTB[1].LG4}</h4>
                         <p style={{ textAlign: "justify" }}>
                             <b>{DTB[1].LG41}</b>: {DTB[1].LG42}
                         </p>
-                    </ListGroup.Item>
-                </ListGroup>
+                    </li>
+                </ul>
                 <Row className="align-items-center mb-4">
                     <Col md={6} data-aos="slide-left">
                         <p style={{ textAlign: "justify", fontSize: "1.4rem" }}>
