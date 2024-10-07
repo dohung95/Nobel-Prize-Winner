@@ -42,7 +42,16 @@
     right: 25px;
     z-index: 1000;
 }
-
+.content_Hung a{
+    text-decoration: none;
+    color: #0353a4;
+}
+.content_Hung a:hover{
+    color: white;
+}
+.content_Hung{
+    border: thin solid white;
+}
 @keyframes pulse512 {
     0% {
         filter: drop-shadow(0 0 0px #FFFFFF);
@@ -70,6 +79,11 @@
 .Nobel_Hung {
     box-shadow: 3px 3px 5px #676766;
     border-radius: 50%;
+}
+.bg_title{
+    display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;   
 }
 
 ul,

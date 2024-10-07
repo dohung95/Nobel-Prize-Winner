@@ -40,6 +40,15 @@ const References = () => {
     const getImagePath = (imageName) => {
         return require(`../Img/Van/sotay/${imageName}`);
     };
+    React.useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, []);
     return (
         <>
             <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' #F2F2CE', borderRadius: '1000px', color: 'black' }} >MARIE'S quote</h1>
@@ -63,7 +72,7 @@ const References = () => {
                 </div >
             </div>
 
-            <div>
+            <div id='Book_Van'>
                 <div className='container' style={{ color: 'white', borderBottom: '3px solid', margin: "5% auto  ", padding: '0px', borderTop: '3px solid', width: '80%' }}>
                     <hr style={{ width: "50%", textAlign: "center", borderTop: "5px solid black", margin: " 1% auto 0" }} />
                     <hr style={{ borderTop: "10px solid #D69840", margin: "0 auto", width: "70%" }} />
@@ -74,7 +83,7 @@ const References = () => {
             </div>
 
             <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' #F2F2CE', borderRadius: '1000px', color: 'black' }} >MARIE'S book</h1>
-            <div className='Van_khoibio_refer ' style={{ paddingLeft: '5%' }}>
+            <div className='Van_khoibio_refer ' style={{ paddingLeft: '5%' }} >
                 <div className="Van_refer_sach">
                     {isMobile ? (
                         <div className="Van_refer_sach ">
@@ -102,7 +111,7 @@ const References = () => {
                 </div>
             </div >
 
-            <div>                
+            <div id='Video_Van'>                
                 <div className='container' style={{ color: 'white', borderBottom: '3px solid', margin: "5% auto  ", padding: '0px', borderTop: '3px solid', width: '80%' }}>
                     <hr style={{ width: "50%", textAlign: "center", borderTop: "5px solid black", margin: " 1% auto 0" }} />
                     <hr style={{ borderTop: "10px solid #D69840", margin: "0 auto", width: "70%" }} />
@@ -111,14 +120,14 @@ const References = () => {
                 </div>
             </div>
 
-            <div className="container mt-4">
+            <div className="container mt-4" >
                 <h3 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' #F2F2CE', borderRadius: '1000px', color: 'black' }}>Some Videos About Marie Curie</h3>
-                <div className="row">
+                <div className="row" >
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                         <iframe
                             width="560"
                             height="315"
-                            src="https://www.britannica.com/biography/Marie-Curie/Death-of-Pierre-and-second-Nobel-Prize#/media/1/146871/218158"
+                            src="https://www.youtube.com/embed/r8Kmy0flX_w?si=CPstJePhLMb-3KGj"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
