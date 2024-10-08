@@ -26,11 +26,20 @@ const References = () => {
     const getImagePath = (imageName) => {
         return require(`../Img/Van/sotay/${imageName}`);
     };
+    React.useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, []);
     return (
         <>
 
 
-            <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} >MARIE'S book</h1>
+            <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} id='Book_Van'>MARIE'S book</h1>
             <div className='Van_khoibio_refer ' style={{ paddingLeft: '5%' }}>
                 <div className="Van_refer_sach">
                     {isMobile ? (
@@ -68,7 +77,7 @@ const References = () => {
             </div >
 
 
-            <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} >Some Videos About Marie Curie</h1>
+            <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} id='Video_Van'>Some Videos About Marie Curie</h1>
             <div className="container mt-4">
                
                 <div className="row">
@@ -103,7 +112,7 @@ const References = () => {
             <div className='container'style={{ padding: '3%' }}>
                 <Charttimeline />
             </div>
-            <div className="theEnd">
+            <div id='Link_Van' >
                 <MoreMarieSecond />
             </div>
 

@@ -64,13 +64,13 @@ const Site_Map = () => {
                                 <Link to='/Biography#hai' onClick={hideDiv}>&nbsp;- Education&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography#nam' onClick={hideDiv}>&nbsp;- Career&nbsp;</Link>
+                                <Link to='/Biography#ba' onClick={hideDiv}>&nbsp;- Career&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography#bon' onClick={hideDiv}>&nbsp;- Life Story&nbsp;</Link>
+                                <Link to='/Biography#mot' onClick={hideDiv}>&nbsp;- Life Story&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
-                                <Link to='/Biography#ba' onClick={hideDiv}>&nbsp;- Intimate details of experience&nbsp;</Link>
+                                <Link to='/Biography#nam' onClick={hideDiv}>&nbsp;- Intimate details of experience&nbsp;</Link>
                             </div>
                         </div>
                     </div>
@@ -127,6 +127,9 @@ const Site_Map = () => {
                             </div>
                             <div className='paddingleft_Hung'>
                                 <Link to='/References#Video_Van' onClick={hideDiv}>&nbsp;- Video&nbsp;</Link>
+                            </div>
+                            <div className='paddingleft_Hung'>
+                                <Link to='/References#Link_Van' onClick={hideDiv}>&nbsp;- Link&nbsp;</Link>
                             </div>
                         </div>
                     </div>

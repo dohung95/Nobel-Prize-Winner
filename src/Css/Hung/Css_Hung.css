@@ -52,6 +52,7 @@
 .content_Hung{
     border: thin solid white;
 }
+
 @keyframes pulse512 {
     0% {
         filter: drop-shadow(0 0 0px #FFFFFF);

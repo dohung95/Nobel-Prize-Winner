@@ -42,7 +42,7 @@ const SelectedWorks = () => {
         <>
             <div style={{ backgroundColor: "rgb(21,21,21)", color: "white" }}>
                 <br />
-                <div className='row' style={{ padding: "0% 6% 3% 6%" }}>
+                <div className='row' style={{ padding: "0% 6% 3% 6%", '--bs-gutter-x': 'none' }}>
                     <div className='col-md-4 content_Hung' style={{ paddingBottom: "1%" }}>
                         <b>Contents:</b> <br />
                         <a href="#NB1" style={{ paddingLeft: "2%" }}>1. Marie Curie, her husband and Becquerel discovered radioactivity</a><br />                       

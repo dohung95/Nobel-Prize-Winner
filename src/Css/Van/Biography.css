@@ -69,14 +69,6 @@
 
 }
 
-/* .Van_sheet_bio {
-    border: dotted;
-    padding: 30px;
-    margin-top: 50px 50px;
-    border-radius: 30px;
-    margin-bottom: 30px;
-
-} */
 
 .Van-Bioone-clickme {
     background-color: black;
@@ -106,8 +98,8 @@
     flex-wrap: wrap;
     margin: 10px 0;
 }
-/* @media (max-width: 768px) {
-    .VanBio_colum {
-        flex: 100%;
+@media (max-width: 568px) {
+    .custom-quote  {
+       font-size: 1.65rem;
     }
-} */
+}
