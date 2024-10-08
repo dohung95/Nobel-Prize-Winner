@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Dropdown from 'react-bootstrap/Dropdown'; // Import Dropdown component
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
+import hinhquot2 from '../Img/Van/hinhquot2.png'
 const MoreMarieSecond = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -18,7 +19,7 @@ const MoreMarieSecond = () => {
 
   const content2 = (
     <div>
-     *** Additionally, shortly after the war began, she tried to donate her Nobel gold medals to the war effort but the French National Bank refused to accept them. She bought war bonds, using the prize money. his Nobel Prize. She said:
+      *** Additionally, shortly after the war began, she tried to donate her Nobel gold medals to the war effort but the French National Bank refused to accept them. She bought war bonds, using the prize money. his Nobel Prize. She said:
       <blockquote className="quote">
         "I will give up the little gold I possess. I will add to it the scientific medals, which are quite useless to me. There is another thing: by sheer laziness, I have allowed the money for my second Nobel Prize stays in Stockholm in the Swedish crown. This is the main part of what we own. I want to bring it back here and invest it in war loans . Only, I have no illusions: this money may be lost."
       </blockquote>
@@ -35,22 +36,41 @@ const MoreMarieSecond = () => {
       <Dropdown.Toggle variant="primary" id="dropdown-basic">
         You can learn more here!
       </Dropdown.Toggle> More link
+      <div className='Van-khoitron-quot' style={{ alignItems: 'center', width: '45%', textAlign: 'center', marginBottom: '3%' }}>
+        <Figure>
+          <Figure.Image
+            width={500}
+            height={300}
+            alt="quot1"
+            src={hinhquot2} />
+          <Figure.Caption>
+            <span class="Van-quote-mark" >
+              <h2 style={{ color: 'black', fontStyle: 'italic' }}>
+                Nothing in life is to be feared, it is only to be understood.
+              </h2>
+            </span>
+          </Figure.Caption>
+        </Figure>
+      </div >
       <Dropdown.Menu>
-        <Dropdown.Item href="https://en.wikipedia.org/wiki/Marie_Curie">
+        <Dropdown.Item href="https://en.wikipedia.org/wiki/Marie_Curie" target='new'>
           Wikipedia
         </Dropdown.Item>
-        <Dropdown.Item href="https://history.aip.org/exhibits/curie/stud1.htm">
+        <Dropdown.Item href="https://history.aip.org/exhibits/curie/stud1.htm"  target='new'>
           More Information
         </Dropdown.Item>
-        <Dropdown.Item href="https://www.britannica.com/biography/Marie_Curie/Death-of-Pierre-and-second-Nobel-Prize">
+        <Dropdown.Item href="https://history.aip.org/exhibits/curie/curie.pdf" target='new'>
           More Curie
+        </Dropdown.Item>
+        <Dropdown.Item href="https://www.nobelprize.org" target='new'>
+          The Nobel prize
         </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );
 
   return (
-    /*style={{ cursor: ' pointer', border: '1px solid #ccc', borderRadius: ' 5px', color: 'red' }}*/
+   
     <div className="theEnd">
       <div className="custom-link VanBio_custom-link" style={{ textAlign: 'left' }}>
 

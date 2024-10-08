@@ -47,71 +47,96 @@
 
 .Van_refer_book {
     width: 100%;
-    margin-top: 20px;
-    text-align: center;
-    padding-top: 15%;
+
+    text-align: left;
+
 }
 
 .Van_refer_row {
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .Van_Didyouknow_sach {
     width: 55%;
     height: 55%;
-    border: 2px solid rgb(233, 212, 107);
+    border: 3px solid rgb(233, 212, 107);
     padding: 3%;
     border-radius: 3px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.Van_refer_book img{
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .Van_refer_book {
+        margin: 3px;
+    }
+}
+@media (max-width: 568px) {
+    .Van_refer_book {
+       margin: 0 auto;
+    }
 }
 
 @media (max-width: 767px) {
     .Van_refer_sach col {
         width: 100%;
+        margin: 30%;
     }
+
+    
 }
 
 .Van-quote-mark {
     font-size: 2em;
-    /* Điều chỉnh kích thước theo ý muốn */
     font-family: Georgia, serif;
-    /* Chọn font chữ phù hợp */
-    color: white;
-    /* Màu sắc */
+    color: black;
     position: relative;
-    background-color: #D69840;
 }
 
 .Van-quote-mark::before {
     content: open-quote;
-    /* Sử dụng ký tự đặc biệt cho dấu mở đầu */
     position: absolute;
-    left: -0.5em;
+    left: -7.85em;
 }
 
 .Van-quote-mark::after {
     content: close-quote;
-    /* Sử dụng ký tự đặc biệt cho dấu kết thúc */
     position: absolute;
     right: -0.000005em;
 }
-.Van-khoitron-quot{
-    width: 50%;
-    height:auto;
-    border-radius: 50%; /* Tạo hình tròn */
-    box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
-  /*  overflow: hidden;  Ẩn phần thừa của hình ảnh */
- 
-  
+
+.Van-khoitron-quot {
+
+    height: auto;
+    border-radius: 50%;
+    /* Tạo hình tròn */
+    box-shadow: 15px 10px 25px 8px white;
+    /* overflow: hidden;  Ẩn phần thừa của hình ảnh */
+
+
 }
+
 .Van-khoitron-quot img {
     border-radius: 30%;
-    width: 90%;
-    height: 100%;
-    object-fit: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ diện tích */
-  }
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh phủ kín toàn bộ diện tích */
+}
+
 @media (max-width: 768px) {
     .Van-quote-mark {
-        font-size: 1.5em;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .Van-quote-mark::before {
+        left: -5.85em;
     }
 }

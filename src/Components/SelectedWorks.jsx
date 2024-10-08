@@ -53,7 +53,7 @@ const SelectedWorks = () => {
                         <a href="#vitri2T3"style={{ paddingLeft: "6%" }}>- On a social level</a>
                     </div>
                     <div className='col-md-8 bg_title' align='center'>
-                        <br /><h1 data-aos="slide-right" className='shadow_text'> Two great studies</h1>
+                        <br /><h1 data-aos="fade-right" className='shadow_text'> Two great studies</h1>
                     </div>
 
                 </div>
@@ -211,7 +211,7 @@ const SelectedWorks = () => {
                 <div style={{ padding: "0% 6% 3% 6%" }} >
                     <div className='Khoidiv2_Hung' style={{ padding: "0% 6% 3% 6%" }}>
                         <div align='center' id='vitri3'>
-                            <h1 className='shadow_text' data-aos="slide-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
+                            <h1 className='shadow_text' data-aos="fade-left">Impact of Her Two Nobel Prizes on Science and Society</h1>
                         </div>
 
                         <div className='row' style={{ marginTop: "3%" }}>

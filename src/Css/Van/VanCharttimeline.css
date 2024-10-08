@@ -1,0 +1,17 @@
+
+@media (max-width: 768px) {
+    .chartjs-tooltip {
+        font-size: 12px; /* Further reduce font size for small screens */
+        max-width: 80vw; /* Adjust width for mobile responsiveness */
+    }
+}
+.chartjs-tooltip {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}

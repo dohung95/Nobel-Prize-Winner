@@ -1,4 +1,4 @@
-import MoreMarieSecond from './MoreMarieSecond';
+// import MoreMarieSecond from './MoreMarieSecond';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -60,9 +60,9 @@ const Biofour = () => {
                 </div>
             </div >
 
-            <div className="theEnd">
+            {/* <div className="theEnd">
                 <MoreMarieSecond />
-            </div>
+            </div> */}
         </>
     );
 }

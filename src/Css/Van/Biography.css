@@ -9,15 +9,15 @@
 .custom-quote {
     
     background-color:black;
-    border-left: 3px solid #D69840;
-    border-right: 7px solid #D69840;
-    border-top: 1px solid #D69840;
-    border-bottom: 5px solid #D69840;
+    border-left: 3px solid white;
+    border-right: 7px solid white;
+    border-top: 1px solid white;
+    border-bottom: 5px solid white;
     text-align: center;
     color:white;
     border-radius: 1000px;
     font-size: 2rem;
-    box-shadow: 15px 8px 15px 10px rgb(233, 212, 107);
+    box-shadow: 15px 8px 15px 10px white;
     margin-bottom: 2%;
 }
 
@@ -64,19 +64,19 @@
 .Van-chuhoa p::first-letter {
     font-size: 4rem;
     font-weight: bold;
-    color:rgb(233, 212, 107);
+    color:white;
     font-family: 'Pacifico', cursive;
 
 }
 
-.Van_sheet_bio {
+/* .Van_sheet_bio {
     border: dotted;
     padding: 30px;
     margin-top: 50px 50px;
     border-radius: 30px;
     margin-bottom: 30px;
 
-}
+} */
 
 .Van-Bioone-clickme {
     background-color: black;

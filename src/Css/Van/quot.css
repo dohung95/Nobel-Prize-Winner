@@ -3,10 +3,10 @@
     /* Điều chỉnh kích thước theo ý muốn */
     font-family: Georgia, serif;
     /* Chọn font chữ phù hợp */
-    color: white;
+    color: rgb(230, 19, 19);
     /* Màu sắc */
     position: relative;
-    background-color: #D69840;
+    background-color:white
 }
 
 .Van-quote-mark::before {
@@ -23,18 +23,18 @@
     right: -0.000005em;
 }
 .Van-khoitron-quot{
-    width: 50%;
+    width: 25%;
     height:auto;
     border-radius: 50%; /* Tạo hình tròn */
     box-shadow: 15px 10px 25px 8px rgb(233, 212, 107);
-  /*  overflow: hidden;  Ẩn phần thừa của hình ảnh */
+    overflow: hidden; /* Ẩn phần thừa của hình ảnh */
  
   
 }
 .Van-khoitron-quot img {
     border-radius: 30%;
-    width: 90%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     object-fit: cover; /* Đảm bảo hình ảnh phủ kín toàn bộ diện tích */
   }
 @media (max-width: 768px) {

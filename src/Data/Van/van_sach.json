@@ -16,10 +16,31 @@
     },
 
     {
-        "id": "1",
+        "id": "3",
         "title": "Marie Curie - Pioneering Female Scientist, Nobel Prize Winner, Discoverer of Radioactive Substances:",
         "author": "Rasmus Hoài Nam",
         "image": "sach3.png",
         "description": " The book focuses on Marie Curie's important scientific discoveries and her impact on the world."
+    },
+    {
+        "id": "4",
+        "title": "The Elements of Marie Curie: How the Glow of Radium Lit a Path for Women in Science",
+        "author": " Dava Sobel ",
+        "image": "sach4.jpg",
+        "description": " writes Dava Sobel at the opening of her shining portrait of the sole Nobel laureate decorated in two separate fields of science"
+    },
+    {
+        "id": "5",
+        "title": "The Story of Marie Curie: An Inspiring Biography for Young Readers (The Story of Biographies)",
+        "author": "Susan B. Katz",
+        "image": "sach5.jpg",
+        "description": " Discover the life of Marie Curie―a story for kids 6 to 9 about discovering big things through hard work"
+    },
+    {
+        "id": "6",
+        "title": "World businessman",
+        "author": "Neung In Publishing Company",
+        "image": "sach6.png",
+        "description": "Marie Curie was the first female scientist to receive two Nobel Prizes."
     }
 ]

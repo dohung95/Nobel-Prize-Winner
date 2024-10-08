@@ -2,7 +2,7 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 const van_data_chart = [
-  { year: 1867, event: "Born in Poland", achievement: 0, perseverance: 10, obstacle: "Living under Russian occupation" },
+  { year: 1867-1877, event: "Born in Poland", achievement: 0, perseverance: 10, obstacle: "Living under Russian occupation" },
   { year: 1891, event: "Moved to Paris to study at Sorbonne", achievement: 20, perseverance: 30, obstacle: "Financial difficulties while studying abroad" },
   { year: 1898, event: "Discovered polonium and radium", achievement: 50, perseverance: 60, obstacle: "Faced skepticism from the scientific community" },
   { year: 1903, event: "Received Nobel Prize in Physics", achievement: 70, perseverance: 80, obstacle: "Gender discrimination in the scientific field" },

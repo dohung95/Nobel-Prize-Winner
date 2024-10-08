@@ -34,16 +34,7 @@ const Biography = () => {
         AOS.init();
     }, []);
 
-    React.useEffect(() => {
-        const hash = window.location.hash;
-        if (hash) {
-          const element = document.querySelector(hash);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-          }
-        }
-      }, []);
-      
+
     return (
         <>
             <div className='Van_khoibio_bio '>
@@ -56,7 +47,7 @@ const Biography = () => {
                         </blockquote>
                     </div>
 
-                    <div className=" Van_sheet_bio" id='mot'>
+                    <div className=" Van_sheet_bio" >
                         <Row className="biofirst-row align-items-center mb-4">
 
                             <Col md={8} data-aos="slide-left" className="biofirst-col">
@@ -102,7 +93,7 @@ const Biography = () => {
                         </Row>
                     </div>
 
-                    <div className=" Van_sheet_bio" id='hai'>
+                    <div className=" Van_sheet_bio" >
                         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
                             <div >
                                 <Row>
@@ -273,15 +264,15 @@ const Biography = () => {
                         </Tab.Container >                      
                     </div>
 
-                    <div className=" Van_sheet_bio" id='ba'>
+                    <div className=" Van_sheet_bio" >
                         <Biotwo />
                     </div>
 
-                    <div className=" Van_sheet_bio"id='bon' >
+                    <div className=" Van_sheet_bio" >
                         <Biothree />
                     </div>
 
-                    <div className=" Van_sheet_bio" id='nam'>
+                    <div className=" Van_sheet_bio" >
                         <Biofour />
                     </div>
 
