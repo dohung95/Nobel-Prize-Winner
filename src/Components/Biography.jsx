@@ -116,7 +116,7 @@ const Biography = () => {
                                                             alt="hinh gia dinh luc 5 tuoi"
                                                             src={hBioone1} />
                                                         <Figure.Caption>
-                                                            <span style={{ color: 'white' }}> CLICK ME</span>
+                                                            <span style={{ color: 'white' }}> CLICK ME 1</span>
                                                         </Figure.Caption>
                                                     </Figure>
                                                 </div>
@@ -130,7 +130,7 @@ const Biography = () => {
                                                             alt="24 tuoi"
                                                             src={hBioone2} />
                                                         <Figure.Caption>
-                                                            <span style={{ color: 'white' }}> CLICK ME</span>
+                                                            <span style={{ color: 'white' }}> CLICK ME 2</span>
                                                         </Figure.Caption>
                                                     </Figure>
                                                 </div>
@@ -144,7 +144,7 @@ const Biography = () => {
                                                             alt="sorbonne"
                                                             src={hBioone3} />
                                                         <Figure.Caption>
-                                                            <span style={{ color: 'white' }} > CLICK ME</span>
+                                                            <span style={{ color: 'white' }} > CLICK ME 3</span>
                                                         </Figure.Caption>
                                                     </Figure>
                                                 </div>

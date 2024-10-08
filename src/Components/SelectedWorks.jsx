@@ -96,7 +96,7 @@ const SelectedWorks = () => {
                                 </div>
                                 <div className='col-md-6' style={{ height: '300px' }} data-aos="fade-left">
                                     <div align='center' style={{ paddingTop: '2%' }}>
-                                        <a href={`${Data[0].urlWebImgP}`}>
+                                        <a href={`${Data[0].urlWebImgP}`} target='new'>
                                             <img src={`${path}${Data[0].imgP}`} className='SizeImg_Hung' />
                                         </a>
                                         <div><b>{Data[0].textImgP}</b></div>
@@ -115,7 +115,7 @@ const SelectedWorks = () => {
                                 </div>
                                 <div className='col-md-6 row' style={{ height: '300px' }} data-aos="fade-left">
                                     <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                        <a href={`${Data[0].urlWebImgA1}`}>
+                                        <a href={`${Data[0].urlWebImgA1}`} target='new'>
                                             <img src={`${path}${Data[0].imgA1}`} className='SizeImg_Hung1' />
                                         </a>
                                         <div><b>{Data[0].textImgA1}</b></div>
@@ -168,7 +168,7 @@ const SelectedWorks = () => {
                                 </div>
                                 <div className='col-md-6' style={{ height: '300px' }} data-aos="fade-left">
                                     <div align='center' style={{ paddingTop: '2%' }}>
-                                        <a href={`${Data[1].urlWebImgP}`}>
+                                        <a href={`${Data[1].urlWebImgP}`} target='new'>
                                             <img src={`${path}${Data[1].imgP}`} className='SizeImg_Hung' />
                                         </a>
                                         <div><b>{Data[1].textImgP}</b></div>
@@ -187,7 +187,7 @@ const SelectedWorks = () => {
                                 </div>
                                 <div className='col-md-6 row' style={{ height: '300px' }} data-aos="fade-left">
                                     <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                        <a href={`${Data[1].urlWebImgA1}`}>
+                                        <a href={`${Data[1].urlWebImgA1}`} target='new'>
                                             <img src={`${path}${Data[1].imgA1}`} className='SizeImg_Hung1' />
                                         </a>
                                         <div><b>{Data[1].textImgA1}</b></div>

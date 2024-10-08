@@ -129,6 +129,9 @@ const Site_Map = () => {
                                 <Link to='/References#Video_Van' onClick={hideDiv}>&nbsp;- Video&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung'>
+                                <Link to='/References#Chart_Van' onClick={hideDiv}>&nbsp;- Chart&nbsp;</Link>
+                            </div>
+                            <div className='paddingleft_Hung'>
                                 <Link to='/References#Link_Van' onClick={hideDiv}>&nbsp;- Link&nbsp;</Link>
                             </div>
                         </div>

@@ -109,7 +109,7 @@ const References = () => {
 
             
             <h1 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black' }}>An overview of the difficulties and successes in Marie Curie's life.</h1>
-            <div className='container'style={{ padding: '3%' }}>
+            <div className='container'style={{ padding: '3%' }} id='Chart_Van'>
                 <Charttimeline />
             </div>
             <div id='Link_Van' >

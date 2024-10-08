@@ -77,7 +77,7 @@ const Footer = () => {
                             This is a website about the biography of a person who won the Nobel Prize
                             in both Physics and Chemistry named Marie Curie.
                             <br />
-                            <Link to='/Contact' style={{ textDecoration: 'none' }}>Read more...</Link>
+                            <Link to='/Contact' style={{ textDecoration: 'none' }} onClick={top}>Read more...</Link>
                         </div>
                     </div>
                     <div className="footer-dat-contact col-md-4">

@@ -74,7 +74,7 @@ const MoreMarieSecond = () => {
     <div className="theEnd">
       <div className="custom-link VanBio_custom-link" style={{ textAlign: 'left' }}>
 
-        <button onClick={handleButtonClick} style={{ border: '1px solid white', backgroundColor: "#D69840", textAlign: 'center', marginLeft: '10%' }}>LICK HERE to more extention</button>
+        <button onClick={handleButtonClick} style={{ border: '1px solid white', backgroundColor: "#D69840", textAlign: 'center', marginLeft: '10%' }}>CLICK HERE to more extention</button>
 
         {isExpanded && (
           <div className="expanded-content VanBio_expanded-content " style={{ color: 'black', }}>
