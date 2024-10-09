@@ -15,20 +15,21 @@ const SelectedWorks = () => {
     }, []);
     const path = process.env.PUBLIC_URL;
     const NP1 = () => {
-        window.location.href = 'https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer';
+        window.open('https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer', '_blank');
     };
     const NP2 = () => {
-        window.location.href = 'https://en.wikipedia.org/wiki/Dorothy_Hodgkin';
+        window.open('https://en.wikipedia.org/wiki/Dorothy_Hodgkin', '_blank');
     };
     const NP3 = () => {
-        window.location.href = 'https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow';
+        window.open('https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow', '_blank');
     };
     const NP4 = () => {
-        window.location.href = 'https://en.wikipedia.org/wiki/Rita_Levi-Montalcini';
+        window.open('https://en.wikipedia.org/wiki/Rita_Levi-Montalcini', '_blank');
     };
     const NP5 = () => {
-        window.location.href = 'https://en.wikipedia.org/wiki/Gertrude_B._Elion';
+        window.open('https://en.wikipedia.org/wiki/Gertrude_B._Elion', '_blank');
     };
+    
     React.useEffect(() => {
         const hash = window.location.hash;
         if (hash) {
