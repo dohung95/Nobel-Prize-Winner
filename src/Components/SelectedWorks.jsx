@@ -122,7 +122,7 @@ const SelectedWorks = () => {
                                         <div><b>{Data[0].textImgA1}</b></div>
                                     </div>
                                     <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                        <a href={`${Data[0].urlWebImgA2}`}>
+                                        <a href={`${Data[0].urlWebImgA2}`} target='new'>
                                             <img src={`${path}${Data[0].imgA2}`} className='SizeImg_Hung1' />
                                         </a>
                                         <div><b>{Data[0].textImgA2}</b></div>
@@ -194,7 +194,7 @@ const SelectedWorks = () => {
                                         <div><b>{Data[1].textImgA1}</b></div>
                                     </div>
                                     <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                        <a href={`${Data[1].urlWebImgA2}`}>
+                                        <a href={`${Data[1].urlWebImgA2}`} target='new'>
                                             <img src={`${path}${Data[1].imgA2}`} className='SizeImg_Hung1' />
                                         </a>
                                         <div><b>{Data[1].textImgA2}</b></div>
