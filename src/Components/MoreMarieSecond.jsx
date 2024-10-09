@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Dropdown from 'react-bootstrap/Dropdown'; // Import Dropdown component
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
 import hinhquot2 from '../Img/Van/hinhquot2.png'
+import PopupComponent from './Galaryhinden'
 const MoreMarieSecond = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -87,7 +88,15 @@ const MoreMarieSecond = () => {
       </Dropdown.Menu>
     </Dropdown>
   );
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+  const handleOpenPopup = () => {
+    setIsPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+  };
   return (
    
     <div className="theEnd">
@@ -118,9 +127,9 @@ const MoreMarieSecond = () => {
 
 
             <div className="custom-link VanBio_custom-link" style={{ alignItem: 'Center' }}  >
-              <a href='#' onClick={handleButtonClick} > You may read ONCE MORE again!!! </a>
+              <a href='#gala' onClick={handleOpenPopup} > You may looking for pictrues!!! </a>
+              {isPopupOpen && <PopupComponent onClose={handleClosePopup} />}
             </div>
-
           </div>
 
         )
