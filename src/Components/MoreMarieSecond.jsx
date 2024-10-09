@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import '../Css/Van/MoreMarieSecond.css'; // Replace with your actual CSS file name
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Dropdown from 'react-bootstrap/Dropdown'; // Import Dropdown component
 import { ListGroup, Figure, Container, Row, Col } from "react-bootstrap";
@@ -11,9 +11,12 @@ const MoreMarieSecond = () => {
     setIsExpanded(!isExpanded);
   };
 
+  const top = () => {
+    document.documentElement.scrollTop = 0;
+}
   const content1 = (
     <div>
-      *** What you may not know is that Pitchblende is a complex mineral, and chemically separating its components is a difficult task. Furthermore, the radium contained in ore is extremely small, accounting for about 1/10g of radium in new raw ore. So, to successfully separate radioactive substances, the couple had to filter and do countless experiments. Exactly, the number was up to thousands of experiments repeated over the course of 4 years, in difficult conditions, poor laboratories, not enough specialized tools and both had to be taught to teach strategies. Ultimately, they successfully separated radioactive substances and, along with them, researched radium to treat cancer. The couple received the first Nobel Prize in Physics in 1903.
+      *** What you may not know is <a href="https://en.wikipedia.org/wiki/Uraninite#Overview" target='new'><b>that Pitchblende</b></a> is a complex mineral, and chemically separating its components is a difficult task. Furthermore, the radium contained in ore is extremely small, accounting for about 1/10g of radium in new raw ore. So, to successfully separate radioactive substances, the couple had to filter and do countless experiments. Exactly, the number was up to thousands of experiments repeated over the course of 4 years, in difficult conditions, poor laboratories, not enough specialized tools and both had to be taught to teach strategies. Ultimately, they successfully separated radioactive substances and, along with them, researched radium to treat cancer. The couple received the first Nobel Prize in Physics in 1903.
     </div>
   );
 
@@ -27,8 +30,24 @@ const MoreMarieSecond = () => {
   );
 
   const content3 = (
-    <div> *** She was also an active member in committees of Polonia in France dedicated to the Polish cause. After the war, she summarized her wartime experiences in a book, Radiology in War (1919).</div>
-
+    <div> *** She was also an active member in committees of Polonia in France dedicated to the Polish cause. After the war, she summarized her wartime experiences in a book, Radiology in War (1919).
+      <div className='container' style={{ color: 'black', margin: "10px auto  ", padding: '0px',  width: '80%' }}>
+        <hr style={{ width: "50%", textAlign: "center", borderTop: "5px solid black", margin: " 1% auto 0" }} />
+        <hr style={{ borderTop: "10px solid #D69840", margin: "0 auto", width: "70%" }} />
+        <hr style={{ width: "50%", textAlign: "center", borderTop: "2px solid black", margin: "0 auto 0" }} />
+        <hr style={{ borderTop: "2px solid black", margin: "0 auto ", width: "70%" }} /> <br />
+      </div>
+      <div>
+        <h3>Review questions:</h3>
+        <ul class="dropdown">
+          <li>*<Link to='/SelectedWorks' onClick={top}>Question 1:How do her contributions impact today?</Link></li>
+          <li>*<Link to='/Awards' onClick={top}>Question 2:What awards have she received during your career?</Link></li>
+          <li>*<Link to='/Biography' onClick={top}>Question 3:What do you learn from Marie Curie's life story?</Link></li>
+          <li>*<Link to='/Research' onClick={top}>Question 4:In what scientific fields did Marie Curie contribute?</Link></li>
+        </ul>
+      </div>
+    </div>
+    
   );
 
   const content4 = (

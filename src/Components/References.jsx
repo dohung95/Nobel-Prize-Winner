@@ -44,7 +44,7 @@ const References = () => {
                             {van_sach.slice(0, 6).map((book) => (
                                 <div key={book.id} className=" Van_refer_book">
                                     <div align='center'>
-                                        <a href={book.url}>
+                                        <a href={book.url} target='new'>
                                             <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
                                         </a>
                                     </div>
@@ -59,7 +59,7 @@ const References = () => {
                             <div className="row"  >
                                 {van_sach.slice(0, 6).map((book) => (
                                     <div key={book.id} className="col-md-4 Van_refer_book" style={{ flex: '1 1 30%' }}>
-                                        <a href={book.url}>
+                                        <a href={book.url} target='new'>
                                             <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
                                         </a>
                                         <h3 style={{ color: "white" }}>{book.title}</h3>

@@ -46,7 +46,7 @@ const Biography = () => {
                 <div>
                     <div data-aos="fade-up" id='mot'>
                         <blockquote className="custom-quote">
-                            <div style={{ padding: "1% 10% 0% 10%" }}>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
+                            <div className='sizeDT_Van'>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
                             <footer className='footer_Van'>— Marie Curie</footer>
                         </blockquote>
                     </div>
