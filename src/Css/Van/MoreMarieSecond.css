@@ -1,26 +1,4 @@
-/* .popup { */
-/* Styles cho popup */
-/* background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
 
-.popup button { */
-/* Style cho các nút */
-/* margin: 10px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  } */
 .theEnd {
    text-align: center;
 
@@ -47,9 +25,3 @@
     flex: 1;
     padding: 10px;
 } 
-
-/* @media (max-width: 768px) {
-    .column {
-        flex: 100%;
-    }
-} */

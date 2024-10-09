@@ -30,10 +30,6 @@ const Biography = () => {
         });
     }, []);
 
-    useEffect(() => {
-        AOS.init();
-    }, []);
-
     React.useEffect(() => {
         const hash = window.location.hash;
         if (hash) {
@@ -50,8 +46,8 @@ const Biography = () => {
 
                     <div className='quote' data-aos="fade-up" id='mot'>
                         <blockquote className="custom-quote">
-                            <div>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
-                            <footer style={{ fontSize: '3rem', color: 'white' }}>— Marie Curie</footer>
+                            <div style={{padding:"2% 10% 0% 10%"}}>The quote "In science, what matters is what is discovered, not the researcher themselves".</div>
+                            <footer className='footer_Van'>— Marie Curie</footer>
                         </blockquote>
                     </div>
 

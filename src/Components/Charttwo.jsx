@@ -15,11 +15,6 @@ const MarieCurieChart = () => {
         data: ['mẹ mat', 20, 0, 30, 10, 50, 0, 0], // Mother's death, husband's death, etc.
         backgroundColor: 'rgba(255, 99, 132, 0.5)', // Red for losses
       },
-    //   {
-    //     label: 'Discrimination',
-    //     data: [0, 30, 40, 0, 20, 0, 30, 0], // Discrimination events
-    //     backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue for discrimination
-    //   },
       {
         label: 'Achievements',
         data: ['10', 0, 30, 20, 50, 0, 70, 100], // Key achievements (studies, Nobel Prizes)

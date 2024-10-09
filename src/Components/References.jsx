@@ -2,12 +2,9 @@ import React from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-
 import '../Css/Van/Reference.css'
 import '../Css/Van/slide_left_right.css'
-import Figure from 'react-bootstrap/Figure';
 import { useMediaQuery } from 'react-responsive';
-
 import Charttimeline from '../Components/Charttimeline'
 import van_sach from '../Data/Van/van_sach.json'
 import MoreMarieSecond from './MoreMarieSecond';
@@ -29,12 +26,12 @@ const References = () => {
     React.useEffect(() => {
         const hash = window.location.hash;
         if (hash) {
-          const element = document.querySelector(hash);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-          }
+            const element = document.querySelector(hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         }
-      }, []);
+    }, []);
     return (
         <>
 
@@ -47,13 +44,14 @@ const References = () => {
                             {van_sach.slice(0, 6).map((book) => (
                                 <div key={book.id} className=" Van_refer_book">
                                     <div align='center'>
-                                        <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
+                                        <a href={book.url}>
+                                            <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
+                                        </a>
                                     </div>
                                     <h3 style={{ color: "white" }}>{book.title}</h3>
                                     <p style={{ color: 'white' }}>{book.author}</p>
                                     <p style={{ color: 'white' }}>{book.description}</p>
                                 </div>
-
                             ))}
                         </div>
                     ) : isTabletOrDesktop ? (
@@ -61,17 +59,16 @@ const References = () => {
                             <div className="row"  >
                                 {van_sach.slice(0, 6).map((book) => (
                                     <div key={book.id} className="col-md-4 Van_refer_book" style={{ flex: '1 1 30%' }}>
-                                        <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
+                                        <a href={book.url}>
+                                            <img src={getImagePath(book.image)} alt={book.title} className='Van_Didyouknow_sach' />
+                                        </a>
                                         <h3 style={{ color: "white" }}>{book.title}</h3>
                                         <p style={{ color: "white" }}>{book.author}</p>
                                         <p style={{ color: "white" }}>{book.description}</p>
                                     </div>
-
                                 ))}
                             </div>
                         </div>
-
-
                     ) : null}
                 </div>
             </div >
@@ -79,10 +76,10 @@ const References = () => {
 
             <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} id='Video_Van'>Some Videos About Marie Curie</h1>
             <div className="container mt-4">
-               
+
                 <div className="row">
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r4jCTiGSuwU?si=y6AzrzjKG54n58li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/r4jCTiGSuwU?si=y6AzrzjKG54n58li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div className="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-left">
                         <iframe
@@ -107,14 +104,14 @@ const References = () => {
                 </div>
 
 
-            
-            <h1 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black' }}>An overview of the difficulties and successes in Marie Curie's life.</h1>
-            <div className='container'style={{ padding: '3%' }} id='Chart_Van'>
-                <Charttimeline />
-            </div>
-            <div id='Link_Van' >
-                <MoreMarieSecond />
-            </div>
+
+                <h1 className="text-center mb-4" data-aos="fade-up" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black' }}>An overview of the difficulties and successes in Marie Curie's life.</h1>
+                <div className='container' style={{ padding: '3%' }} id='Chart_Van'>
+                    <Charttimeline />
+                </div>
+                <div id='Link_Van' >
+                    <MoreMarieSecond />
+                </div>
 
             </div>
             <div className='container' style={{ color: 'white', borderBottom: '3px solid', margin: "5% auto  ", padding: '0px', borderTop: '3px solid', width: '80%' }}>

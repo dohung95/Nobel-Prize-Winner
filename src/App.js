@@ -14,7 +14,6 @@ import Information from './Components/Information'
 import Education from "./Components/Education";
 import Carrer from "./Components/Carrer";
 import Story from "./Components/Story";
-import Detail from "./Components/IntimateDetail";
 import Site_Map from "./Components/SiteMap";
 
 const App = () => {
@@ -37,7 +36,6 @@ const App = () => {
           <Route path="/Education" element={<Education/>} /> 
           <Route path="/Carrer" element={<Carrer/>} /> 
           <Route path="/Story" element={<Story/>} />
-          <Route path="/Detail" element={<Detail/>} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer/>

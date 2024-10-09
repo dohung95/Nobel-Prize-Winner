@@ -6,10 +6,6 @@ import AOS from 'aos'
 import Game from "./Game";
 import QuickviewBio from "./QuickviewBio";
 const Biofirst = () => {
-    // const alertClicked = () => {
-
-    //     alert('Corret answer!');
-    // }
     useEffect(() => {
         AOS.init();
     }, []);

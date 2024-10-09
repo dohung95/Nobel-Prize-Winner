@@ -10,13 +10,6 @@ const Carrer = () => {
                 </div>
             ))}
         </div>
-        {/* <div>
-                {information.map((info)=>(
-                    <div key={info.id}>
-                        <h1>{info.noidung2}</h1>
-                    </div>
-                ))}
-            </div> */}
         </>
      );
 }

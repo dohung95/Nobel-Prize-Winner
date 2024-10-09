@@ -4,43 +4,47 @@
         "title": "Marie Curie -Outstanding female scientist",
         "author": "Many authors",
         "image": "sach1.png",
-        "description": "Through the author's pen, it will bring viewers the clearest and most honest story about Marie Curie - the great scientist"
+        "description": "Through the author's pen, it will bring viewers the clearest and most honest story about Marie Curie - the great scientist",
+        "url": "https://tiki.vn/marie-curie-nha-nu-khoa-hoc-kiet-xuat-p109982972.html"
     },
-    
     {
         "id": "2",
         "title": " Books Telling the Lives of Geniuses: Marie Curie - Outstanding Female Scientist:",
         "author": "Dr. Richard Gunderman is a professor of radiology at Indiana University, USA.",
         "image": "sach2.png",
-        "description": "The book was written about scientist Marie Curie - the only person to win the Nobel Prize twice in two fields: physics and science."
+        "description": "The book was written about scientist Marie Curie - the only person to win the Nobel Prize twice in two fields: physics and science.",
+        "url": "https://www.editions-tredaniel.com/marie-curie-p-9636.html"
     },
-
     {
         "id": "3",
         "title": "Marie Curie - Pioneering Female Scientist, Nobel Prize Winner, Discoverer of Radioactive Substances:",
         "author": "Rasmus Hoài Nam",
         "image": "sach3.png",
-        "description": " The book focuses on Marie Curie's important scientific discoveries and her impact on the world."
+        "description": " The book focuses on Marie Curie's important scientific discoveries and her impact on the world.",
+        "url": "https://ebookvie.com/ebook/nu-bac-hoc-marie-curie-eve-curie/"
     },
     {
         "id": "4",
         "title": "The Elements of Marie Curie: How the Glow of Radium Lit a Path for Women in Science",
         "author": " Dava Sobel ",
         "image": "sach4.jpg",
-        "description": " writes Dava Sobel at the opening of her shining portrait of the sole Nobel laureate decorated in two separate fields of science"
+        "description": " writes Dava Sobel at the opening of her shining portrait of the sole Nobel laureate decorated in two separate fields of science",
+        "url":"https://a.co/d/4rW1skw"
     },
     {
         "id": "5",
         "title": "The Story of Marie Curie: An Inspiring Biography for Young Readers (The Story of Biographies)",
         "author": "Susan B. Katz",
         "image": "sach5.jpg",
-        "description": " Discover the life of Marie Curie―a story for kids 6 to 9 about discovering big things through hard work"
+        "description": " Discover the life of Marie Curie―a story for kids 6 to 9 about discovering big things through hard work",
+        "url": "https://www.amazon.com/Story-Marie-Curie-Biography-Readers/dp/1647391121"
     },
     {
         "id": "6",
         "title": "World businessman",
         "author": "Neung In Publishing Company",
         "image": "sach6.png",
-        "description": "Marie Curie was the first female scientist to receive two Nobel Prizes."
+        "description": "Marie Curie was the first female scientist to receive two Nobel Prizes.",
+        "url":"https://www.fahasa.com/danh-nhan-the-gioi-marie-curie-tai-ban-2022.html#"
     }
 ]
