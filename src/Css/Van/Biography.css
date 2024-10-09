@@ -111,3 +111,26 @@
         padding: 1% 10% 0% 10%;
     }
 }
+@media (max-width: 768px){
+    .custom-quote  {
+        font-size: 1.4rem;
+     }
+     .sizeDT_Van{
+        padding: 1% 10% 0% 10%;
+    }
+}
+@media (max-width: 968px){
+     .sizeDT_Van{
+        padding: 1% 10% 0% 10%;
+    }
+}
+@media (max-width: 1168px){
+    .sizeDT_Van{
+       padding: 1% 10% 0% 10%;
+   }
+}
+@media (max-width: 1450px){
+    .sizeDT_Van{
+       padding: 1% 10% 0% 10%;
+   }
+}
