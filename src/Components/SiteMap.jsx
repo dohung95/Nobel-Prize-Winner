@@ -56,7 +56,7 @@ const Site_Map = () => {
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Biography' onClick={top}>&nbsp;BIOGRAPHY&nbsp;</Link>
                         </div>
-                        <div className='col-md-7' style={{ paddingBottom: "2px" }}>
+                        <div className='col-md-7' style={{ paddingBottom: "2%" }}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Biography#mot' onClick={hideDiv}>&nbsp;- Personal Information&nbsp;</Link>
                             </div>
@@ -79,7 +79,7 @@ const Site_Map = () => {
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
                         </div>
-                        <div className='col-md-7 ' style={{ paddingBottom: "2px" }}>
+                        <div className='col-md-7 ' style={{ paddingBottom: "2%" }}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Research#discovery' onClick={hideDiv}>&nbsp;- Discovery&nbsp;</Link >
                             </div>
@@ -90,7 +90,7 @@ const Site_Map = () => {
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Awards' onClick={top}>&nbsp;AWARDS & HONORS&nbsp;</Link>
                         </div>
-                        <div className='col-md-7 ' style={{ paddingBottom: "2px" }}>
+                        <div className='col-md-7 ' style={{ paddingBottom: "2%" }}>
                             <div className='paddingleft_Hung'>
                                 <Link to='/Awards#nobel' onClick={hideDiv}>&nbsp;- Two nobel&nbsp;</Link>
                             </div>
@@ -104,8 +104,8 @@ const Site_Map = () => {
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/SelectedWorks' onClick={top}>&nbsp;SELECTED WORKS&nbsp;</Link>
                         </div>
-                        <div className='col-md-7' style={{ paddingBottom: "2px" }}>
-                            <div className='paddingleft_Hung' onClick={hideDiv}>
+                        <div className='col-md-7' style={{ paddingBottom: "2%" }}>
+                            <div className='paddingleft_Hung' onClick={hideDiv} >
                                 <Link to='/SelectedWorks#NB1' >&nbsp;- Discovered radioactivity&nbsp;</Link>
                             </div>
                             <div className='paddingleft_Hung' onClick={hideDiv}>
@@ -117,24 +117,24 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div className='row ' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
+                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/References' onClick={top}>&nbsp;REFERENCES&nbsp;</Link>
                         </div>
-                        <div className='col-md-7' style={{ paddingBottom: "2px" }}>
-                            <div className='paddingleft_Hung'>
+                        <div className='col-md-7' style={{ paddingBottom: "2%"}} >
+                            <div className='paddingleft_Hung' style={{ display:"inline-block" }}>
                                 <Link to='/References#Book_Van' onClick={hideDiv}>&nbsp;- Book&nbsp;</Link>
                             </div>
-                            <div className='paddingleft_Hung'>
+                            <div className='paddingleft_Hung' style={{ display:"inline-block" }}>
                                 <Link to='/References#Gallery_Van' onClick={hideDiv}>&nbsp;- Gallery&nbsp;</Link>
                             </div>
-                            <div className='paddingleft_Hung'>
+                            <div className='paddingleft_Hung' style={{ display:"inline-block" }}>
                                 <Link to='/References#Video_Van' onClick={hideDiv}>&nbsp;- Video&nbsp;</Link>
                             </div>
-                            <div className='paddingleft_Hung'>
+                            <div className='paddingleft_Hung' style={{ display:"inline-block" }}>
                                 <Link to='/References#Chart_Van' onClick={hideDiv}>&nbsp;- Chart&nbsp;</Link>
                             </div>
-                            <div className='paddingleft_Hung'>
+                            <div className='paddingleft_Hung' style={{ display:"inline-block" }}>
                                 <Link to='/References#Link_Van' onClick={hideDiv}>&nbsp;- Link&nbsp;</Link>
                             </div>
                         </div>
