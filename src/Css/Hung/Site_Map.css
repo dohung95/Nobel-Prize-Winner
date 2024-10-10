@@ -32,7 +32,7 @@
     max-width: auto;
     max-height: auto;
     position: fixed;
-    top: 5%;
+    top: 2%;
     left: 50%;
     transform: translateX(-50%);
     padding: 1.5%;
@@ -50,21 +50,17 @@
 
 .hidden_Hung {
     display: none;
-
+    font-size: larger;
 }
 
 .button_close_Hung {
     border: none;
 }
-
-.site_map_text {
-    font-size: 15pt;
-}
-
 .site_map_text a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
+    font-size: 1rem;
     background-color: #b0b0b06c;
     border-radius: 15px;
     box-shadow: 1px 1px 1px 1px rgba(199, 199, 199, 0.485);
@@ -86,7 +82,7 @@
     padding-left: 8%;
 }
 .paddingleft_Hung a{
-    font-weight: 300;
+    font-size: 1rem;
     background-color: rgba(30, 30, 30, 0.615);
     border-radius: 0px 5px 0px 5px ;
     color: white;
