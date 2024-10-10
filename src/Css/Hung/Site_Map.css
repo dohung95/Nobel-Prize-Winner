@@ -87,27 +87,18 @@
     font-weight: 500;
     font-size: 1rem;
 }
-@media (max-width: 978px) {
-    .site_map_text {
-        font-size: 14pt;
+@media (min-width: 768px) and (max-width: 1020px){
+    .site_map_text a{
+        font-size: 0.8rem;
     }
     #popupDiv{
         padding-left: 4%;
     }
 }
 
-@media (max-width: 768px) {
-    .site_map_text {
-        font-size: 10pt;
-    }
-    #popupDiv{
-        padding-left: 4%;
-    }
-}
-
-@media (max-width: 576px) {
-    .site_map_text {
-        font-size: 10pt;
+@media (min-width: 300px) and (max-width: 768px){
+    .site_map_text a{
+        font-size: 0.7rem;
     }
 
     .Tieude_Hung {

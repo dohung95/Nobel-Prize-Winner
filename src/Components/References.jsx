@@ -8,6 +8,7 @@ import { useMediaQuery } from 'react-responsive';
 import Charttimeline from '../Components/Charttimeline'
 import van_sach from '../Data/Van/van_sach.json'
 import MoreMarieSecond from './MoreMarieSecond';
+import Gallery from './Gallery'
 
 const References = () => {
     // const images_run = [ h8, h9, h10, h11, h14, h4];
@@ -72,6 +73,14 @@ const References = () => {
                     ) : null}
                 </div>
             </div >
+
+
+            <div id='Gallery_Van'>
+                <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} id='Video_Van'>Marie Curie Gallery</h1>
+                <div>
+                    <Gallery/>
+                </div>
+            </div>
 
 
             <h1 className="text-center mb-4" data-aos="slide-right" style={{ backgroundColor: ' white', borderRadius: '1000px', color: 'black', marginTop: '3%' }} id='Video_Van'>Some Videos About Marie Curie</h1>

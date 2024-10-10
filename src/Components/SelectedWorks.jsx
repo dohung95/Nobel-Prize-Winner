@@ -77,7 +77,7 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6' data-aos="fade-left">
+                                    <div className='col-md-6' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }}>
                                             <img src={`${path}${Data[0].imgR}`} className='SizeImg_Hung' />
                                             <div><i><b>{Data[0].textImgR}</b></i></div>
@@ -98,7 +98,7 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6' data-aos="fade-left">
+                                    <div className='col-md-6' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }}>
                                             <a href={`${Data[0].urlWebImgP}`} target='new'>
                                                 <img src={`${path}${Data[0].imgP}`} className='SizeImg_Hung' />
@@ -119,7 +119,7 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6 row' data-aos="fade-left">
+                                    <div className='col-md-6 row' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${Data[0].urlWebImgA1}`} target='new'>
                                                 <img src={`${path}${Data[0].imgA1}`} className='SizeImg_Hung1' />
@@ -153,7 +153,7 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6' data-aos="fade-left">
+                                    <div className='col-md-6' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }}>
                                             <img src={`${path}${Data[1].imgR}`} className='SizeImg_Hung' />
                                             <div><i><b>{Data[1].textImgR}</b></i></div>
@@ -173,7 +173,7 @@ const SelectedWorks = () => {
                                                 </ol>                                                </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6' data-aos="fade-left">
+                                    <div className='col-md-6' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }}>
                                             <a href={`${Data[1].urlWebImgP}`} target='new'>
                                                 <img src={`${path}${Data[1].imgP}`} className='SizeImg_Hung' />
@@ -194,7 +194,7 @@ const SelectedWorks = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-6 row' data-aos="fade-left">
+                                    <div className='col-md-6 row' data-aos="fade-right">
                                         <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
                                             <a href={`${Data[1].urlWebImgA1}`} target='new'>
                                                 <img src={`${path}${Data[1].imgA1}`} className='SizeImg_Hung1' />
