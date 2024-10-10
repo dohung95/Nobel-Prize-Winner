@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.32676b46.css",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.eace037c.css",
     "main.js": "/Nobel-Prize-Winner/static/js/main.101a3548.js",
     "static/media/sotay.png": "/Nobel-Prize-Winner/static/media/sotay.e2c7c51cede36f2bb1d7.png",
     "static/media/hBioone10.jpg": "/Nobel-Prize-Winner/static/media/hBioone10.2ee4e27f3e8ce530955e.jpg",
@@ -28,6 +28,7 @@
     "static/media/h25.png": "/Nobel-Prize-Winner/static/media/h25.dfde9c6d465137957996.png",
     "static/media/h8.png": "/Nobel-Prize-Winner/static/media/h8.dfde9c6d465137957996.png",
     "static/media/h9.jpg": "/Nobel-Prize-Winner/static/media/h9.44a9cedb598d8f04ce58.jpg",
+    "static/media/background-den.jpg": "/Nobel-Prize-Winner/static/media/background-den.cab40b0fb4c84b24b450.jpg",
     "static/media/h14.png": "/Nobel-Prize-Winner/static/media/h14.360dcf9e437ace27e6d8.png",
     "static/media/mrsizemik-uranium.png": "/Nobel-Prize-Winner/static/media/mrsizemik-uranium.0d3df1b6afd929f39f24.png",
     "static/media/sach3.png": "/Nobel-Prize-Winner/static/media/sach3.f2c83fe43e117d2d31f3.png",
@@ -40,7 +41,6 @@
     "static/media/hBioone4.jpg": "/Nobel-Prize-Winner/static/media/hBioone4.8820fdfc78cedf84ef14.jpg",
     "static/media/hBioone8.jpg": "/Nobel-Prize-Winner/static/media/hBioone8.5fb04c481ce00489e7f7.jpg",
     "static/media/logo.png": "/Nobel-Prize-Winner/static/media/logo.af4e112fe54c8651d2a3.png",
-    "static/media/background-den.jpg": "/Nobel-Prize-Winner/static/media/background-den.92537766bda082117923.jpg",
     "static/media/h12.png": "/Nobel-Prize-Winner/static/media/h12.b77e4297a70cbbd6639e.png",
     "static/media/hinhquot2.png": "/Nobel-Prize-Winner/static/media/hinhquot2.f5ecb3043d5a1ee69a06.png",
     "static/media/hinhBiotwo3.png": "/Nobel-Prize-Winner/static/media/hinhBiotwo3.efd326e2fd002f1e494e.png",
@@ -70,11 +70,11 @@
     "static/media/facebook.png": "/Nobel-Prize-Winner/static/media/facebook.b22498dbe9c4a041a18e.png",
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.32676b46.css.map": "/Nobel-Prize-Winner/static/css/main.32676b46.css.map",
+    "main.eace037c.css.map": "/Nobel-Prize-Winner/static/css/main.eace037c.css.map",
     "main.101a3548.js.map": "/Nobel-Prize-Winner/static/js/main.101a3548.js.map"
   },
   "entrypoints": [
-    "static/css/main.32676b46.css",
+    "static/css/main.eace037c.css",
     "static/js/main.101a3548.js"
   ]
 }
