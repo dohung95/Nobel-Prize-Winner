@@ -46,7 +46,7 @@ const Site_Map = () => {
             <div id="showDivBtn" className='Site_Map_Hung'>
                 <img src={require('../Img/Hung/sitemap.png')} alt="Site Map" />
             </div>
-            <div id="popupDiv" className="hidden hidden_Hung row">
+            <div id="popupDiv" className="hidden_Hung row">
                 <div style={{ float: "right" }} className='col-md-1'>
                     <button id="closeDivBtn" className='button_close_Hung ' style={{ borderRadius: "10px" }}><b>✘</b></button>
                 </div>
