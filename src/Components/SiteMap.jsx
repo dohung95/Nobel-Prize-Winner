@@ -75,7 +75,7 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
+                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "1%" }}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Research' onClick={top}>&nbsp;RESEARCH&nbsp;</Link >
                         </div>
@@ -86,7 +86,7 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div className='row ' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
+                    <div className='row ' style={{ borderBottom: "1.5px solid white", paddingTop: "1%" }}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/Awards' onClick={top}>&nbsp;AWARDS & HONORS&nbsp;</Link>
                         </div>
@@ -100,7 +100,7 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
+                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "1%" }}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/SelectedWorks' onClick={top}>&nbsp;SELECTED WORKS&nbsp;</Link>
                         </div>
@@ -117,7 +117,7 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "2%" }}>
+                    <div className='row' style={{ borderBottom: "1.5px solid white", paddingTop: "1%" }}>
                         <div style={{ paddingLeft: "5%" }} onClick={hideDiv} className='col-md-5 '>
                             <Link to='/References' onClick={top}>&nbsp;REFERENCES&nbsp;</Link>
                         </div>
@@ -140,7 +140,7 @@ const Site_Map = () => {
                         </div>
                     </div>
 
-                    <div style={{ padding: "2% 0% 2% 5%" }} onClick={hideDiv}>
+                    <div style={{ padding: "1% 0% 2% 5%" }} onClick={hideDiv}>
                         <Link to='/Contact' onClick={top} >&nbsp;CONTACT&nbsp;</Link>
                     </div>
                 </div>

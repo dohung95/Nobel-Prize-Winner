@@ -5,7 +5,7 @@
     position: fixed;
     bottom: 10%;
     z-index: 1000;
-    filter: drop-shadow(0 0 5px rgb(180, 180, 180)) ;
+    filter: drop-shadow(0 0 5px rgb(180, 180, 180));
 }
 
 .Site_Map_Hung img:hover {
@@ -31,7 +31,7 @@
     max-width: auto;
     max-height: auto;
     position: fixed;
-    top: 10%;
+    top: 2%;
     left: 50%;
     transform: translateX(-50%);
     padding: 1.5%;
@@ -42,9 +42,12 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8), /* ánh sáng mờ */
-              0 0 10px rgba(255, 255, 255, 0.6), /* ánh sáng xa hơn */
-              0 0 15px rgba(255, 255, 255, 0.4); /* ánh sáng rộng hơn */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+        /* ánh sáng mờ */
+        0 0 10px rgba(255, 255, 255, 0.6),
+        /* ánh sáng xa hơn */
+        0 0 15px rgba(255, 255, 255, 0.4);
+    /* ánh sáng rộng hơn */
 }
 
 .hidden_Hung {
@@ -73,38 +76,39 @@
 
 .Tieude_Hung {
     text-shadow: 2px -3px 3px black;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #ffffffe9;
 }
 
-.paddingleft_Hung{
+.paddingleft_Hung {
     padding-left: 8%;
 
 }
-.paddingleft_Hung a{
+
+.paddingleft_Hung a {
     background-color: rgba(30, 30, 30, 0.615);
-    border-radius: 0px 5px 0px 5px ;
+    border-radius: 0px 5px 0px 5px;
     color: white;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1vw;
 }
-@media (min-width: 768px) and (max-width: 1020px){
-    .site_map_text a{
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .site_map_text a {
         font-size: 0.8rem;
     }
-    #popupDiv{
+
+    #popupDiv {
         padding-left: 4%;
     }
 }
 
-@media (min-width: 300px) and (max-width: 768px){
-    .site_map_text a{
+@media (min-width: 300px) and (max-width: 768px) {
+    .site_map_text a {
         font-size: 0.7rem;
     }
-    .Tieude_Hung {
-        font-size: 15pt;
-    }
-    #popupDiv{
+
+    #popupDiv {
         padding-left: 4%;
     }
 }
