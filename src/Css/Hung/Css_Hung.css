@@ -1,6 +1,6 @@
 .SizeImg_Hung {
-    width: 55%;
-    height: 55%;
+    max-width: 55%;
+    max-height: 55%;
     padding: 3%;
     border-radius: 3px;
     background-color: #edf2fb;

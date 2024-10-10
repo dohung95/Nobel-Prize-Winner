@@ -60,9 +60,6 @@ const Biofour = () => {
                 </div>
             </div >
 
-            {/* <div className="theEnd">
-                <MoreMarieSecond />
-            </div> */}
         </>
     );
 }
