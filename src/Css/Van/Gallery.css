@@ -1,0 +1,23 @@
+.gallery{
+    padding: 2% 8%;
+    
+}
+.gallery img{
+    width: 80%;
+    height:auto;
+    border-radius: 5px;
+
+}
+.gallery img:hover{
+    transform: scale(2);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+        /* ánh sáng mờ */
+        0 0 10px rgba(255, 255, 255, 0.6),
+        /* ánh sáng xa hơn */
+        0 0 15px rgba(255, 255, 255, 0.4);
+}
+@media (max-width: 768px) {
+    .gallery img:hover{
+        transform: scale(1.3);
+    }
+}
