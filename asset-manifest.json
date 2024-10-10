@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nobel-Prize-Winner/static/css/main.eace037c.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.101a3548.js",
+    "main.css": "/Nobel-Prize-Winner/static/css/main.ccde3525.css",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.a0a4d5bf.js",
     "static/media/sotay.png": "/Nobel-Prize-Winner/static/media/sotay.e2c7c51cede36f2bb1d7.png",
     "static/media/hBioone10.jpg": "/Nobel-Prize-Winner/static/media/hBioone10.2ee4e27f3e8ce530955e.jpg",
     "static/media/h16.jpg": "/Nobel-Prize-Winner/static/media/h16.c9aa510bc32ecd18c760.jpg",
@@ -70,11 +70,11 @@
     "static/media/facebook.png": "/Nobel-Prize-Winner/static/media/facebook.b22498dbe9c4a041a18e.png",
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
-    "main.eace037c.css.map": "/Nobel-Prize-Winner/static/css/main.eace037c.css.map",
-    "main.101a3548.js.map": "/Nobel-Prize-Winner/static/js/main.101a3548.js.map"
+    "main.ccde3525.css.map": "/Nobel-Prize-Winner/static/css/main.ccde3525.css.map",
+    "main.a0a4d5bf.js.map": "/Nobel-Prize-Winner/static/js/main.a0a4d5bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.eace037c.css",
-    "static/js/main.101a3548.js"
+    "static/css/main.ccde3525.css",
+    "static/js/main.a0a4d5bf.js"
   ]
 }
