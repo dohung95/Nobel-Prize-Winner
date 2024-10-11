@@ -4,17 +4,22 @@
 }
 .gallery img{
     width: 80%;
-    height:auto;
-    border-radius: 5px;
-
+    height:auto;  
+    border: thin solid black;
 }
 .gallery img:hover{
     transform: scale(2);
+    border: none;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
         /* ánh sáng mờ */
         0 0 10px rgba(255, 255, 255, 0.6),
         /* ánh sáng xa hơn */
         0 0 15px rgba(255, 255, 255, 0.4);
+}
+.borderImg{
+    padding: 4% 0%;
+    background-color: rgb(252, 244, 233);
+    color: black;
 }
 @media (max-width: 768px) {
     .gallery img:hover{

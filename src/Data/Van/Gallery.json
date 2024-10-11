@@ -1,6 +1,46 @@
 [
-    {"id":"1","hinh1":"/img/Van/Photo/human1.jpg","hinh2":"/img/Van/Photo/human2.jpg","hinh3":"/img/Van/Photo/human3.jpg","hinh4":"/img/Van/Photo/human4.jpg"},
-    {"id":"2","hinh1":"/img/Van/Photo/human7.jpg","hinh2":"/img/Van/Photo/human8.jpg","hinh3":"/img/Van/Photo/human9.jpg","hinh4":"/img/Van/Photo/human10.jpg"},
-    {"id":"3","hinh1":"/img/Van/Photo/tuong1.jpg","hinh2":"/img/Van/Photo/tuong2.jpg","hinh3":"/img/Van/Photo/tuong3.jpg","hinh4":"/img/Van/Photo/tuong4.jpg"},
-    {"id":"4","hinh1":"/img/Van/Photo/building1.jpg","hinh2":"/img/Van/Photo/building2.jpg","hinh3":"/img/Van/Photo/building3.jpg","hinh4":"/img/Van/Photo/building4.jpg"}
+    {
+        "id": "1",
+        "hinh1": "/img/Van/Photo/human1.jpg",
+        "cap1":"Photo with husband and children",
+        "hinh2": "/img/Van/Photo/human2.jpg",
+        "cap2":"Doing experiments.",
+        "hinh3": "/img/Van/Photo/human3.jpg",
+        "cap3":"Portrait sitting on balcony",
+        "hinh4": "/img/Van/Photo/human4.jpg",
+        "cap4":"Old age with many worries"
+    },
+    {
+        "id": "2",
+        "hinh1": "/img/Van/Photo/human7.jpg",
+        "cap1":"Thinking about experiments",
+        "hinh2": "/img/Van/Photo/human8.jpg",
+        "cap2":"A minute break :)",
+        "hinh3": "/img/Van/Photo/human9.jpg",
+        "cap3":"Take a photo with colleagues",
+        "hinh4": "/img/Van/Photo/human10.jpg",
+        "cap4":"Perform chemical experiments"
+    },
+    {
+        "id": "3",
+        "hinh1": "/img/Van/Photo/tuong1.jpg",
+        "cap1":"Statue of Pierre and Marie Curie in the garden at the Marie Curie museum in Paris",
+        "hinh2": "/img/Van/Photo/tuong2.jpg",
+        "cap2":"Bronze statue of Marie Curie erected in Misasa Town, Tottori Prefecture, Japan",
+        "hinh3": "/img/Van/Photo/tuong3.jpg",
+        "cap3":"Sculpture of Marie Sklodowska-Curie by polish sculptor Bronislaw Krzysztof",
+        "hinh4": "/img/Van/Photo/tuong4.jpg",
+        "cap4":"A bronze statue in Lublin, Poland, honoring physicist and chemist Marie Curie"
+    },
+    {
+        "id": "4",
+        "hinh1": "/img/Van/Photo/building1.jpg",
+        "cap1":"Curie center. Curie pavilion in paris, a building to research radioactivity",
+        "hinh2": "/img/Van/Photo/building2.jpg",
+        "cap2":"Maria Skłodowska-Curie Museum",
+        "hinh3": "/img/Van/Photo/building3.jpg",
+        "cap3":"Marie Curie Office Building",
+        "hinh4": "/img/Van/Photo/building4.jpg",
+        "cap4":"Marie Curie High School in Vietnam"
+    }
 ]
