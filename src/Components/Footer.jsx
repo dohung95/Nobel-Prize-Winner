@@ -96,6 +96,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-dat-timer col-md-3">
                         <div>
+                            <b>Your Location</b>
                             <UserLocationMap/>
                         </div>
                         <div className="footer-dat-time">

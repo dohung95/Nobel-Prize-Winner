@@ -53,7 +53,7 @@ const UserLocationMap = () => {
           </Marker>
         </MapContainer>
       ) : (
-        <h4>Please choose your location</h4>
+        <img src={require("../Img/Dat/map.jpg")} style={{height:"200px", width:"90%"}} />
       )}
     </div>
   );

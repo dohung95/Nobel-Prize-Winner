@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nobel-Prize-Winner/static/css/main.12dd4638.css",
-    "main.js": "/Nobel-Prize-Winner/static/js/main.c8f0dd5e.js",
+    "main.js": "/Nobel-Prize-Winner/static/js/main.2d1fd6ed.js",
     "static/media/sotay.png": "/Nobel-Prize-Winner/static/media/sotay.e2c7c51cede36f2bb1d7.png",
     "static/media/hBioone10.jpg": "/Nobel-Prize-Winner/static/media/hBioone10.2ee4e27f3e8ce530955e.jpg",
     "static/media/h16.jpg": "/Nobel-Prize-Winner/static/media/h16.c9aa510bc32ecd18c760.jpg",
@@ -39,6 +39,7 @@
     "static/media/h17.png": "/Nobel-Prize-Winner/static/media/h17.252bb25f8e23e55ea7a5.png",
     "static/media/hBioone3.png": "/Nobel-Prize-Winner/static/media/hBioone3.c44e7e9816db4836e29f.png",
     "static/media/hBioone4.jpg": "/Nobel-Prize-Winner/static/media/hBioone4.8820fdfc78cedf84ef14.jpg",
+    "static/media/map.jpg": "/Nobel-Prize-Winner/static/media/map.671159791d1e9b9309d1.jpg",
     "static/media/hBioone8.jpg": "/Nobel-Prize-Winner/static/media/hBioone8.5fb04c481ce00489e7f7.jpg",
     "static/media/logo.png": "/Nobel-Prize-Winner/static/media/logo.af4e112fe54c8651d2a3.png",
     "static/media/h12.png": "/Nobel-Prize-Winner/static/media/h12.b77e4297a70cbbd6639e.png",
@@ -71,10 +72,10 @@
     "static/media/youtube.png": "/Nobel-Prize-Winner/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/Nobel-Prize-Winner/index.html",
     "main.12dd4638.css.map": "/Nobel-Prize-Winner/static/css/main.12dd4638.css.map",
-    "main.c8f0dd5e.js.map": "/Nobel-Prize-Winner/static/js/main.c8f0dd5e.js.map"
+    "main.2d1fd6ed.js.map": "/Nobel-Prize-Winner/static/js/main.2d1fd6ed.js.map"
   },
   "entrypoints": [
     "static/css/main.12dd4638.css",
-    "static/js/main.c8f0dd5e.js"
+    "static/js/main.2d1fd6ed.js"
   ]
 }
