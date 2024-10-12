@@ -82,7 +82,6 @@
 
 .paddingleft_Hung {
     padding-left: 8%;
-
 }
 
 .paddingleft_Hung a {
@@ -103,12 +102,20 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
     .site_map_text a {
         font-size: 0.7rem;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    .site_map_text a {
+        font-size: 0.5rem;
     }
 
     #popupDiv {
         padding-left: 4%;
+        top: 5%;
+        left: 0%;
+        transform: translateX(0%);
     }
 }
