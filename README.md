@@ -14,6 +14,7 @@ Phù Vĩnh Huy - Student1571989
 Our project demonstration video: https://www.youtube.com/watch?v=jXGXXkrxIqo
 
 Run & Installation
+
 To view this website, simply click on the following link: https://dohung95.github.io/Nobel-Prize-Winner/
 
 To run this project locally, follow these steps:
@@ -21,6 +22,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 
 git clone https://github.com/dohung95/Nobel-Prize-Winner.git
+
 Navigate to the project directory:
 
 cd Group1_Nobel-Prize-Winner
