@@ -1,3 +1,25 @@
+# Hello! This is eProject group 1.
+
+Introduction: CarBreezy is a user-friendly website designed to enhance the car buying experience by providing intuitive features for searching and viewing car details. The website allows users to explore different car models, filter based on their preferences, and gain insights to help make informed purchasing decisions.
+
+Our Group Members:
+Leader: Đỗ Thanh Hùng - Student1574909
+Đặng Lê Phương Vân - Student1571999
+Lê Quốc Đạt - Student1571990
+Phù Vĩnh Huy - Student1571989
+Our project demonstration video:
+Run & Installation
+To view this website, simply click on the following link: https://dohung95.github.io/Nobel-Prize-Winner/
+
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/dohung95/Nobel-Prize-Winner.git
+Navigate to the project directory:
+
+cd Group1_Nobel-Prize-Winner
+Install dependencies:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
