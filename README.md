@@ -1,36 +1,43 @@
-<<<<<<< HEAD
-=======
 # Hello! This is eProject group 1.
 
 Introduction: The "Nobel Prize Winner" website is a project dedicated to honoring Marie Curie, the first woman to win two Nobel Prizes. The site features a clean design that highlights key information about her life, groundbreaking research, and notable achievements. With interactive features such as color changes when users hover over content and a timeline that showcases significant milestones in her career, the website offers an engaging way to explore the legacy of Marie Curie.
 
 Our Group Members:
-Đỗ Thanh Hùng - Student1574909 (Leader)
+    Đỗ Thanh Hùng - Student1574909 (Leader)
 
-Đặng Lê Phương Vân - Student1571999
+    Đặng Lê Phương Vân - Student1571999
 
-Lê Quốc Đạt - Student1571990
+    Lê Quốc Đạt - Student1571990
 
-Phù Vĩnh Huy - Student1571989
+    Phù Vĩnh Huy - Student1571989
 
-Our project demonstration video: https://www.youtube.com/watch?v=jXGXXkrxIqo
 
-Run & Installation
 
-To view this website, simply click on the following link: https://dohung95.github.io/Nobel-Prize-Winner/
+- Documents reports: https://github.com/dohung95/Nobel-Prize-Winner/tree/main/Documents
 
-To run this project locally, follow these steps:
+
+- Data Test: https://github.com/dohung95/Nobel-Prize-Winner/tree/main/src/Data
+
+- Our project demonstration video: https://www.youtube.com/watch?v=jXGXXkrxIqo
+
+- To run website, simply click on the following link: https://dohung95.github.io/Nobel-Prize-Winner/
+
+
+
+
+
+- To run this project locally, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/dohung95/Nobel-Prize-Winner.git
+    git clone https://github.com/dohung95/Nobel-Prize-Winner.git
 
 Navigate to the project directory:
 
-cd Group1_Nobel-Prize-Winner
-Install dependencies:
->>>>>>> 2bdc1314eebbc4b1336d2918b773b2d763f8b33f
-# Getting Started with Create React App
+    cd Group1_Nobel-Prize-Winner
+    ## Install dependencies:
+
+    # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -38,7 +45,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+    ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -108,12 +115,10 @@ npm install --save-dev @fortawesome/fontawesome-free
 
 ### Import font
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-<<<<<<< HEAD
-import { faHome,faSearch } from '@fortawesome/free-solid-svg-icons';
-=======
+
 import { faHome,faSearch } from '@fortawesome/free-solid-svg-icons';
 
 # Acknowledgments
 Special thanks to all contributors, instructor and group members who made this project possible.
 Special gratitude for FPT Aptech Academy and eProject who given us the chance to involve in a meaningful and realistic project.
->>>>>>> 2bdc1314eebbc4b1336d2918b773b2d763f8b33f
+
