@@ -104,6 +104,6 @@ npm install --save-dev @fortawesome/fontawesome-free
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome,faSearch } from '@fortawesome/free-solid-svg-icons';
 
-#Acknowledgments
+# Acknowledgments
 Special thanks to all contributors, instructor and group members who made this project possible.
 Special gratitude for FPT Aptech Academy and eProject who given us the chance to involve in a meaningful and realistic project.
