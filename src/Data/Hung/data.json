@@ -21,7 +21,8 @@
         "textP3":"Nominations: In 1903, Marie, Pierre, and Henri Becquerel were nominated for the Nobel Prize in Physics for their contributions to the study of radioactivity.",
         "textP4":"Award Ceremony: The Nobel Prize was announced in November 1903 and awarded on December 10 of the same year.",
         "textA1":"Medicine: Her research paved the way for using radiation in cancer treatment. Radiation therapy developed from this research helps to destroy cancer cells.",
-        "textA2":"Material Science: Understanding radioactivity led to advancements in nuclear materials and nuclear technology."
+        "textA2":"Material Science: Understanding radioactivity led to advancements in nuclear materials and nuclear technology.",
+        "textID":"NB1"
     },
     {
         "id": "2",
@@ -45,6 +46,7 @@
         "textP3":"Nominations: In 1911, she was nominated for the Nobel Prize in Chemistry for her discoveries and research related to radium.",
         "textP4":"Award Ceremony: The Nobel Prize in Chemistry was announced in December 1911, and she received the award on December 10 of the same year.",
         "textA1":"Medicine: Radium was used in radiation therapy to treat cancer, helping to kill cancer cells through radiation.",
-        "textA2":"Material Science: Her research also influenced the development of technologies related to nuclear energy and radioactive materials."
+        "textA2":"Material Science: Her research also influenced the development of technologies related to nuclear energy and radioactive materials.",
+        "textID":"NB2"
     }
 ]

@@ -60,160 +60,84 @@ const SelectedWorks = () => {
                 </div>
 
                 <div >
+                    {Data.map((data) => (
+                        <div data-aos="fade-right">
+                            <div style={{ padding: "0% 6% 3% 6%" }} >
+                                <h3 className='shadow_text' id={data.textID}><img src={medal} width={35} className='Nobel_Hung' /> {data.nobel}</h3>
+                                <div className='Khoidiv'>
+                                    <div className='row' style={{ paddingBottom: "2%" }}>
+                                        <div className='col-md-6' data-aos="fade-right" >
+                                            <div align='center' style={{ paddingTop: '2%' }} >
+                                                <h4 className='shadow_text' >Research Process</h4>
+                                                <div style={{ textAlign: "left", color: "white" }}>
+                                                    <ul>
+                                                        <li danhmuc="♔ .">{data.textR1}</li>
+                                                        <li danhmuc="♔ .">{data.textR2}</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6' data-aos="fade-right">
+                                            <div align='center' style={{ paddingTop: '2%' }}>
+                                                <img src={`${path}${data.imgR}`} className='SizeImg_Hung' />
+                                                <div><i><b>{data.textImgR}</b></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='row' style={{ paddingBottom: "2%" }}>
+                                        <div className='col-md-6' data-aos="fade-right">
+                                            <div align='center' style={{ paddingTop: '2%' }}>
+                                                <h4 className='shadow_text' >{data.textProcess}</h4>
+                                                <div style={{ textAlign: "left" }}>
+                                                    <ol>
+                                                        <li danhmuc="1.">{data.textP1}</li>
+                                                        <li danhmuc="2.">{data.textP2}</li>
+                                                        <li danhmuc="3.">{data.textP3}</li>
+                                                        <li danhmuc="4.">{data.textP4}</li>
+                                                    </ol>                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6' data-aos="fade-right">
+                                            <div align='center' style={{ paddingTop: '2%' }}>
+                                                <a href={`${data.urlWebImgP}`} target='new'>
+                                                    <img src={`${path}${data.imgP}`} className='SizeImg_Hung' />
+                                                </a>
+                                                <div><i><b>{data.textImgP}</b></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='row' style={{ paddingBottom: "2%" }}>
+                                        <div className='col-md-6' data-aos="fade-right">
+                                            <div align='center' style={{ paddingTop: '2%' }}>
+                                                <h4 className='shadow_text' >Applications</h4>
+                                                <div style={{ textAlign: "left" }}>
+                                                    <ul>
+                                                        <li danhmuc="🜲 .">{data.textA1}</li>
+                                                        <li danhmuc="🜲 .">{data.textA2}</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6 row' data-aos="fade-right">
+                                            <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
+                                                <a href={`${data.urlWebImgA1}`} target='new'>
+                                                    <img src={`${path}${data.imgA1}`} className='SizeImg_Hung1' />
+                                                </a>
+                                                <div><i><b>{data.textImgA1}</b></i></div>
+                                            </div>
+                                            <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
+                                                <a href={`${data.urlWebImgA2}`} target='new'>
+                                                    <img src={`${path}${data.imgA2}`} className='SizeImg_Hung1' />
+                                                </a>
+                                                <div><i><b>{data.textImgA2}</b></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                    <div data-aos="fade-right">
-                        <div style={{ padding: "0% 6% 3% 6%" }} >
-                            <h3 className='shadow_text' id='NB1'><img src={medal} width={35} className='Nobel_Hung' /> {Data[0].nobel}</h3>
-                            <div className='Khoidiv' >
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right" >
-                                        <div align='center' style={{ paddingTop: '2%' }} >
-                                            <h4 className='shadow_text' >Research Process</h4>
-                                            <div style={{ textAlign: "left", color: "white" }}>
-                                                <ul>
-                                                    <li danhmuc="♔ .">{Data[0].textR1}</li>
-                                                    <li danhmuc="♔ .">{Data[0].textR2}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <img src={`${path}${Data[0].imgR}`} className='SizeImg_Hung' />
-                                            <div><i><b>{Data[0].textImgR}</b></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text' >{Data[0].textProcess}</h4>
-                                            <div style={{ textAlign: "left" }}>
-                                                <ol>
-                                                    <li danhmuc="1.">{Data[0].textP1}</li>
-                                                    <li danhmuc="2.">{Data[0].textP2}</li>
-                                                    <li danhmuc="3.">{Data[0].textP3}</li>
-                                                    <li danhmuc="4.">{Data[0].textP4}</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <a href={`${Data[0].urlWebImgP}`} target='new'>
-                                                <img src={`${path}${Data[0].imgP}`} className='SizeImg_Hung' />
-                                            </a>
-                                            <div><i><b>{Data[0].textImgP}</b></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text'>Applications</h4>
-                                            <div style={{ textAlign: "left" }}>
-                                                <ul>
-                                                    <li danhmuc="🜲 .">{Data[0].textA1}</li>
-                                                    <li danhmuc="🜲 .">{Data[0].textA2}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6 row' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                            <a href={`${Data[0].urlWebImgA1}`} target='new'>
-                                                <img src={`${path}${Data[0].imgA1}`} className='SizeImg_Hung1' />
-                                            </a>
-                                            <div><i><b>{Data[0].textImgA1}</b></i></div>
-                                        </div>
-                                        <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                            <a href={`${Data[0].urlWebImgA2}`} target='new'>
-                                                <img src={`${path}${Data[0].imgA2}`} className='SizeImg_Hung1' />
-                                            </a>
-                                            <div><i><b>{Data[0].textImgA2}</b></i></div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-right">
-                        <div style={{ padding: "0% 6% 3% 6%" }} >
-                            <h3 className='shadow_text' id='NB2'><img src={medal} width={35} className='Nobel_Hung' /> {Data[1].nobel}</h3>
-                            <div className='Khoidiv'>
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right" >
-                                        <div align='center' style={{ paddingTop: '2%' }} >
-                                            <h4 className='shadow_text' >Research Process</h4>
-                                            <div style={{ textAlign: "left", color: "white" }}>
-                                                <ul>
-                                                    <li danhmuc="♔ .">{Data[1].textR1}</li>
-                                                    <li danhmuc="♔ .">{Data[1].textR2}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <img src={`${path}${Data[1].imgR}`} className='SizeImg_Hung' />
-                                            <div><i><b>{Data[1].textImgR}</b></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text' >{Data[1].textProcess}</h4>
-                                            <div style={{ textAlign: "left" }}>
-                                                <ol>
-                                                    <li danhmuc="1.">{Data[1].textP1}</li>
-                                                    <li danhmuc="2.">{Data[1].textP2}</li>
-                                                    <li danhmuc="3.">{Data[1].textP3}</li>
-                                                    <li danhmuc="4.">{Data[1].textP4}</li>
-                                                </ol>                                                </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <a href={`${Data[1].urlWebImgP}`} target='new'>
-                                                <img src={`${path}${Data[1].imgP}`} className='SizeImg_Hung' />
-                                            </a>
-                                            <div><i><b>{Data[1].textImgP}</b></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='row' style={{ paddingBottom: "2%" }}>
-                                    <div className='col-md-6' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }}>
-                                            <h4 className='shadow_text' >Applications</h4>
-                                            <div style={{ textAlign: "left" }}>
-                                                <ul>
-                                                    <li danhmuc="🜲 .">{Data[1].textA1}</li>
-                                                    <li danhmuc="🜲 .">{Data[1].textA2}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6 row' data-aos="fade-right">
-                                        <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                            <a href={`${Data[1].urlWebImgA1}`} target='new'>
-                                                <img src={`${path}${Data[1].imgA1}`} className='SizeImg_Hung1' />
-                                            </a>
-                                            <div><i><b>{Data[1].textImgA1}</b></i></div>
-                                        </div>
-                                        <div align='center' style={{ paddingTop: '2%' }} className='col-md-6'>
-                                            <a href={`${Data[1].urlWebImgA2}`} target='new'>
-                                                <img src={`${path}${Data[1].imgA2}`} className='SizeImg_Hung1' />
-                                            </a>
-                                            <div><i><b>{Data[1].textImgA2}</b></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
+                    ))}
                 </div>
 
                 <div style={{ padding: "0% 6% 3% 6%" }} >
