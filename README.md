@@ -3,7 +3,7 @@
 Introduction: CarBreezy is a user-friendly website designed to enhance the car buying experience by providing intuitive features for searching and viewing car details. The website allows users to explore different car models, filter based on their preferences, and gain insights to help make informed purchasing decisions.
 
 Our Group Members:
-Leader: Đỗ Thanh Hùng - Student1574909
+Leader: Đỗ Thanh Hùng - Student1574909 /n
 Đặng Lê Phương Vân - Student1571999
 Lê Quốc Đạt - Student1571990
 Phù Vĩnh Huy - Student1571989
